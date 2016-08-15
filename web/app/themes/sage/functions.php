@@ -17,6 +17,9 @@ $sage_includes = [
   'lib/wrapper.php',    // Theme wrapper class
   'lib/customizer.php', // Theme customizer
 
+  // Admin stuff
+  'lib/admin/comments.php', // Comments for blog post
+
   // Post Types
   'lib/post-types/azar_resume_uploads.php', // Resume PDFs, etc
   'lib/post-types/azar_shows.php',          // Shows (current, coming soon)
