@@ -1,0 +1,117 @@
+.comments{
+	padding: 0 1.5em;
+	max-width: 800px;
+	margin: 10px auto;
+}
+
+.comments__bottombar{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.list--comments{
+	@include clearfix;
+}
+
+.header--comments{
+	font-size: 0.8em;
+	border-top: 1px solid $grey;
+}
+
+.header__subtext--comments{
+
+}
+
+.comments__entry{
+	border-right: none;
+	border-bottom: none;
+}
+
+.comments__link{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-right: 2em;
+}
+
+.comments__byline{
+	font-family: 'Merriweather', $georgia;
+	font-size: 0.7em;
+	font-style: italic;
+	margin: 0 1em;
+	text-transform: lowercase;
+	strong{
+		font-family: 'Lato', $helvetica;
+		font-style: normal;
+		//color: $darkblue;
+		text-transform: uppercase;
+	}
+}
+
+.comments__content{
+	p{
+		margin: .5em auto 0;
+	}
+}
+
+.form{
+	border-top: 1px dashed $grey;
+}
+
+.form__notes{
+	font-family: 'Merriweather', $georgia;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.form__field{
+	position: relative;
+	border-bottom: none;
+}
+
+.form__field--author{
+	border-right: none;
+}
+
+
+.form__label{
+	//background: tint( $grey, 50% );
+	color: $black;
+	text-shadow: 0 1px tint( $grey, 50% );
+	display: inline-block;
+	width: 60px;
+	height: 23px;
+	padding: 2px;
+	//border: 1px solid $grey;
+	font-size: 0.8em;
+	font-style: italic;
+	//text-align: right;
+	position: absolute;
+	top: 1px;
+	left: 0.5em;
+}
+
+.form__input{
+	width: 100%;
+	height: 25px;
+	text-indent: 60px;
+	color: $black;
+}
+
+.form__input--name, .form__input--email{
+	font-size: 0.8em;
+}
+
+.form__input--comment{
+	max-width: auto;
+	height: 100px;
+	text-indent: 90px;
+	@media screen and (max-width: 767px){
+		height: 200px;
+	}
+}
+
+#submit{
+	margin-left: 1.5em;
+	color: $black;
+	font-family: 'Lato', $helvetica;
+}
