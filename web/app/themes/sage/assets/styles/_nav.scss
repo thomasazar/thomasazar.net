@@ -15,7 +15,7 @@
 
 .nav__list--main{
 	list-style: none;
-	
+
 	@media screen and (max-width: 477px){
 		opacity: 0;
 		visibility: hidden;
@@ -37,25 +37,27 @@
 	}
 }
 
-.nav__list-item--main{
+.menu-item{
 	display: inline-block;
 	margin: 0 10px;
-	@media screen and (max-width: 477px){
+
+	a {
+		text-decoration: none;
+		color: $white;
+		transition: .2s all;
+		&:hover {
+			color: $lightblue;
+		}
+	}
+
+	@media screen and (max-width: 477px) {
 		display: block;
 		margin: 2em 0;
 		font-size: 1.2em;
 	}
 }
 
-.nav__link--main{
-	text-decoration: none;
-	color: $white;
-	transition: .2s all;
-	&:hover{
-		color: $lightblue;
-	}
-}
 
-.nav__link--here{
+.active a {
 	color: $lightblue;
 }
