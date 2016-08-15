@@ -10,4 +10,7 @@
     endif;
     ?>
   </nav>
+  <?php get_template_part('templates/page', 'header'); ?>
+	<span class="header__color"></span>
+	<span class="header__background header__background--front-page"></span>
 </header>
