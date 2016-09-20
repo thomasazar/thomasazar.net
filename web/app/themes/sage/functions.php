@@ -23,6 +23,7 @@ $sage_includes = [
   'lib/post-types/azar_resume_uploads.php', // Resume PDFs, etc
   'lib/post-types/azar_shows.php',          // Shows (current, coming soon)
   'lib/post-types/gallery.php',             // Media gallery
+  'lib/post-types/home.php',                // Front page news items
 
   'lib/assets.php',     // Scripts and stylesheets
   'lib/extras.php',     // Custom functions
