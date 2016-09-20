@@ -55,20 +55,8 @@ function azar_uploads_menu() {
 	);
 
 	$splash_page = get_posts( $args );
-	$splash_page = $splash_page[0]->ID;
-	add_menu_page( 'Splash', 'Resume &amp; CV', 'edit_posts', "post.php?post=$splash_page&action=edit", '', 'dashicons-media-document', '5' );
+	if ($splash_page) {
+		$splash_page = $splash_page[0]->ID;
+		add_menu_page( 'Splash', 'Resume &amp; CV', 'edit_posts', "post.php?post=$splash_page&action=edit", '', 'dashicons-media-document', '5' );
+	}
 }
-
-function azar_hide_that_stuff() {
-	if( 'azar_resume_uploads' == get_post_type() )
-		echo '<style type="text/css">
-				  #minor-publishing, #delete-action {display:none;}
-				  #favorite-actions {display:none;}
-				  .add-new-h2{display:none;}
-				  .tablenav{display:none;}
-				  #message a{display:none;}
-					#post-body-content {display: none;}
-			  </style>';
-}
-add_action( 'admin_head', 'azar_hide_that_stuff' );
-?>

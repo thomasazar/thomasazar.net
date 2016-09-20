@@ -60,13 +60,13 @@ main{
 	}
 }
 
-.header__background{
-	&--front-page{ background: #8d939d url('/img/front-page.jpg') right center no-repeat; }
-	&--resume{     background: #000 url('/img/banner-resume.jpg') left center no-repeat; }
-	&--media{      background: #000 url('/img/banner-media.jpg') right center no-repeat; }
-	&--blog{       background: #838d8f url('/img/banner-blog.jpg') right center no-repeat; }
-	&--contact{    background: #e1f0d1 url('/img/banner-contact.jpg') right center no-repeat; }
-}
+.home .header__background    { background: #8d939d url('../images/front-page.jpg') right center no-repeat; }
+.resume .header__background  { background: #000 url('../images/banner-resume.jpg') left center no-repeat; }
+.media .header__background   { background: #000 url('../images/banner-media.jpg') right center no-repeat; }
+.contact .header__background { background: #e1f0d1 url('../images/banner-contact.jpg') right center no-repeat; }
+.blog .header__background,
+.single-post .header__background    { background: #838d8f url('../images/banner-blog.jpg') right center no-repeat; }
+
 
 .header__text--main{
 	margin-top: 1em;
@@ -220,16 +220,6 @@ main{
 		width: 100%;
 		max-width: 100%;
 	}
-}
-
-.box__image--alignleft, .aside--alignleft{
-	float: left;
-	margin-left: 0;
-}
-
-.box__image--alignright, .aside--alignright{
-	float: right;
-	margin-right: 0;
 }
 
 .box__caption{

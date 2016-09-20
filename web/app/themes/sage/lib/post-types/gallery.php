@@ -27,7 +27,7 @@ function azar_gallery() {
 		'label'               => 'azar_gallery',
 		'description'         => 'Gallery on the Media page',
 		'labels'              => $labels,
-		'supports'            => array( 'title', 'editor', ),
+		'supports'            => array( 'title', ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,

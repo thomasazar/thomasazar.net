@@ -4,6 +4,7 @@
   </h1>
   <h2 class="header__subtext header__subtext--top"><?php bloginfo('description'); ?></h2>
   <nav class="nav nav--main">
+    <i class="nav__checkbox icon icon--menu" type="checkbox"></i>
     <?php
     if (has_nav_menu('primary_navigation')) :
       wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'list nav__list nav__list--main']);

@@ -4,6 +4,9 @@
       "files": [
         "scripts/main.js"
       ],
+      "vendor": [
+        "plugins/fancybox.js"
+      ],
       "main": true
     },
     "main.css": {
