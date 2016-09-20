@@ -14,7 +14,7 @@ function gallery_meta_boxes( $meta_boxes ){
 			[
 				'name'  => 'Photos',
 				'id'    => "{$prefix}photos",
-				'type'  => 'plupload_image',
+				'type'  => 'file_advanced',
 			],
 		],
 	];
