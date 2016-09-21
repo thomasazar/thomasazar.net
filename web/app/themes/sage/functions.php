@@ -25,6 +25,9 @@ $sage_includes = [
   'lib/post-types/gallery.php',             // Media gallery
   'lib/post-types/home.php',                // Front page news items
 
+  // Custom TinyMCE buttons
+  'lib/tinymce/tinymce.php',
+
   'lib/assets.php',     // Scripts and stylesheets
   'lib/extras.php',     // Custom functions
   'lib/setup.php',      // Theme setup
