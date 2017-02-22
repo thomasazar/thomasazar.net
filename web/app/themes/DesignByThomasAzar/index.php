@@ -1,14 +1,18 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<section class="the-posts">
+    <?php
 
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
+    $the_query = new WP_Query(['category_name' => 'blog', 'posts_per_page' => '-1']);
+    $count = 0;
+    while ($the_query->have_posts()) : $the_query->the_post();
+        if ($count === 0) {
+            get_template_part('templates/content', 'full');
+        } else {
+            get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());
+        }
+        $count++;
+    endwhile;
+    wp_reset_postdata();
 
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-<?php endwhile; ?>
-
-<?php the_posts_navigation(); ?>
+    ?>
+</section>
+<?php get_template_part('templates/footer', 'blog'); ?>

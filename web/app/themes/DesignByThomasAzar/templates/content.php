@@ -1,9 +1,13 @@
-<article <?php post_class(); ?>>
-  <header>
-    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <?php get_template_part('templates/entry-meta'); ?>
-  </header>
-  <div class="entry-summary">
-    <?php the_excerpt(); ?>
-  </div>
+<article class="box">
+    <header class="header header--box">
+        <h2 class="header__text header__text--box">
+            <a class="link header__link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        </h2>
+        <h3 class="header__subtext header__subtext--box">
+            <?php the_date(); ?>
+        </h3>
+    </header>
+    <section class="box__content">
+        <?php the_excerpt(); ?>
+    </section>
 </article>

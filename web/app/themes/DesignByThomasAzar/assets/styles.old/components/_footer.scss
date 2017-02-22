@@ -1,0 +1,14 @@
+.footer {
+    &--blog {
+        width: 100%;
+    	padding: 1.5em 0;
+
+        &__quote,
+        &__cite {
+            display: block;
+            text-align: center;
+            font-family: 'Merriweather', $georgia;
+            text-shadow: 0 1px $black;
+        }
+    }
+}

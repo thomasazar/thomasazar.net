@@ -1,0 +1,21 @@
+html {
+ 	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ 	box-sizing: inherit;
+}
+
+body{
+	position: relative;
+	max-width: 1200px;
+}
+
+main{
+	margin: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	@media (min-width: 481px){
+		margin: 3rem;
+	}
+}

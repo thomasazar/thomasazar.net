@@ -1,0 +1,70 @@
+.header__text--credits{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.list--credits{
+	text-align: center;
+	@include row;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.list-item--credits{
+	@include col;
+	width: 25%;
+	margin: 0.5em 0;
+}
+
+.table--resume{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	font-size: 0.8em;
+}
+
+.table__cell{
+	vertical-align: top;
+	@include col;
+	width: 33%;
+}
+
+.table__heading{
+	font-family: 'Merriweather', $georgia;
+	font-weight: 700;
+}
+
+.table__heading--region{
+	border-bottom: 1px dotted $darkgrey;
+	text-align: center;
+	font-size: 1.4em;
+	padding-top: 2em;
+	&:first-child{
+		padding-top: 1em;
+	}
+}
+
+.table__heading--theatre{
+	padding: 10px 1.5em 5px;
+}
+
+@media screen and (max-width: 767px){
+	.list-item--credits{
+		width: 50%;
+	}
+
+	.table__cell{
+		padding-top: 8px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.table__cell{
+		width: 100%;
+		padding-top: 0;
+		i, em{
+			display: inline-block;
+			margin-top: 8px;
+		}
+	}
+}

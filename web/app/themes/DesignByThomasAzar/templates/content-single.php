@@ -1,12 +1,12 @@
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
-    <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
+  <article class="box box--full">
+    <header class="header header--box">
+        <h2 class="header__text header__text--box"><?php the_title(); ?></h2>
+        <h3 class="header__subtext header__subtext--box"><?php the_date(); ?></h3>
     </header>
-    <div class="entry-content">
-      <?php the_content(); ?>
-    </div>
+    <section class="box__content">
+        <?php the_content(); ?>
+    </section>
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
     </footer>

@@ -1,0 +1,10 @@
+.banner {
+    background: $darkblue;
+    position: relative;
+    box-shadow: 0 0 10px transparentize( $black, 0.5 );
+    text-align: center;
+
+    &--front-page {
+        background: #8d939d url('../images/front-page.jpg') right center no-repeat;
+    }
+}
