@@ -59,6 +59,7 @@ define('NONCE_SALT', $defines['NONCE_SALT']);
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', $defines['DISABLE_WP_CRON'] ?: false);
 define('DISALLOW_FILE_EDIT', true);
+define('WPCF7_LOAD_CSS', false);
 
 /**
  * Bootstrap WordPress

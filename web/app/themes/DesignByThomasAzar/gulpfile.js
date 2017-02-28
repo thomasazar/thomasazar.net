@@ -325,9 +325,9 @@ gulp.task('deploy', function() {
   // Test site for new theme
   } else if (argv.new) {
 
-    rsyncConf.hostname = 'digitalocean'; // hostname
+    rsyncConf.hostname = 'benjamin-new'; // hostname
     rsyncConf.username = 'deploy'; // ssh username
-    rsyncConf.destination = '/var/www/new.southcarolinatheatre.org/web/app/themes/sage'; // path where uploaded files go
+    rsyncConf.destination = '/var/www/thomasazar.net/web/app/themes/DesignByThomasAzar'; // path where uploaded files go
 
   // Missing/Invalid Target
   } else {

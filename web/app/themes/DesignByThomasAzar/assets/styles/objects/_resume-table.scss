@@ -1,0 +1,9 @@
+.resume-table {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        flex: 1 0 auto;
+        width: 25%;
+    }
+}

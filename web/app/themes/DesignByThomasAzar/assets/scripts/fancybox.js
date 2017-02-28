@@ -50,7 +50,7 @@
 	};
 
 	var getTime = Date.now || function() {
-		return +new Date;
+		return +new Date();
 	};
 
 	var removeWrap = function(what) {
@@ -514,7 +514,7 @@
 			if (!(F.coming && F.coming.index === index)) {
 				F.cancel();
 
-				if (current.index == index) {
+				if (current.index === index) {
 					direction = null;
 
 				} else if (!direction) {
@@ -1328,7 +1328,6 @@
 				maxHeight = current.maxHeight,
 				margin    = current.margin,
 				scrollOut = current.scrollOutside ? current.scrollbarWidth : 0,
-				margin    = current.margin,
 				padding   = current.padding,
 				scrolling = current.scrolling,
 				steps     = 1,
@@ -1900,7 +1899,7 @@
 			}
 
     		if ( F.isOpened ) {
-    			effect = current.nextEffect,
+    			effect = current.nextEffect;
 				speed  = current.nextSpeed;
 				easing = current.nextEasing;
 				stage  = 'changeIn';
@@ -2097,7 +2096,7 @@
 			theme = opts.theme || (F.coming ? F.coming.theme : 'default');
 
 			if (theme !== this.theme) {
-				el.removeClass('fancybox-' + this.theme + '-overlay')
+				el.removeClass('fancybox-' + this.theme + '-overlay');
 			}
 
 			this.theme = theme;
