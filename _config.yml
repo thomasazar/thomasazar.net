@@ -11,6 +11,8 @@ kramdown:
 
 collections:
 - news
+- media
+- resume
 
 defaults:
   -
