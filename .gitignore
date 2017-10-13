@@ -34,4 +34,4 @@ bin
 _site/*
 _source/css/*
 !_source/css/.gitkeep
-.sass-cache/*
+.sass-cache/*/
