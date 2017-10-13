@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  {% include head.html %}
+  <body class="{{ page.title | downcase }}">
+    <!--[if IE]>
+      <div class="alert alert-warning">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+      </div>
+    <![endif]-->
+    {% include banner.html %}
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <main class="main">
+            {% assign post = site.posts.first %}
+            <article class="box box--full">
+              <header class="header header--box">
+                <h1 class="header__text header__text--box">
+                  <a href="{{ post.url }}" class="link header__link">{{ post.header }}</a>
+                </h1>
+                <h2 class="header__subtext header__subtext--box">
+                    {{ post.date | date: "%B %-d, %Y"}}
+                </h2>
+              </header>
+              <section class="box__content">
+                {{ post.excerpt }}
+              </section>
+            </article>
+            {% for post in site.posts offset: 1 %}
+            <article class="box box--half">
+              <header class="header header--box">
+                <h1 class="header__text header__text--box">
+                    <a href="{{ post.url }}" class="link header__link">{{ post.header }}</a>
+                </h1>
+                <h2 class="header__subtext header__subtext--box">
+                    {{ post.date | date: "%B %-d, %Y"}}
+                </h2>
+              </header>
+              <section class="box__content">
+                {{ post.excerpt }}
+                <p><a class="link link--read-more" href="{{ post.url }}"><i>(Read More)</i></a></p>
+              </section>
+            </article>
+            {% endfor %}
+        </main><!-- /.main -->
+      </div><!-- /.content -->
+    </div><!-- /.wrap -->
+    {% include footer.html %}
+  </body>
+</html>

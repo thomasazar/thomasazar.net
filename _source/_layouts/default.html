@@ -11,7 +11,19 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <main class="main">
-          {{ content }}
+            <article class="box box--full">
+                <header class="header header--box">
+                    <h1 class="header__text header__text--box">
+                        {{ page.header }}
+                    </h1>
+                    {% if page.date %}
+                    <h2 class="header__subtext header__subtext--box">{{ page.date | date: "%B %-d, %Y" }}</h2>
+                    {% endif %}
+                </header>
+                <section class="box__content">
+                    {{ content }}
+                </section>
+            </article>
         </main><!-- /.main -->
       </div><!-- /.content -->
     </div><!-- /.wrap -->
