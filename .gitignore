@@ -32,3 +32,5 @@ bin
 
 *.log
 _site/*
+_source/css/*
+!_source/css/.gitkeep
