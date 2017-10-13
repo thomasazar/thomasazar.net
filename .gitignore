@@ -31,3 +31,4 @@ bin
 .vagrant
 
 *.log
+_site/*
