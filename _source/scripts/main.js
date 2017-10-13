@@ -38,7 +38,7 @@
     // About us page, note the change from about-us to about_us.
     'media': {
       finalize: function() {
-      	$(".fancybox").fancybox();
+      	baguetteBox.run('.gallery');
       }
     }
   };
