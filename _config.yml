@@ -1,0 +1,11 @@
+permalink: pretty
+
+defaults:
+  -
+    values:
+      layout: "default"
+
+collections:
+ - news
+ - media
+ - resume
