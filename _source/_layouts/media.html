@@ -31,7 +31,6 @@
             {% for photo in new.photos offset: 1 %}
             <li class="gallery__list-item gallery__list-item--hidden">
               <a class="gallery__item fancybox" href="/images/media/{{ new.prefix }}/{{ photo.file }}" title="{{ photo.name }}" data-fancybox-group="{{ new.prefix }}">
-                <img src="/images/media/{{ new.prefix }}/thumb/{{ photo.file }}">
               </a>
             </li>
             {% endfor %}
