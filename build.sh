@@ -7,6 +7,9 @@ sed -i "s/main.css/$sha256sum.css/" ${basedir}/_source/_includes/head.html
 
 jekyll build -d ${basedir}/_publish/
 
+find ${basedir}/_publish/images/ -name *.png -exec optipng -o 3 {} \;
+find ${basedir}/_publish/images/ -name *.jpg -exec jpegtran -copy none -optimize -outfile {} {} \;
+
 rsync -az --delete --progress ${basedir}/_publish/ deploy@southcarolinatheatre.org:/var/www/${site}.jekyll/web/
 
 rm -rf ${basedir}/_publish/

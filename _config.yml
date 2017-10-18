@@ -1,26 +1,11 @@
-source:       _source
-destination:  _site
-host:         0.0.0.0
-
 permalink: pretty
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown
-kramdown:
-  parse_block_html: true
-
-collections:
-- news
-- media
-- resume
 
 defaults:
   -
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: news
-    values:
-      layout: default
-      parse_block_html: false
+
+collections:
+ - news
+ - media
+ - resume

@@ -60,12 +60,12 @@ main{
 	}
 }
 
-.news .header__background    { background: #8d939d url('/images/front-page.jpg') right center no-repeat; }
-.resume .header__background  { background: #000 url('/images/banner-resume.jpg') left center no-repeat; }
-.media .header__background   { background: #000 url('/images/banner-media.jpg') right center no-repeat; }
-.contact .header__background { background: #e1f0d1 url('/images/banner-contact.jpg') right center no-repeat; }
+.news .header__background    { background: #8d939d url('/assets/images/front-page.jpg') right center no-repeat; }
+.resume .header__background  { background: #000 url('/assets/images/banner-resume.jpg') left center no-repeat; }
+.media .header__background   { background: #000 url('/assets/images/banner-media.jpg') right center no-repeat; }
+.contact .header__background { background: #e1f0d1 url('/assets/images/banner-contact.jpg') right center no-repeat; }
 .blog .header__background,
-.single-post .header__background    { background: #838d8f url('/images/banner-blog.jpg') right center no-repeat; }
+.single-post .header__background    { background: #838d8f url('/assets/images/banner-blog.jpg') right center no-repeat; }
 
 
 .header__text--main{
