@@ -174,7 +174,7 @@ module.exports = {
   rsync: {
     src: production + '/**',
     options: {
-      destination: '/var/www/thomasazar.net.new/web',
+      destination: '/var/www/thomasazar.net/web',
       root: production,
       hostname: 'southcarolinatheatre.org',
       username: 'deploy',
