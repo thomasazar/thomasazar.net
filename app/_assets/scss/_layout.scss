@@ -247,6 +247,11 @@ main{
 	width: 100%;
 	text-align: center;
 	margin: 1em auto;
+
+  img {
+    max-width: 150px;
+    height: auto;
+  }
 }
 
 .post-password-form input{
