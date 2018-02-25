@@ -29,5 +29,10 @@
     "jshint-stylish": "^2.2.1",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.4"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "publish": "gulp publish",
+    "deploy": "gulp deploy"
   }
 }
