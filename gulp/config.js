@@ -176,7 +176,7 @@ module.exports = {
     options: {
       destination: '/var/www/thomasazar.net/web',
       root: production,
-      hostname: 'southcarolinatheatre.org',
+      hostname: 'thomasazar.net.deploy',
       username: 'deploy',
       incremental: true,
       progress: true,
