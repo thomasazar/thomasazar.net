@@ -1,7 +1,7 @@
 ---
 title: Hamlet
 prefix: hamlet
-order: 3
+order: 4
 photos:
   -
     file: IMG_4502-XL.jpg
