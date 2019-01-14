@@ -1,5 +1,5 @@
 ---
-header: The Ice Sculpture
+title: The Ice Sculpture
 ---
 
 This time of year is frequently a period of reflection: taking stock of what’s happened and what is yet to be. For a long while, I shied away from such reflection, because of personal issues with the season (although, who doesn’t have at least some issues with the holidays?). But this year, I find myself in a new headspace.

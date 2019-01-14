@@ -1,13 +1,14 @@
-<nav class="nav nav--main">
-  <i class="nav__checkbox icon icon--menu" type="checkbox"></i>
-  <ul id="menu-navigation" class="list nav__list nav__list--main">
-    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-    {% for p in navigation_pages %}
-    {% if p.navigation_weight %}
-    <li class="menu-item{% if p.url == page.url %} active{% endif %}">
-      <a href="{{ p.url }}">{{ p.title }}</a>
-    </li>
+<ul class="nav__list">
+  {% assign navigation_pages = site.pages | sort: 'order' %}
+  {% for p in navigation_pages %}
+    {% if p.order %}
+      <li class="nav__item{% if p.url == page.url and page.url != '/' %} active{% endif %}">
+        {% if p.url == '/' and page.url == '/' %}
+          <a class="nav__link" href="#news">{{ p.title }}</a>
+        {% else %}
+          <a class="nav__link" href="{{ p.url }}">{{ p.title }}</a>
+        {% endif %}
+      </li>
     {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
+  {% endfor %}
+</ul>

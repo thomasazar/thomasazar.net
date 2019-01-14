@@ -1,10 +1,13 @@
-<header class="header header--top header--front-page">
-  <h1 class="header__text header__text--top">
-    <a href="/" title="Return to home" class="header__link header__link--top">Thomas Azar</a>
+<header class="banner">
+  <h1 class="banner__logo">
+    <a href="/">
+      {% include logo.svg %}
+    </a>
   </h1>
-  <h2 class="header__subtext header__subtext--top">Actor, AEA</h2>
-  {% include nav.html %}
-  <h3 class="header__text header__text--main">{{ page.title }}</h3>
-	<span class="header__color"></span>
-	<span class="header__background header__background--front-page"></span>
+  <p class="blurb">
+    <strong>Coming Soon:</strong><br><em>The Glass Menagerie</em> at the Warehouse Theatre, Jan 25 &ndash; Feb 10
+  </p>
+  <nav class="nav">
+    {% include nav.html %}
+  </nav>
 </header>

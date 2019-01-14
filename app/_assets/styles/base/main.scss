@@ -1,0 +1,17 @@
+main {
+  padding: 0 4px;
+  max-width: 800px;
+  margin: 0 auto 2em;
+
+  p + p {
+    margin-top: 1.5em;
+  }
+
+  @media screen and (min-width: 801px) {
+    margin-top: calc(100px + 3em);
+  }
+}
+
+.resume main {
+  max-width: 1000px;
+}

@@ -1,11 +1,29 @@
 permalink: pretty
 
 defaults:
-  -
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "galleries"
+    values:
+      layout: "gallery"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
+# Collections
 collections:
- - news
- - media
- - resume
+  news:
+    output: false
+  galleries:
+    output: true
+
+
+# Adds other folders besides _includes, _layouts, _posts
+includes:
+- logos

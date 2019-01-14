@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<header class="gallery-info">
+{% include logos/{{ page.title | slugify }}.svg %}
+<h3>
+  {{ page.venue }} &mdash; {{ page.city }}
+</h3>
+<section class="gallery-info__credits">
+  <span>Directed by {{ page.director }}</span>
+  <span>Featuring Thomas as {{ page.role }}</span>
+</section>
+<p class="small">Photos by {{ page.photos_by }}</p>
+<ul class="gallery">
+  {% for file in page.media %}
+    <li class="gallery__item{% if file.major %} major{% endif %}">
+      <a href="/assets/images/galleries/{{ page.title | slugify }}/{{ file.file }}" data-caption="{{ file.caption }}">
+        <img src="/assets/images/galleries/{{ page.title | slugify }}/thumb/{{ file.file }}">
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{{ content }}

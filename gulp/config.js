@@ -43,7 +43,7 @@ module.exports = {
     }
   },
   sass: {
-    src:  srcAssets + '/scss/**/*.{sass,scss}',
+    src:  srcAssets + '/styles/main.scss',
     dest: developmentAssets + '/css',
     options: {
       noCache: true,
@@ -65,7 +65,10 @@ module.exports = {
     cascade: true
   },
   scripts: {
-    src: srcAssets + '/js/*.js',
+    src: [
+      srcAssets + '/js/vendor/*.js',
+      srcAssets + '/js/*.js',
+    ],
     dest: developmentAssets + '/js/',
     outfile: 'scripts.js'
   },
@@ -106,7 +109,7 @@ module.exports = {
       src + '/**/*.{html,markdown,md,yml,json,txt,xml}',
       src + '/*'
     ],
-    sass:    srcAssets + '/scss/**/*.{sass,scss}',
+    sass:    srcAssets + '/styles/**/*.{sass,scss}',
     scripts: srcAssets + '/js/**/*.js',
     images:  srcAssets + '/images/**/*',
     sprites: srcAssets + '/images/**/*.png',
@@ -114,9 +117,9 @@ module.exports = {
   },
   scsslint: {
     src: [
-      srcAssets + '/scss/**/*.{sass,scss}',
-      '!' + srcAssets + '/scss/base/_sprites.scss',
-      '!' + srcAssets + '/scss/helpers/_meyer-reset.scss'
+      srcAssets + '/styles/**/*.{sass,scss}',
+      '!' + srcAssets + '/styles/base/_sprites.scss',
+      '!' + srcAssets + '/styles/helpers/_meyer-reset.scss'
     ],
     options: {
       bundleExec: true
@@ -132,7 +135,7 @@ module.exports = {
       options: {}
     },
     js: {
-      src:  developmentAssets + '/js/*.js',
+      src:  developmentAssets + '/js/scripts.js',
       dest: productionAssets + '/js/',
       options: {}
     },

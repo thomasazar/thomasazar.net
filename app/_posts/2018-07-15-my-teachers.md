@@ -1,5 +1,5 @@
 ---
-header: My Teachers
+title: My Teachers
 ---
 
 As an artist, I owe almost everything to my teachers. Without them, I would be half the theatre artist that I am. Less than half, probably.

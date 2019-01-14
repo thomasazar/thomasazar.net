@@ -1,7 +1,6 @@
 ---
 title: Contact
-navigation_weight: 5
-header: Get in Touch
+order: 5
 ---
 
 ## Email

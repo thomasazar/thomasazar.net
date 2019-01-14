@@ -1,7 +1,7 @@
 ---
 title: News
-navigation_weight: 1
-layout: news
+order: 1
+layout: home
 ---
 
-
+This winter, Thomas stars as Tennessee Williams's iconic narrator Tom in *The Glass Menagerie* at the Warehouse Theatre.

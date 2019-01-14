@@ -1,7 +1,5 @@
 ---
 title: Writings
-header: Make No Little Plans...
-navigation_weight: 4
+order : 4
 layout: blog
 ---
-

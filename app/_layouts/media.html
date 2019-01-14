@@ -1,47 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="en-us">
-{% include head.html %}
-<body class="{{ page.title | downcase }}">
-  <!--[if IE]>
-  <div class="alert alert-warning">
-  You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-</div>
-<![endif]-->
-{% include banner.html %}
-<div class="wrap container" role="document">
-  <div class="content row">
-    <main class="main">
-      {% assign media = site.media | sort: 'order' %}
-      {% for new in media %}
-      <article class="gallery">
-        <header class="header header--box">
-          <h1 class="header__text header__text--box">
-            {{ new.title }}
-          </h1>
-        </header>
-        <section class="gallery__content">
-          {% if new.photos %}
-          <ul class="list gallery__list">
-            {% assign photo = new.photos.first %}
-            <li class="gallery__list-item">
-              <a class="gallery__item fancybox" href="/assets/images/media/{{ new.prefix }}/{{ photo.file }}" title="{{ photo.name }}" data-fancybox-group="{{ new.prefix }}">
-                <img src="/assets/images/media/{{ new.prefix }}/thumb/{{ photo.file }}">
-              </a>
-            </li>
-            {% for photo in new.photos offset: 1 %}
-            <li class="gallery__list-item gallery__list-item--hidden">
-              <a class="gallery__item fancybox" href="/assets/images/media/{{ new.prefix }}/{{ photo.file }}" title="{{ photo.name }}" data-fancybox-group="{{ new.prefix }}">
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </section>
-      </article>
-      {% endfor %}
-    </main><!-- /.main -->
-  </div><!-- /.content -->
-</div><!-- /.wrap -->
-{% include footer.html %}
-</body>
-</html>
+---
+layout: default
+---
+
+{% assign portfolios = site.galleries | sort: 'order' %}
+{% for portfolio in portfolios %}
+  <a class="portfolio__link" href="/galleries/{{ portfolio.title | slugify }}">
+    <figure class="portfolio">
+      <img class="portfolio__image" src="/assets/images/galleries/{{ portfolio.title | slugify }}/{{ portfolio.featured }}">
+      <figcaption class="portfolio__logo {{ portfolio.logo }}">
+        {% include logos/{{ portfolio.title | slugify }}.svg %}
+      </figcaption>
+    </figure>
+  </a>
+{% endfor %}

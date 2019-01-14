@@ -1,0 +1,17 @@
+h2 {
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1;
+  max-width: 800px;
+  margin: 0.5em auto 0.5em;
+
+  @media screen and (max-width: 800px) {
+    font-size: 3em;
+  }
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.1;
+}

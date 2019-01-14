@@ -32,7 +32,10 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "publish": "gulp publish",
+    "print": "gulp publish",
     "deploy": "gulp deploy"
+  },
+  "dependencies": {
+    "pump": "^3.0.0"
   }
 }

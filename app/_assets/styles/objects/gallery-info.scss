@@ -1,0 +1,17 @@
+.gallery-info {
+  text-align: center;
+
+  .logo {
+    width: 500px;
+    height: auto;
+  }
+}
+
+.gallery-info__credits {
+  display: flex;
+  width: 100%;
+
+  > * {
+    flex: auto;
+  }
+}
