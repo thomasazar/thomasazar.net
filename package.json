@@ -33,6 +33,7 @@
   "scripts": {
     "gulp": "gulp",
     "print": "gulp publish",
+    "print2": "gulp print",
     "deploy": "gulp deploy"
   },
   "dependencies": {
