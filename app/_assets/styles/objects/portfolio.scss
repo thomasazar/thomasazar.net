@@ -19,7 +19,7 @@
 .portfolio__logo {
   grid-column: 1;
   grid-row: 1;
-  z-index: 2;
+  z-index: 1.5;
   fill: #f2f2f2;
   transition: .4s ease all;
   max-width: 50%;
@@ -33,5 +33,9 @@
   &.north {
     justify-self: center;
     transform-origin: top center;
+  }
+
+  &.northwest {
+    transform-origin: top left;
   }
 }
