@@ -1,6 +1,6 @@
 ---
 title: Shakespeare in Love
-order: 1
+order: 2
 venue: Alliance Theatre
 city: Atlanta, Georgia
 director: Richard Garner
