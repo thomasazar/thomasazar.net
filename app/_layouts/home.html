@@ -14,6 +14,7 @@ layout: base
 <p class="hero__caption caption">
   Photo by Will Crooks
 </p>
+{% include banner.html %}
 <main id="news">
   {% assign news = site.news | sort: 'order' %}
   {% for post in news %}
