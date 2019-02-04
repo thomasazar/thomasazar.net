@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en-US">
+  {{ partial "head.html" . }}
+  <body class="{{ .Page.Title | urlize | lower }}">
+    {{ block "header" .}}
+      {{ partial "banner.html" . }}
+    {{ end }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </body>
+</html>

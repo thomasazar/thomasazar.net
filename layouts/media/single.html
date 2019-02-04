@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <header class="gallery-info">
+    {{ $logo := .Title | urlize }}
+    {{ $svg := printf "%s%s%s" "logos/" $logo ".svg" }}
+    {{ partial $svg . }}
+    <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
+    <section class="gallery-info__credits">
+      <span>Directed by {{ .Params.director }}</span>
+      <span>Featuring Thomas as {{ .Params.role }}</span>
+    </section>
+    <p class="small">Photos by {{ .Params.photos_by }}</p>
+    <ul class="gallery">
+      {{ range .Params.media }}
+        <li class="gallery__item{{ if .major }} major{{ end }}">
+          <a href="/images/galleries/{{ $logo }}/{{ .file }}" data-caption="{{ .caption }}">
+            <img src="/images/galleries/{{ $logo }}/thumb/{{ .file }}">
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ .Content }}
+{{ end }}

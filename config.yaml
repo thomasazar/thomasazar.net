@@ -1,0 +1,8 @@
+baseURL: /
+languageCode: en-us
+title: Thomas Azar
+frontmatter:
+  date:
+    - ":filename"
+    - ":default"
+sectionPagesMenu: main

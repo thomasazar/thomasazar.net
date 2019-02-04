@@ -1,0 +1,40 @@
+{{ define "header" }}
+  <header class="hero">
+    {{ partial "logo.svg" }}
+    <img class="hero__image" src="/images/home.jpg">
+    <section class="hero__news">
+      {{ .Content }}
+    </section>
+    <nav class="nav hero__nav">
+      <ul class="nav__list">
+        {{ range .Site.Menus.main }}
+          <li class="nav__item">
+            {{ if eq .Name "News" }}
+              <a class="nav__link" href="#news">{{ .Name }}</a>
+            {{ else }}
+              <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </header>
+  <p class="hero__caption caption">
+    Photo by Will Crooks
+  </p>
+  {{ partial "banner.html" }}
+{{ end }}
+{{ define "main" }}
+  <section id="news">
+    {{ range where .Data.Pages "Section" "news" }}
+    <article class="box">
+      <header class="box__header">
+        <h2>{{ .Title }}</h2>
+      </header>
+      <section class="box__main">
+        {{ .Content }}
+      </section>
+    </article>
+    {{ end }}
+  </section>
+{{ end }}
