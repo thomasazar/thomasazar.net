@@ -3,7 +3,7 @@
     {{ $logo := .Title | urlize }}
     <a class="portfolio__link" href="{{ .URL }}">
       <figure class="portfolio">
-        <img class="portfolio__image" src="/images/galleries/{{ $logo }}/thumb/{{ .Params.featured }}">
+        <img class="portfolio__image" src="/images/uploads/{{ $logo }}/thumb/{{ .Params.featured }}">
         <figcaption class="portfolio__logo {{ .Params.logo }}">
           {{ $svg := printf "%s%s%s" "logos/" $logo ".svg" }}
           {{ partial $svg . }}
