@@ -23,6 +23,34 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: Order
+        name: weight
+        widget: number
+      - label: Role
+        name: role
+        widget: string
+      - label: Director
+        name: director
+        widget: string
+      - label: Venue
+        name: venue
+        widget: string
+      - label: City
+        name: city
+        widget: string
+      - label: Photos by
+        name: photos_by
+        widget: string
+      - label: Featured image
+        name: featured
+        widget: image
+        config:
+          media_folder: "static/images/uploads/{{slug}}"
+          public_folder: "/images/uploads/{{slug}}"
+      - label: Logo position
+        name: logo
+        widget: select
+        options: ["north", "northwest", "northeast", "south", "southwest", "southeast", "center", "east", "west"]
       - label: Media
         name: media
         widget: list
@@ -36,3 +64,6 @@ collections:
             config:
               media_folder: "static/images/uploads/{{slug}}"
               public_folder: "/images/uploads/{{slug}}"
+          - label: Major?
+            name: major
+            widget: boolean
