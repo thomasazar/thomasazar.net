@@ -2,8 +2,10 @@ backend:
   name: git-gateway
   repo: thomasazar/thomasazar.net # Path to your Bitbucket repository
   branch: hugo
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+# Uploads defaults are not defined, which means they will need to be defined
+# in each "image" or "file" widget
+#media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+#public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: "writings" # Used in routes, e.g., /admin/collections/blog
     label: "Writings" # Used in the UI
