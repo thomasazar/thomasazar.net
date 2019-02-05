@@ -6,7 +6,7 @@ director: Jayce T. Tromsness
 venue: The Warehouse Theatre
 city: 'Greenville, South Carolina'
 photos_by: Kira Lynn
-featured: /images/uploads/0e7a0853-683x1024.jpg
+featured: /images/uploads/0e7a1719-683x1024.jpg
 logo: southwest
 media:
   - caption: Thomas Azar as Prior
