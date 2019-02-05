@@ -10,7 +10,7 @@ featured: /images/uploads/0e7a1719-683x1024.jpg
 logo: southwest
 media:
   - caption: Thomas Azar as Prior
-    file: /images/uploads/0e7a1719-683x1024.jpg
+    file: '/images/uploads/{{slug}}/angels-promo-1024x1024.png'
   - caption: Thomas Azar as Prior
     file: /images/uploads/0e7a0853-683x1024.jpg
   - caption: 'Thomas Azar as Prior, Matt Reece as Louis'
