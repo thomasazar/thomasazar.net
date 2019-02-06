@@ -1,5 +1,6 @@
 ---
 title: The Glass Menagerie
+layout: single
 weight: 10
 venue: The Warehouse Theatre
 city: Greenville, South Carolina
@@ -8,7 +9,7 @@ photos_by: Wallace Krebs
 role: Tom
 featured: WKP_7478.jpg
 logo: northwest
-media:
+order:
   - file: WKP_7478.jpg
     caption: Thomas Azar as Tom
     major: true

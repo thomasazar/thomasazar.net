@@ -1,8 +1,10 @@
 {{ define "main" }}
   <header class="gallery-info">
-    {{ $logo := .Title | urlize }}
-    {{ $svg := printf "%s%s%s" "logos/" $logo ".svg" }}
-    {{ partial $svg . }}
+    {{ $currentPage := . }}
+    {{ $resources := .Resources }}
+    {{ range ($resources.Match "logo.svg") }}
+      {{ .Content | safeHTML }}
+    {{ end }}
     <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
     <section class="gallery-info__credits">
       <span>Directed by {{ .Params.director }}</span>
@@ -10,10 +12,12 @@
     </section>
     <p class="small">Photos by {{ .Params.photos_by }}</p>
     <ul class="gallery">
-      {{ range .Params.media }}
-        <li class="gallery__item{{ if .major }} major{{ end }}">
-          <a href="/images/uploads/{{ $logo }}/{{ .file }}" data-caption="{{ .caption }}">
-            <img src="/images/uploads/{{ $logo }}/thumb/{{ .file }}">
+      {{ $images := $resources.Match "*.jpg" }}
+      {{ range sort $images $currentPage.Params.order }}
+        {{ $image400x := (.Resize "400x") }}
+        <li class="gallery__item">
+          <a href="{{ .Permalink }}" data-caption="">
+            <img src="{{ $image400x.Permalink }}">
           </a>
         </li>
       {{ end }}

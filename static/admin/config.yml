@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   repo: thomasazar/thomasazar.net # Path to your Bitbucket repository
   branch: hugo
-media_folder: "static/images/uploads/{{slug}}"
-public_folder: "/images/uploads/{{slug}}"
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 collections:
   - name: "writings" # Used in routes, e.g., /admin/collections/blog
     label: "Writings" # Used in the UI

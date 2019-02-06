@@ -5,4 +5,3 @@ frontmatter:
   date:
     - ":filename"
     - ":default"
-sectionPagesMenu: main

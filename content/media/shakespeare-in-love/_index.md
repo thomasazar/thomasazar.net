@@ -1,5 +1,6 @@
 ---
 title: Shakespeare in Love
+layout: single
 weight: 20
 venue: Alliance Theatre
 city: Atlanta, Georgia
@@ -8,7 +9,7 @@ photos_by: Greg Mooney
 role: Will
 featured: D8M9572.jpg
 logo: southwest
-media:
+order:
   - file: D755291.jpg
     major: true
     caption: The company of SHAKESPEARE IN LOVE.

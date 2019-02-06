@@ -1,5 +1,6 @@
 ---
 title: Constellations
+layout: single
 weight: 30
 venue: Mill Mountain Theatre
 city: Roanoke, Virginia
@@ -8,7 +9,7 @@ photos_by: April Parker
 role: Roland
 featured: Constellations14.jpg
 logo: north
-media:
+order:
   - file: Constellations8.jpg
     caption: Thomas Azar as Roland and Amanda Sox as Marianne.
   - file: Constellations14.jpg
