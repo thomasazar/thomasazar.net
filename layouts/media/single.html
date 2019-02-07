@@ -12,14 +12,27 @@
     </section>
     <p class="small">Photos by {{ .Params.photos_by }}</p>
     <ul class="gallery">
-      {{ $images := $resources.Match "*.jpg" }}
-      {{ range sort $images $currentPage.Params.order }}
-        {{ $image400x := (.Resize "400x") }}
-        <li class="gallery__item">
-          <a href="{{ .Permalink }}" data-caption="">
-            <img src="{{ $image400x.Permalink }}">
-          </a>
-        </li>
+      {{ range .Params.order }}
+        {{ $class := newScratch }}
+        {{ if isset . "major" }}
+          {{ $class.Set "class" "gallery__item major" }}
+        {{ else }}
+          {{ $class.Set "class" "gallery__item" }}
+        {{ end }}
+        {{ $media := . }}
+        {{ $images := $resources.Match .file }}
+        {{ range $images }}
+          <li class="{{ $class.Get "class" }}">
+            <a href="{{ (.Resize "1200x").Permalink }}" data-caption="{{ $media.caption }}">
+              {{ if in ($class.Get "class") "major" }}
+              {{ $thumb := (.Resize "800x") }}
+              <img src="{{ (.Resize "800x").Permalink }}">
+              {{ else }}
+              <img src="{{ (.Resize "400x").Permalink }}">
+              {{ end }}
+            </a>
+          </li>
+        {{ end }}
       {{ end }}
     </ul>
   {{ .Content }}
