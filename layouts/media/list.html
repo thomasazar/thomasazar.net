@@ -6,7 +6,7 @@
       <figure class="portfolio">
         {{ $featured := where $resources "Name" .Params.featured }}
         {{ range $featured }}
-          <img class="portfolio__image" src="{{ (.Fill "1200x800 Top").Permalink }}">
+          <img class="portfolio__image" src="{{ (.Fill "1200x800").Permalink }}">
         {{ end }}
         <figcaption class="portfolio__logo {{ .Params.logo }}">
           {{ range ($resources.Match "logo.svg") }}
