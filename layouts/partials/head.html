@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
   {{ $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
   <!-- ****** faviconit.com favicons ****** -->
 	<link rel="shortcut icon" href="/images/favicon.ico">
@@ -33,8 +33,8 @@
   {{ $baguetteBox := resources.Get "scripts/vendor/baguetteBox.js" }}
   {{ $smoothScroll := resources.Get "scripts/vendor/smooth-scroll.js" }}
   {{ $jsMain := resources.Get "scripts/main.js" }}
-  {{ $js := slice $baguetteBox $smoothScroll $jsMain | resources.Concat "js/scripts.js" | fingerprint }}
-  <script src="{{ $js.Permalink }}" defer async></script>
+  {{ $js := slice $baguetteBox $smoothScroll $jsMain | resources.Concat "js/scripts.js" | minify | fingerprint }}
+  <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
 
   <!-- Matomo -->
   <script type="text/javascript">
