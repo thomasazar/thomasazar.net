@@ -1,12 +1,12 @@
 ---
 title: The Glass Menagerie
 category: news
-order: 1
+weight: 2
 #date: Jan 2019
 #tags: [warehouse theatre, coming soon]
 ---
 
-Thomas appears at the Warehouse Theatre as Tom in *The Glass Menagerie*, opposite Mimi Wyche (*All My Sons*, *The Cake*) as Amanda, directed by Kerrie Seymour (*The Cake*, *In the Next Room*).
+Thomas appeared at the Warehouse Theatre as Tom in *The Glass Menagerie*, opposite Mimi Wyche (*All My Sons*, *The Cake*) as Amanda, directed by Kerrie Seymour (*The Cake*, *In the Next Room*).
 
 <footer class="box__footer">
   <section class="box__footer__info">
@@ -18,10 +18,6 @@ Thomas appears at the Warehouse Theatre as Tom in *The Glass Menagerie*, opposit
       <tr>
         <td>When</td>
         <td>January 25 &ndash; February 10, 2019</td>
-      </tr>
-      <tr>
-        <td>Tickets</td>
-        <td>Online at <a href="https://app.arts-people.com/index.php?ticketing=wht">WarehouseTheatre.com</a><br>or<br>By phone at <a href="tel:8642356948">(864) 235-6948</a></td>
       </tr>
     </table>
   </section>
