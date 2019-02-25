@@ -3,6 +3,7 @@ title: Resume
 weight: 20
 menu: main
 ---
+[Download a PDF of Thomas's resume](/pdf/Thomas-Azar-resume.pdf)
 
 ## Theatre
 
@@ -10,8 +11,9 @@ menu: main
 ------|------|-------|----------
 *Shakespeare in Love* | Will | Alliance Theatre, GA | Richard Garner
 *Angels in America: Parts 1 & 2* | Prior Walter | The Warehouse Theatre, SC | Jayce T. Tromsness
-*In the Next Room* | Dr. Givings | The Warehouse Theatre, SC | Kerrie Seymour
+*The Glass Menagerie* | Tom | The Warehouse Theatre, SC | Kerrie Seymour
 *Constellations* | Roland | Mill Mountain Theatre, VA | Jay Briggs
+*In the Next Room* | Dr. Givings | The Warehouse Theatre, SC | Kerrie Seymour
 *Much Ado About Nothing* | Benedick | The Warehouse Theatre, SC | Anne Kelly Tromsness
 *Hamlet* | Hamlet | Shakespeare Theatre Co./ACA, DC | Robert Richmond
 *Yellow Face* | Marcus | TheatreWorks, CA | Robert Kelley
