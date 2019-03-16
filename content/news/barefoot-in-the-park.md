@@ -6,7 +6,7 @@ weight: 1
 #tags: [warehouse theatre, coming soon]
 ---
 
-Thomas will make his debut at Lean Ensemble Theatre in Hilton Head, South Carolina, as Paul in *Barefoot in the Park*, directed by artistic director Blake White.
+Thomas will make his debut at Lean Ensemble Theater in Hilton Head, South Carolina, as Paul in *Barefoot in the Park*, directed by artistic director Blake White.
 
 > Paul and Corie Bratter are newlyweds in every sense of the word. After a six-day honeymoon, they get a surprise visit from Corie's loopy mother and decide to play matchmaker during a dinner with their neighbor-in-the-attic Velasco, where everything that can go wrong, does.
 
