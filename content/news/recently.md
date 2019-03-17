@@ -3,6 +3,14 @@ title: Recently
 weight: 4
 ---
 
+Thomas appeared at the [Warehouse Theatre](https://warehousetheatre.com/glassmenagerie/) as Tom in *The Glass Menagerie*, opposite Mimi Wyche (*All My Sons*, *The Cake*) as Amanda, directed by Kerrie Seymour (*The Cake*, *In the Next Room*).
+
+> “Thomas Azar […] reflects the internally ripped-apart shoe-warehouse employee with all the complexity the script asked for”
+-- fête magazine
+
+> “makes for a powerful evening of theatre, one you’ll want to think about and discuss - and remember”
+--Broadway World South Carolina
+
 Thomas returned to the [Warehouse Theatre](https://warehousetheatre.com/much-ado-nothing/) as Benedick in *Much Ado About Nothing*, directed by Anne Kelly Tromsness.
 
 > "Azar brings confidence, class and wit to this role in the vein of screen legend Cary Grant"
