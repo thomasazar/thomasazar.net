@@ -11,6 +11,7 @@ pipelines:
         script:
           - apt update -y
           - apt install -y snapd rsync ssh
+          - systemctl start snapd.service
           - snap install --channel=extended hugo
           - hugo --gc --minify
           - rsync public/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
