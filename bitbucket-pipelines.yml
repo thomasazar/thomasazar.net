@@ -11,4 +11,4 @@ pipelines:
         script:
           - apk add rsync openssh
           - hugo --gc --minify
-          - rsync -az ./public $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+          - rsync -zrSlh ./public/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
