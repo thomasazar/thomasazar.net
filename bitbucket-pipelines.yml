@@ -9,6 +9,6 @@ pipelines:
   default:
     - step:
         script:
-          - apk add rsync
+          - apk add rsync openssh
           - hugo --gc --minify
           - rsync -az ./public $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
