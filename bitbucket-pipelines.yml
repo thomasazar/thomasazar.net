@@ -9,6 +9,11 @@ pipelines:
   default:
     - step:
         script:
-          - apk add --no-cache --progress rsync openssh
+          - echo "This script runs on all branches that don't have any specific pipeline assigned in 'branches'."
+  branches:
+    master:
+      - step:
+        script:
+          - apk add --no-cache rsync openssh
           - hugo --gc --minify
           - rsync -zrSlh --delete ./public/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
