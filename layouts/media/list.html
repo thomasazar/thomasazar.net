@@ -2,7 +2,7 @@
   {{ $media := where .Site.Pages "Section" "media" }}
   {{ range where $media ".Title" "!=" "Media" }}
     {{ $resources := .Resources }}
-    <a class="portfolio__link" href="{{ .URL }}">
+    <a class="portfolio__link" href="{{ .Permalink }}">
       <figure class="portfolio">
         {{ $featured := where $resources "Name" .Params.featured }}
         {{ range $featured }}
