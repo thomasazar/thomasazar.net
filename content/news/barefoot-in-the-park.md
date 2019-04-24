@@ -31,6 +31,6 @@ Thomas will make his debut at Lean Ensemble Theater in Hilton Head, South Caroli
   </section>
   <section class="box__footer__credits">
     <p>Directed by Blake White</p>
-    <p>Starring Thomas Azar, Sheila Kadra, Jim Stark, Jennifer Webb, and Mimi Wyche</p>
+    <p>Featuring Thomas Azar, Sheila Kadra, Jim Stark, Jennifer Webb, and Mimi Wyche</p>
   </section>
 </footer>
