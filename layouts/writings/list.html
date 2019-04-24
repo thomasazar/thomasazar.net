@@ -3,12 +3,12 @@
     <article class="box">
       <header class="box__header">
         <h2>
-          <a href="{{ .URL }}" class="header__link">{{ .Title }}</a>
+          <a href="{{ .Permalink }}" class="header__link">{{ .Title }}</a>
         </h2>
         <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
       </header>
       <section class="box__content">
-        <p>{{ .Summary }} <a href="{{ .URL }}"><em>(Read more...)</em></a></p>
+        <p>{{ .Summary }} <a href="{{ .Permalink }}"><em>(Read more...)</em></a></p>
       </section>
     </article>
   {{ end }}
