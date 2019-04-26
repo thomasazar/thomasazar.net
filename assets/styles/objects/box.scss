@@ -30,24 +30,31 @@
 }
 
 .box__footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   border: 2px solid $base-100;
   margin-top: 1.5em;
-
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-  }
 }
 
 .box__footer__info,
 .box__footer__credits {
-  flex: 50%;
-  padding: 10px;
-  font-size: 0.75em;
+  padding: 0 1em;
+  
+    p {
+      margin-top: 1.5em;
+    }
 }
 
 .box__footer__info {
   border-right-width: 1px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+
+  p:nth-child(odd) {
+    font-weight: bold;
+  }
 }
 
 .box__footer__credits {
