@@ -1,0 +1,16 @@
+{{ with .Page.Params.footer }}
+  <footer class="box__footer">
+    <section class="box__footer__info">
+      <p>Where</p>
+      <p>{{ .where | safeHTML }}</p>
+      <p>When</p>
+      <p>{{ .when | safeHTML }}</p>
+      <p>Tickets</p>
+      <p>Online at <a href="{{ .tickets.online.link }}">{{ .tickets.online.text}}</a><br>By phone at <a href="tel:{{ .tickets.phone | anchorize }}">{{ .tickets.phone }}</a></p>
+    </section>
+    <section class="box__footer__credits">
+      <p>Directed by {{ .director }}</p>
+      <p>Featuring {{ .featuring }}</p>
+    </section>
+  </footer>
+{{ end }}
