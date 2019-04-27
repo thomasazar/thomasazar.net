@@ -7,17 +7,18 @@ city: Greenville, South Carolina
 director: Kerrie Seymour
 photos_by: Wallace Krebs
 role: Tom
-featured: WKP_7478.jpg
+featured: /images/uploads/WKP_7478.jpg
+svg: /images/uploads/the-glass-menagerie.svg
 logo: northwest
-order:
-  - file: WKP_7478.jpg
+images:
+  - file: /images/uploads/WKP_7478.jpg
     caption: Thomas Azar as Tom
     major: true
-  - file: WKP_7011.jpg
+  - file: /images/uploads/WKP_7011.jpg
     caption: Mimi Wyche as Amanda and Thomas Azar as Tom
-  - file: WKP_6623.jpg
+  - file: /images/uploads/WKP_6623.jpg
     caption: Thomas Azar as Tom
-  - file: WKP_6812.jpg
+  - file: /images/uploads/WKP_6812.jpg
     caption: Kathryn Hinton as Laura, Thomas Azar as Tom, Mimi Wyche as Amanda
     major: true
 ---
