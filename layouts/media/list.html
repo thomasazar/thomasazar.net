@@ -1,17 +1,11 @@
 {{ define "main" }}
-  {{ $media := where .Site.Pages "Section" "media" }}
-  {{ range where $media ".Title" "!=" "Media" }}
-    {{ $resources := .Resources }}
+  {{ range .Pages }}
+    {{ $featured := resources.Get .Params.featured }}
     <a class="portfolio__link" href="{{ .Permalink }}">
       <figure class="portfolio">
-        {{ $featured := where $resources "Name" .Params.featured }}
-        {{ range $featured }}
-          <img class="portfolio__image" src="{{ (.Fill "1200x800").Permalink }}">
-        {{ end }}
+        <img class="portfolio__image" src="{{ ($featured.Fill "1200x800").Permalink }}">
         <figcaption class="portfolio__logo {{ .Params.logo }}">
-          {{ range ($resources.Match "logo.svg") }}
-            {{ .Content | safeHTML }}
-          {{ end }}
+          {{ (resources.Get .Params.svg).Content | safeHTML }}
         </figcaption>
       </figure>
     </a>

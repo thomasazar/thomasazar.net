@@ -1,10 +1,6 @@
 {{ define "main" }}
   <header class="gallery-info">
-    {{ $currentPage := . }}
-    {{ $resources := .Resources }}
-    {{ range ($resources.Match "logo.svg") }}
-      {{ .Content | safeHTML }}
-    {{ end }}
+    {{ (resources.Get .Params.svg).Content | safeHTML }}
     <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
     <section class="gallery-info__credits">
       <span>Directed by {{ .Params.director }}</span>
@@ -12,27 +8,17 @@
     </section>
     <p class="small">Photos by {{ .Params.photos_by }}</p>
     <ul class="gallery">
-      {{ range .Params.order }}
-        {{ $class := newScratch }}
-        {{ if isset . "major" }}
-          {{ $class.Set "class" "gallery__item major" }}
-        {{ else }}
-          {{ $class.Set "class" "gallery__item" }}
-        {{ end }}
-        {{ $media := . }}
-        {{ $images := $resources.Match .file }}
-        {{ range $images }}
-          <li class="{{ $class.Get "class" }}">
-            <a href="{{ (.Resize "1200x").Permalink }}" data-caption="{{ $media.caption }}">
-              {{ if in ($class.Get "class") "major" }}
-              {{ $thumb := (.Resize "800x") }}
-              <img src="{{ (.Resize "800x").Permalink }}">
-              {{ else }}
-              <img src="{{ (.Resize "400x").Permalink }}">
-              {{ end }}
-            </a>
-          </li>
-        {{ end }}
+      {{ range .Params.images }}
+        {{ $image := resources.Get .file }}
+        <li class="gallery__item{{ if isset . "major"}} major {{ end }}">
+          <a href="{{ ($image.Resize "1200x").Permalink }}" data-caption="{{ .caption }}">
+            {{ if isset . "major" }}
+              <img src="{{ ($image.Resize "800x").Permalink }}" alt="{{ .caption }}">
+            {{ else }}
+              <img src="{{ ($image.Resize "400x").Permalink }}" alt="{{ .caption }}">
+            {{ end }}
+          </a>
+        </li>
       {{ end }}
     </ul>
   {{ .Content }}
