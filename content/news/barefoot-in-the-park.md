@@ -6,9 +6,8 @@ footer:
   where: Lean Ensemble Theater<br>3000 Main Street<br>Hilton Head, South Carolina
   when: April 25 &ndash; May 5, 2019
   tickets:
-    online:
-      link: https://tickets.vendini.com/ticket-software.html?t=tix&e=6671eebcd8f0852990106de727787f25
-      text: LeanEnsemble.org
+    link: https://tickets.vendini.com/ticket-software.html?t=tix&e=6671eebcd8f0852990106de727787f25
+    text: LeanEnsemble.org
     phone: (843) 715-6676
   director: Blake White
   featuring: Thomas Azar, Sheila Kadra, Jim Stark, Jennifer Webb, and Mimi Wyche
