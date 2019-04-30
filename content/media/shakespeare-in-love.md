@@ -1,6 +1,5 @@
 ---
 title: Shakespeare in Love
-layout: single
 weight: 20
 venue: Alliance Theatre
 city: Atlanta, Georgia

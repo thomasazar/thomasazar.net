@@ -1,6 +1,5 @@
 ---
 title: The Glass Menagerie
-layout: single
 weight: 10
 venue: The Warehouse Theatre
 city: Greenville, South Carolina

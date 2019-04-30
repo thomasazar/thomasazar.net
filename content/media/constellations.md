@@ -1,6 +1,5 @@
 ---
 title: Constellations
-layout: single
 weight: 30
 venue: Mill Mountain Theatre
 city: Roanoke, Virginia
