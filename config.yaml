@@ -5,3 +5,21 @@ frontmatter:
   date:
     - ":filename"
     - ":default"
+sectionPagesMenu: "main"
+menu:
+  main:
+    - identifier: news
+      title: News
+      name: News
+      url: /
+      weight: 10
+    - identifier: writings
+      title: Writings
+      name: Writings
+      url: /writings/
+      weight: 40
+    - identifier: media
+      title: Media
+      name: Media
+      url: /media/
+      weight: 30
