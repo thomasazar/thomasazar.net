@@ -1,2 +1,2 @@
-**Now Playing:**  
-*Barefoot in the Park* at [Lean Ensemble Theater](http://www.leanensemble.org/), Apr 25 &ndash; May 5
+**Coming Soon:**  
+*Pride and Prejudice* at [The Warehouse Theatre](https://warehousetheatre.com/pride-prejudice/), Jun 7&ndash;30, 2019

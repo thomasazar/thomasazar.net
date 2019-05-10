@@ -3,4 +3,4 @@ title: News
 weight: 10
 ---
 
-Thomas makes his debut at Lean Ensemble Theater as Paul in *Barefoot in the Park*, now playing through May 5 in Hilton Head, South Carolina.
+This June, Thomas will appear as Mr. Darcy in Kate Hamill's new adaptation of *Pride and Prejudice* at The Warehouse Theatre, directed by Jay Briggs.
