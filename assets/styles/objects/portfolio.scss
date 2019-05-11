@@ -30,6 +30,12 @@
     align-self: end;
   }
 
+  &.southeast {
+    align-self: end;
+    justify-self: end;
+    transform-origin: bottom right;
+  }
+
   &.north {
     justify-self: center;
     transform-origin: top center;
@@ -37,5 +43,10 @@
 
   &.northwest {
     transform-origin: top left;
+  }
+
+  &.northeast {
+    justify-self: end;
+    transform-origin: top right;
   }
 }
