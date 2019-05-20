@@ -4,7 +4,7 @@ category: news
 weight: 1
 footer:
   where: The Warehouse Theatre<br>37 Augusta Street<br>Greenville, South Carolina 29601
-  when: June 7&ndash;30, 2019
+  when: June 7&ndash;29, 2019
   tickets:
     link: https://app.arts-people.com/index.php?ticketing=wht
     text: WarehouseTheatre.com
