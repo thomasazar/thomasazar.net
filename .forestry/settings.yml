@@ -24,7 +24,7 @@ sections:
   label: Writings
   create: all
   match: "**/*"
-upload_dir: content/uploads
+upload_dir: assets/images/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
