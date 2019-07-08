@@ -1,8 +1,8 @@
 ---
 title: Recently
-weight: 4
----
+weight: "30"
 
+---
 Thomas made his debut at [Lean Ensemble Theater](http://www.leanensemble.org/) in Hilton Head, South Carolina, as Paul in *Barefoot in the Park*, directed by artistic director Blake White.
 
 > "What a riot [...] this work, start to finish, is explorative and through it all, entertaining." -- The Island Packet
