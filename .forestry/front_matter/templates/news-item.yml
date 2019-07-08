@@ -40,3 +40,5 @@ fields:
   - type: textarea
     name: featuring
     label: featuring
+pages:
+- content/news/john-proctor-is-the-villain.md
