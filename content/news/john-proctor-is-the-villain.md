@@ -1,6 +1,5 @@
 +++
 category = ""
-draft = true
 title = "John Proctor Is the Villain"
 weight = 5
 [footer]
