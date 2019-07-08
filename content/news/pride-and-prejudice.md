@@ -1,7 +1,7 @@
 ---
 title: Pride and Prejudice
 category: news
-weight: "1"
+weight: "20"
 footer:
   where: The Warehouse Theatre<br>37 Augusta Street<br>Greenville, South Carolina
     29601
