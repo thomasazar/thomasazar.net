@@ -1,5 +1,5 @@
 +++
 
 +++
-**Now Playing:**  
-_Pride and Prejudice_ at [The Warehouse Theatre](https://warehousetheatre.com/pride-prejudice/), Jun 7–29, 2019
+**Coming Up Next:**  
+_John Proctor Is the Villain_ at [Clemson University](https://www.clemson.edu/centers-institutes/brooks/events/event.html?eventid=30192744927834), Nov 18–24, 2019
