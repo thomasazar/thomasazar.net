@@ -1,7 +1,7 @@
 +++
 category = ""
 title = "John Proctor Is the Villain"
-weight = 5
+weight = 10
 [footer]
 director = "Becky Becker"
 featuring = "Thomas Azar as Mr. Smith"
