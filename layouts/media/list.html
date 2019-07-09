@@ -1,11 +1,12 @@
 {{ define "main" }}
   {{ range .Pages }}
-    {{ $featured := resources.Get .Params.featured }}
+    {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
+    {{ $featured := $resources.GetMatch .Params.featured }}
     <a class="portfolio__link" href="{{ .Permalink }}">
       <figure class="portfolio">
         <img class="portfolio__image" src="{{ ($featured.Fill "1200x800").Permalink }}">
         <figcaption class="portfolio__logo {{ .Params.logo }}">
-          {{ (resources.Get .Params.svg).Content | safeHTML }}
+          {{ ($resources.GetMatch .Params.svg).Content | safeHTML }}
         </figcaption>
       </figure>
     </a>
