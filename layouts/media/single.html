@@ -11,9 +11,9 @@
     <ul class="gallery">
       {{ range .Params.images }}
         {{ $image := $resources.GetMatch .file }}
-        <li class="gallery__item{{ if isset . "major"}} major {{ end }}">
+        <li class="gallery__item{{ if eq .major true}} major {{ end }}">
           <a href="{{ ($image.Resize "1200x").Permalink }}" data-caption="{{ .caption }}">
-            {{ if isset . "major" }}
+            {{ if eq .major true }}
               <img src="{{ ($image.Resize "800x").Permalink }}" alt="{{ .caption }}">
             {{ else }}
               <img src="{{ ($image.Resize "400x").Permalink }}" alt="{{ .caption }}">
