@@ -2,7 +2,7 @@
 city = "Greenville, South Carolina"
 director = "Jay Briggs"
 draft = true
-featured = ""
+featured = "/uploads/WKP_7251.jpg"
 logo = "southwest"
 photos_by = "Wallace Krebs"
 role = "Mr. Darcy"
