@@ -11,7 +11,7 @@ menu:
     - identifier: news
       title: News
       name: News
-      url: /
+      url: /#news
       weight: 10
     - identifier: writings
       title: Writings
