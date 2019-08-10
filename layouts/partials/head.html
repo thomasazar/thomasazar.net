@@ -51,4 +51,10 @@
     })();
   </script>
   <!-- End Matomo Code -->
+  
+  {{ if eq .IsHome true }}
+    <!-- Netlify Identity widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- End Netlify Identity widget -->
+  {{ end }}
 </head>
