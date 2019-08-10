@@ -26,5 +26,5 @@ collections:
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Text", name: "text", widget: "string"}
               - {label: "Phone", name: "phone", widget: "string"}
-        - {label: "Director", name: "director", widget: "string"}
-        - {label: "Featuring", name: "featuring", widget: "string"}
+          - {label: "Director", name: "director", widget: "string"}
+          - {label: "Featuring", name: "featuring", widget: "string"}
