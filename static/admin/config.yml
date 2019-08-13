@@ -60,7 +60,7 @@ collections:
       - {label: "Director", name: "director", widget: "string"}
       - {label: "Photos by", name: "photos_by", widget: "string"}
       - {label: "Role", name: "role", widget: "string"}
-      - {label: "Logo", name: "svg", widget: "file"}
+      - {label: "Logo", name: "svg", widget: "image"}
       - {label: "Logo direction", name: "logo", widget: "select", options: ["east", "north", "northeast", "northwest", "southeast", "south", "southwest", "west"]}
       - label: "Images"
         name: "images"
