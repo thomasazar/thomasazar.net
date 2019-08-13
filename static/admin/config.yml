@@ -43,3 +43,26 @@ collections:
               - {label: "Phone", name: "phone", widget: "string"}
           - {label: "Director", name: "director", widget: "string"}
           - {label: "Featuring", name: "featuring", widget: "string"}
+  - name: "galleries"
+    label: "Galleries"
+    folder: "content/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "City", name: "city", widget: "string"}
+      - {label: "Director", name: "director", widget: "string"}
+      - {label: "Photos by", name: "photos_by", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Logo", name: "svg", widget: "file"}
+      - {label: "Logo direction", name: "logo", widget: "select", options: ["east", "north", "northeast", "northwest", "southeast", "south", "southwest", "west"]}
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "File", name: "file", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Major?", name: "major", widget: "boolean", default: false}
+      
