@@ -6,14 +6,14 @@ site_url: https://www.thomasazar.net
 logo_url: https://www.thomasazar.net/uploads/logo.svg
 media_folder: "content/uploads"
 public_folder: "/uploads"
-editor:
-  preview: false
 collections:
   - name: "pages"
     label: "Pages"
     folder: "content"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
@@ -24,6 +24,8 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
@@ -48,6 +50,8 @@ collections:
     folder: "content/media" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
