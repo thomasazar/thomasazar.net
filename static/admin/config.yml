@@ -12,6 +12,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Content", name: "body", widget: "markdown"}
       - {label: "Menu", name: "menu", widget: "hidden", default: "main"}
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
@@ -26,8 +27,8 @@ collections:
         name: "footer"
         widget: "object"
         fields:
-          - {label: "Where", name: "where", widget: "markdown"}
-          - {label: "When", name: "when", widget: "markdown"}
+          - {label: "Where", name: "where", widget: "string"}
+          - {label: "When", name: "when", widget: "string"}
           - label: "Footer"
             name: "footer"
             widget: "object"
