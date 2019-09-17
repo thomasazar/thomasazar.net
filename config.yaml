@@ -23,3 +23,5 @@ menu:
       name: Media
       url: /media/
       weight: 30
+params:
+  matomoid: 1
