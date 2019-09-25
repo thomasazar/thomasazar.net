@@ -24,10 +24,10 @@ sections:
   label: Writings
   create: all
   match: "**/*"
-upload_dir: ''
-public_path: ''
+upload_dir: thomaszar.net
+public_path: https://res.cloudinary.com/thomasazar/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: 
 build:
