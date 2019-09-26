@@ -26,15 +26,9 @@
 {{ end }}
 {{ define "main" }}
   <section id="news">
-    {{ range where .Data.Pages "Section" "news" }}
-    <article class="box">
-      <header class="box__header">
-        <h2>{{ .Title }}</h2>
-      </header>
-      <section class="box__main">
-        {{ .Content }}
-      </section>
-    </article>
+    {{ range .Params.blocks }}
+        {{ if eq .template "news" }}{{ partial "blocks/news" (dict "Params" .) }}{{ end }}
+        {{ if eq .template "footer" }}{{ partial "blocks/footer" (dict "Params" .) }}{{ end }}
     {{ end }}
   </section>
 {{ end }}
