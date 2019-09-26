@@ -4,20 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: weight
-  label: weight
-- type: field_group_list
-  name: blocks
-  label: blocks
-  fields:
-  - type: text
-    name: template
-    label: template
-  - type: text
-    name: headline
-    label: headline
-  - type: textarea
-    name: content
-    label: content
+  label: Title
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - news
+  config:
+    min: 
+    max: 
