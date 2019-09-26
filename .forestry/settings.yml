@@ -16,11 +16,6 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/news
-  label: News
-  create: all
-  match: "**/*"
-- type: directory
   path: content/media
   label: Media
   create: all
