@@ -26,4 +26,5 @@ menu:
       weight: 30
 params:
   matomoid: 1
-  cloudinary_url: https://res.cloudinary.com/thomasazar/image/upload/
+  images_prefix: https://res.cloudinary.com/thomasazar/image/upload
+  images_directory: thomasazar.net
