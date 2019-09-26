@@ -7,11 +7,6 @@ fields:
   config:
     required: false
   label: Title
-- name: director
-  type: text
-  config:
-    required: false
-  label: Director
 - name: where
   type: text
   config:
@@ -36,4 +31,14 @@ fields:
   type: text
   config:
     required: false
-  label: phone
+  label: Phone
+- name: director
+  type: text
+  config:
+    required: false
+  label: Director
+- name: featuring
+  type: text
+  config:
+    required: false
+  label: Featuring
