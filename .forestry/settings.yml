@@ -8,6 +8,10 @@ sections:
   path: content/_index.md
   label: Home
   match: "**/*"
+- type: document
+  path: content/blurb.md
+  label: Blurb
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
