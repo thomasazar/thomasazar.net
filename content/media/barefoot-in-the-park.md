@@ -6,18 +6,18 @@ city: Hilton Head, South Carolina
 director: Blake White
 photos_by: thefrenchguy photography
 role: Paul
-featured: LET_1904-120.jpg
-svg: barefoot-in-the-park.svg
+featured: LET_1904-120_euapkv.jpg
+svg: barefoot-in-the-park_nn9izc.svg
 logo: southeast
 images:
-  - file: LET_1904-213.jpg
+  - file: LET_1904-213_h6kopw.jpg
     caption: Thomas Azar as Paul and Jennifer Webb as Corie.
     major: true
-  - file: LET_1904-163.jpg
+  - file: LET_1904-163_aodt9e.jpg
     caption: The cast of Barefoot in the Park.
-  - file: LET_1904-120.jpg
+  - file: LET_1904-120_euapkv.jpg
     caption: Thomas Azar as Paul and Jennifer Webb as Corie.
-  - file: LET_1904-186.jpg
+  - file: LET_1904-186_cgscx3.jpg
     caption: Thomas Azar as Paul.
     major: true
 ---

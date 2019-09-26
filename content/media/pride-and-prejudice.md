@@ -1,33 +1,33 @@
 +++
 city = "Greenville, South Carolina"
 director = "Jay Briggs"
-featured = "WKP_7251.jpg"
+featured = "WKP_7251_agt3fg.jpg"
 logo = "southwest"
 photos_by = "Wallace Krebs"
 role = "Mr. Darcy"
-svg = "pride-and-prejudice.svg"
+svg = "pride-and-prejudice_mttr4a.svg"
 title = "Pride and Prejudice"
 venue = "The Warehouse Theatre"
 weight = 5
 [[images]]
 caption = "Pride & Prejudice at the Warehouse Theatre"
-file = "WKP_6401.jpg"
+file = "WKP_6401_csu1db.jpg"
 major = false
 [[images]]
 caption = "Thomas Azar as Mr. Darcy, Amanda Sox as Lizzy Bennet"
-file = "WKP_6626.jpg"
+file = "WKP_6626_j9hack.jpg"
 major = false
 [[images]]
 caption = "Thomas Azar as Mr. Darcy, Amanda Sox as Lizzy Bennet"
-file = "WKP_7251.jpg"
+file = "WKP_7251_agt3fg.jpg"
 major = true
 [[images]]
 caption = "Pride & Prejudice at the Warehouse Theatre"
-file = "WKP_6653.jpg"
+file = "WKP_6653_ywq45a.jpg"
 major = false
 [[images]]
 caption = "Thomas Azar as Mr. Darcy, Skye Passmore as Miss Bingley"
-file = "WKP_6356.jpg"
+file = "WKP_6356_jxiyzg.jpg"
 major = false
 
 +++
