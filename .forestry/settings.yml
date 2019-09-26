@@ -27,6 +27,8 @@ sections:
   label: Writings
   create: documents
   match: "**/*"
+  templates:
+  - blog-post
 upload_dir: thomasazar.net
 public_path: https://res.cloudinary.com/thomasazar/image/upload
 front_matter_path: ''
