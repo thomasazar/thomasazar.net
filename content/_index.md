@@ -10,13 +10,13 @@ blocks:
     In present-day Appalachian Georgia, an English assignment becomes uncomfortably relevant when scandal swirls and old heroes are questioned. What does it mean to inherit centuries of trauma and come of age in a world that has always prioritized a man’s reputation above a woman’s experience? The line between witch and heroine blurs in this post-#MeToo examination of power, literature, and sex education. Plus there’s Lorde.
 - template: footer
   title: John Proctor Is the Villain
-  director: "Becky Becker"
-  featuring: "Featuring Thomas Azar as Mr. Smith"
-  when: "November 18-24, 2019"
-  where: "Brooks Center at Clemson University"
-  link: "https://www.clemson.edu/centers-institutes/brooks/events/event.html?eventid=30192744927834"
+  director: Becky Becker
+  featuring: Featuring Thomas Azar as Mr. Smith
+  when: November 18-24, 2019
+  where: Brooks Center at Clemson University
+  link: https://www.clemson.edu/centers-institutes/brooks/events/event.html?eventid=30192744927834
   phone: "(864) 656-7787"
-  text: "Clemson University"
+  text: Clemson University
 - template: news
   headline: Pride and Prejudice
   content: |-
@@ -55,5 +55,6 @@ blocks:
     Thomas appeared as Roland in Nick Payne's _Constellations_, directed by Jay Briggs, at [Mill Mountain Theatre](http://millmountain.org/production/constellations/) in Roanoke, Virginia.
 
     > “\[…\] beautiful, thought provoking, funny, sweet and impressive theatre, you’ll love it. The talent of the two actors will blow you away. It’s simply beautiful.” – Roanoke Weekly
+
 ---
 "Thomas Azar’s Darcy is delightfully and comically rigid, and expertly unbending \[...] Azar  perfectly builds Darcy’s inner conflict" -- Carolina Curtain Call
