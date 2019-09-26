@@ -1,15 +1,15 @@
 <header class="banner">
-  <h1 class="banner__logo">
-    <a href="/">
-      {{ partial "logo.svg" }}
-    </a>
-  </h1>
-  <section class="blurb">
-    {{ with .Site.GetPage "/blurb" }}
-      {{ .Content }}
-    {{ end }}
-  </section>
-  <nav class="nav">
-    {{ partial "nav.html" . }}
-  </nav>
+    <h1 class="banner__logo">
+        <a href="/">
+            {{ readFile "/static/images/logo.svg" | safeHTML }}
+        </a>
+    </h1>
+    <section class="blurb">
+        {{ with .Site.GetPage "/blurb" }}
+        {{ .Content }}
+        {{ end }}
+    </section>
+    <nav class="nav">
+        {{ partial "nav.html" . }}
+    </nav>
 </header>

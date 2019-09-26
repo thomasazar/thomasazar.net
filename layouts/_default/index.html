@@ -1,6 +1,6 @@
 {{ define "header" }}
   <header class="hero">
-    {{ partial "logo.svg" }}
+    {{ readFile "/static/images/logo.svg" | safeHTML }}
     <img class="hero__image" src="/images/home.jpg">
     <section class="hero__news">
       {{ .Content }}
