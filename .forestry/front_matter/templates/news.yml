@@ -1,4 +1,19 @@
 ---
 label: News
 hide_body: true
-fields: []
+display_field: headline
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
