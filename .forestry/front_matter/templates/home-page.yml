@@ -10,6 +10,7 @@ fields:
   label: Blocks
   template_types:
   - news
+  - footer
   config:
     min: 
     max: 
