@@ -18,12 +18,14 @@ sections:
 - type: directory
   path: content/media
   label: Media
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - media-page
 - type: directory
   path: content/writings
   label: Writings
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: thomasazar.net
 public_path: https://res.cloudinary.com/thomasazar/image/upload
