@@ -1,26 +1,28 @@
 {{ define "main" }}
-  <header class="gallery-info">
-      {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
-      {{ ($resources.GetMatch .Params.svg).Content | safeHTML }}
-    <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
-    <section class="gallery-info__credits">
-      <span>Directed by {{ .Params.director }}</span>
-      <span>Featuring Thomas as {{ .Params.role }}</span>
-    </section>
-    <p class="small">Photos by {{ .Params.photos_by }}</p>
+    <header class="gallery-info">
+        {{ $svg := printf "%s/fl_sanitize/%s/%s" $.Site.Params.images_prefix $.Site.Params.images_directory .Params.svg }}
+        <object class="logo" type="image/svg+xml" data="{{ $svg }}">
+            {{ .Title }}
+        </object>
+        <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
+        <section class="gallery-info__credits">
+            <span>Directed by {{ .Params.director }}</span>
+            <span>Featuring Thomas as {{ .Params.role }}</span>
+        </section>
+        <p class="small">Photos by {{ .Params.photos_by }}</p>
+    </header>
     <ul class="gallery">
-      {{ range .Params.images }}
-        {{ $image := $resources.GetMatch .file }}
-        <li class="gallery__item{{ if eq .major true}} major {{ end }}">
-          <a href="{{ ($image.Resize "1200x").Permalink }}" data-caption="{{ .caption }}">
-            {{ if eq .major true }}
-              <img src="{{ ($image.Resize "800x").Permalink }}" alt="{{ .caption }}">
-            {{ else }}
-              <img src="{{ ($image.Resize "400x").Permalink }}" alt="{{ .caption }}">
-            {{ end }}
-          </a>
-        </li>
-      {{ end }}
+        {{ range .Params.images }}
+            <li class="gallery__item{{ if eq .major true}} major {{ end }}">
+                <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ $.Site.Params.images_directory }}/{{ .file }}" data-caption="{{ .caption }}">
+                    {{ $options := "w_400"}}
+                    {{ if .major }}
+                        {{ $options = "w_800"}}
+                    {{ end }}
+                    <img src="{{ $.Site.Params.images_prefix }}/{{ $options }}/{{ $.Site.Params.images_directory }}/{{ .file }}" alt="{{ .caption }}">
+                </a>
+            </li>
+        {{ end }}
     </ul>
-  {{ .Content }}
+    {{ .Content }}
 {{ end }}

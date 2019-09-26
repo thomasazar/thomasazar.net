@@ -1,13 +1,13 @@
 {{ define "main" }}
   {{ range .Pages }}
-    {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
-    {{ $featured := $resources.GetMatch .Params.featured }}
+    {{ $featured := .Params.featured }}
     <a class="portfolio__link" href="{{ .Permalink }}">
       <figure class="portfolio">
-        <img class="portfolio__image" src="{{ ($featured.Fill "1200x800").Permalink }}">
-        <figcaption class="portfolio__logo {{ .Params.logo }}">
-          {{ ($resources.GetMatch .Params.svg).Content | safeHTML }}
-        </figcaption>
+        <img class="portfolio__image" src="{{ $.Site.Params.images_prefix }}/w_1200/{{ $.Site.Params.images_directory }}/{{ $featured }}">
+        {{ $svg := printf "%s/fl_sanitize/%s/%s" $.Site.Params.images_prefix $.Site.Params.images_directory .Params.svg }}
+        <object class="portfolio__logo {{ .Params.logo }}" type="image/svg+xml" data="{{ $svg }}">
+            {{ .Title }}
+        </object>
       </figure>
     </a>
   {{ end }}
