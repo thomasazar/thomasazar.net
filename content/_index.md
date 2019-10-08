@@ -57,4 +57,4 @@ blocks:
     > “\[…\] beautiful, thought provoking, funny, sweet and impressive theatre, you’ll love it. The talent of the two actors will blow you away. It’s simply beautiful.” – Roanoke Weekly
 
 ---
-"Thomas Azar’s Darcy is delightfully and comically rigid, and expertly unbending \[...] Azar  perfectly builds Darcy’s inner conflict" -- Carolina Curtain Call
+Thomas will appear as Mr. Smith in the upcoming premiere of *John Proctor Is the Villain* at Clemson University, November 18-24.
