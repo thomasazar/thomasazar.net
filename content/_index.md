@@ -1,11 +1,11 @@
 ---
 title: News
-weight: '10'
+weight: "10"
 blocks:
 - template: news
   headline: John Proctor Is the Villain
   content: |-
-    Thomas will appear as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
+    Thomas appears as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
 
     In present-day Appalachian Georgia, an English assignment becomes uncomfortably relevant when scandal swirls and old heroes are questioned. What does it mean to inherit centuries of trauma and come of age in a world that has always prioritized a man’s reputation above a woman’s experience? The line between witch and heroine blurs in this post-#MeToo examination of power, literature, and sex education. Plus there’s Lorde.
 - template: footer
@@ -57,4 +57,4 @@ blocks:
     > “\[…\] beautiful, thought provoking, funny, sweet and impressive theatre, you’ll love it. The talent of the two actors will blow you away. It’s simply beautiful.” – Roanoke Weekly
 
 ---
-Thomas will appear as Mr. Smith in the upcoming premiere of *John Proctor Is the Villain* at Clemson University, November 18-24.
+Thomas currently appears as Mr. Smith in the premiere of _John Proctor Is the Villain_ at Clemson University, November 18-24.
