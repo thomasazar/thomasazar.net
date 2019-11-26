@@ -3,20 +3,19 @@ title: News
 weight: "10"
 blocks:
 - template: news
+  headline: Coming up next
+  content: |-
+    Thomas has a number of projects coming up in Spring of 2020:
+    
+    - appearing with his wife [Maegan McNerney Azar](https://www.maeganmcnerneyazar.com) in Molly Smith Metzler's _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/) in Hilton Head, South Carolina
+    - fight direction for _She Kills Monsters_ by Qui Nguyen at Clemson University
+    - appearing as Bo in _Appropriate_ by Branden Jacob-Jenkins at [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate/) in Greenville, South Carolina
+- template: news
   headline: John Proctor Is the Villain
   content: |-
-    Thomas appears as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
+    Thomas recently appeared as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
 
     In present-day Appalachian Georgia, an English assignment becomes uncomfortably relevant when scandal swirls and old heroes are questioned. What does it mean to inherit centuries of trauma and come of age in a world that has always prioritized a man’s reputation above a woman’s experience? The line between witch and heroine blurs in this post-#MeToo examination of power, literature, and sex education. Plus there’s Lorde.
-- template: footer
-  title: John Proctor Is the Villain
-  director: Becky Becker
-  featuring: Featuring Thomas Azar as Mr. Smith
-  when: November 18-24, 2019
-  where: Brooks Center at Clemson University
-  link: https://www.clemson.edu/centers-institutes/brooks/events/event.html?eventid=30192744927834
-  phone: "(864) 656-7787"
-  text: Clemson University
 - template: news
   headline: Pride and Prejudice
   content: |-
@@ -43,18 +42,5 @@ blocks:
 
     > “makes for a powerful evening of theatre, one you’ll want to think about and discuss - and remember”
     > \-- Broadway World South Carolina
-
-    Thomas returned to the [Warehouse Theatre](https://warehousetheatre.com/much-ado-nothing/) as Benedick in _Much Ado About Nothing_, directed by Anne Kelly Tromsness.
-
-    > "Azar brings confidence, class and wit to this role in the vein of screen legend Cary Grant"
-    > \-- Carolina Curtain Call
-
-    > "Azar is a gifted physical actor, \[he\] earns laughs with just a look."
-    > \-- Broadway World South Carolina
-
-    Thomas appeared as Roland in Nick Payne's _Constellations_, directed by Jay Briggs, at [Mill Mountain Theatre](http://millmountain.org/production/constellations/) in Roanoke, Virginia.
-
-    > “\[…\] beautiful, thought provoking, funny, sweet and impressive theatre, you’ll love it. The talent of the two actors will blow you away. It’s simply beautiful.” – Roanoke Weekly
-
 ---
-Thomas currently appears as Mr. Smith in the premiere of _John Proctor Is the Villain_ at Clemson University, November 18-24.
+Thomas will next appear onstage with his wife Maegan McNerney Azar in _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/).
