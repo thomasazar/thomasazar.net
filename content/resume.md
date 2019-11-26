@@ -14,6 +14,8 @@ menu: main
 *The Glass Menagerie* | Tom | The Warehouse Theatre, SC | Kerrie Seymour
 *Constellations* | Roland | Mill Mountain Theatre, VA | Jay Briggs
 *In the Next Room* | Dr. Givings | The Warehouse Theatre, SC | Kerrie Seymour
+*Barefoot in the Park* | Paul Bratter | Lean Ensemble Theater | Blake White
+*Pride and Prejudice* | Mr. Darcy | The Warehouse Theatre, SC | Jay Briggs
 *Much Ado About Nothing* | Benedick | The Warehouse Theatre, SC | Anne Kelly Tromsness
 *Hamlet* | Hamlet | Shakespeare Theatre Co./ACA, DC | Robert Richmond
 *Yellow Face* | Marcus | TheatreWorks, CA | Robert Kelley
@@ -40,12 +42,12 @@ menu: main
 
  | | | |
 ------|------|-------|----------
-*The Confession* | Joseph | Alliance Theatre, GA | Jessica Holt
-*Bad Jews* | Liam | Actor's Express, GA | Freddie Ashley
-*In the Shadow of His Language* | Matt Cohen | Alliance Theatre, GA | Freddie Ashley
-*Octopus* | Kevin | Magic Theatre, CA | Jimmy Bohr
-*Touch(ed)* | Doctor / Ellis | TheatreWorks, CA | Kent Nicholson
-*God of Meat* | Bib | Playwrights Foundation, CA | Mark Rucker
+*The Confession* <br> by Will Arbery | Joseph | Alliance Theatre, GA | Jessica Holt
+*Bad Jews* <br> by Joshua Harmon | Liam | Actor's Express, GA | Freddie Ashley
+*In the Shadow of His Language* <br> by Jacob Juntunen | Matt Cohen | Alliance Theatre, GA | Freddie Ashley
+*Octopus* <br> by Steve Yockey | Kevin | Magic Theatre, CA | Jimmy Bohr
+*Touch(ed)* <br> by Bess Wohl | Doctor / Ellis | TheatreWorks, CA | Kent Nicholson
+*God of Meat* <br> by Samuel D. Hunter | Bib | Playwrights Foundation, CA | Mark Rucker
 
 ## Education & Training
 
