@@ -43,4 +43,4 @@ blocks:
     > “makes for a powerful evening of theatre, one you’ll want to think about and discuss - and remember”
     > \-- Broadway World South Carolina
 ---
-Thomas will next appear onstage with his wife Maegan McNerney Azar in _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/).
+Thomas will next appear onstage with his wife Maegan McNerney Azar in _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/), March 19&ndash;29, 2020.
