@@ -1,15 +1,15 @@
 ---
 title: News
-weight: "10"
+weight: '10'
 blocks:
 - template: news
   headline: Coming up next
   content: |-
     Thomas has a number of projects coming up in Spring of 2020:
-    
-    - appearing with his wife [Maegan McNerney Azar](https://www.maeganmcnerneyazar.com) in Molly Smith Metzler's _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/) in Hilton Head, South Carolina
-    - fight direction for _She Kills Monsters_ by Qui Nguyen at Clemson University
-    - appearing as Bo in _Appropriate_ by Branden Jacob-Jenkins at [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate/) in Greenville, South Carolina
+
+    * appearing with his wife [Maegan McNerney Azar](https://www.maeganmcnerneyazar.com "Maegan McNerney Azar") in Molly Smith Metzler's _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/ "Lean Ensemble Theater") in Hilton Head, South Carolina
+    * fight direction for _She Kills Monsters_ by Qui Nguyen at [Clemson University](https://calendar.clemson.edu/event/she_kills_monsters "Clemson University")
+    * appearing as Bo in _Appropriate_ by Branden Jacob-Jenkins at [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate/ "The Warehouse Theatre") in Greenville, South Carolina
 - template: news
   headline: John Proctor Is the Villain
   content: |-
@@ -42,5 +42,6 @@ blocks:
 
     > “makes for a powerful evening of theatre, one you’ll want to think about and discuss - and remember”
     > \-- Broadway World South Carolina
+
 ---
 Thomas will next appear onstage with his wife Maegan McNerney Azar in _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/), March 19&ndash;29, 2020.
