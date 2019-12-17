@@ -1,7 +1,7 @@
 ---
 title: Resume
-weight: 20
 menu: main
+weight: 2
 ---
 [Download a PDF of Thomas's resume](/pdf/Thomas-Azar-resume.pdf)
 
