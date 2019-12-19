@@ -1,4 +1,6 @@
 ---
 title: News
-headless: true
+menu:
+  main:
+    weight: 1
 ---

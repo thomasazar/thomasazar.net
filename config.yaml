@@ -6,13 +6,6 @@ frontmatter:
   date:
     - ":filename"
     - ":default"
-menu:
-  main:
-    - identifier: news
-      title: News
-      name: News
-      url: /#news
-      weight: 1
 params:
   matomoid: 1
   images_prefix: https://res.cloudinary.com/thomasazar/image/upload
