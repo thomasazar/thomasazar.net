@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: document
@@ -11,10 +11,14 @@ sections:
   path: content/blurb.md
   label: Blurb
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+  path: content/news
+  label: News
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+- type: document
+  path: content/resume.md
+  label: Resume
 - type: directory
   path: content/media
   label: Media
