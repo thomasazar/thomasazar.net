@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="en-US">
-  {{ partial "head.html" . }}
-  <body class="{{ .Page.Title | urlize | lower }}">
+{{ partial "head.html" . }}
+<body class="{{ .Page.Title | urlize | lower }}">
     {{ block "header" .}}
-      {{ partial "banner.html" . }}
+        {{ partial "banner.html" . }}
+    {{ end }}
+    {{ range .Params.blocks }}
+        {{ partial "blocks/big-quote" . }}
     {{ end }}
     <main>
-      {{ block "main" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
     </main>
-  </body>
+</body>
 </html>
