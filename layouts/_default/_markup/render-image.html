@@ -1,0 +1,4 @@
+{{ $resources := (.Page.Site.GetPage "uploads").Resources }}
+{{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .Destination) }}
+{{ $full := $file.Resize "800x" }}
+<img src="{{ $full.Permalink }}" alt="{{ .Text }}">
