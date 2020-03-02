@@ -1,4 +1,11 @@
 {{ $resources := (.Page.Site.GetPage "uploads").Resources }}
 {{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .Destination) }}
 {{ $full := $file.Resize "800x" }}
-<img src="{{ $full.Permalink }}" alt="{{ .Text }}">
+<figure>
+    <img src="{{ $full.Permalink }}" alt="{{ .Text }}">
+    {{ with .Title }}
+        <figcaption class="caption">
+            {{ . }}
+        </figcaption>
+    {{ end }}
+</figure>
