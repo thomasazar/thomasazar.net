@@ -1,0 +1,29 @@
+.big-quote {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    font-style: italic;
+
+    &:nth-of-type(1n) { background: $base-300; }
+    &:nth-of-type(2n) { background: $base-500; }
+}
+
+.big-quote__quote {
+    font-size: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+
+    &::before { content: "\201C"; }
+    &::after  { content: "\201D"; }
+}
+
+.big-quote__cite {
+    display: block;
+    font-style: normal;
+}
+
+.big-quote__link {
+    color: #000000cc;
+    display: block;
+    margin: 1em;
+}
