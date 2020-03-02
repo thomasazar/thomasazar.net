@@ -1,5 +1,7 @@
 ---
 title: About
+menu: main
+weight: 5
 blocks:
 - template: quote
   quote: "[...] that he’s played by a handsome, comically dexterous actor just makes him all the more appealing."
