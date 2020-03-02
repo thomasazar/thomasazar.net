@@ -1,15 +1,3 @@
 {{ define "main" }}
-  {{ $news := .Site.GetPage "/news" }}
-  <section id="news">
-    {{ range $news.Pages }}
-        <article class="box">
-            <header class="box__header">
-                <h2>{{ .Title }}</h2>
-            </header>
-            <section class="box__main">
-                {{ .Content }}
-            </section>
-        </article>
-    {{ end }}
-  </section>
+    {{ .Content }}
 {{ end }}
