@@ -8,6 +8,6 @@ One of my bits of nerd-dom is an affinity for *Star Trek: The Next Generation*, 
 
 The man knows how to tell a story. Just watch this announcement at a recent *Star Trek* convention in Las Vegas:
 
-[![Patrick Stewart at Star Trek Las Vegas 2018](/images/patrick-stewart.jpg)](http://www.youtube.com/watch?v=LLvfg6jA_ZA "Patrick Stewart - Surprise at Star Trek Las Vegas 2018")
+[![Patrick Stewart at Star Trek Las Vegas 2018](/uploads/patrick-stewart.jpg)](http://www.youtube.com/watch?v=LLvfg6jA_ZA "Patrick Stewart - Surprise at Star Trek Las Vegas 2018")
 
 Did you see him wipe a tear away as the audience cheered? **That's the power of storytelling.** Not just the story of his audition, working on the show, turning down the initial offer, and finally returning to the character of Picard. But the power of telling so many stories over so many years that touched so many people. He knows the value of the art of storytelling. I'm very excited to see what he'll tell us in the near future about Captain Picard.
