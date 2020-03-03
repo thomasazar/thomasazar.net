@@ -2,4 +2,7 @@
   <h2>{{ .Title }}</h2>
   <p class="date">{{ dateFormat "January 2, 2006" .Date }}</p>
   {{ .Content }}
+  <hr>
+  <p class="small"><em>Have some thoughts? Let me hear them!</em></p>
+  {{ partial "form" . }}
 {{ end }}
