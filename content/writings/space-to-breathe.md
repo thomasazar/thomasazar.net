@@ -9,8 +9,6 @@ The rain has been constant since the day we got here. The roads and driveways ar
 
 Here are some things I have in the three days since we've been in Hilton Head:
 
-<!--more-->
-
 - Potty breaks must be scheduled, no matter what the response is to the question, "Do you need to potty?"
 - After finishing a potty break, and after **washing all hands** involved in the potty break, look around the room: is the travel potty seat still on the toilet? If the answer is yes, then go get it, because otherwise it's staying in that gas station about 45 minutes away from your final destination.
 - A perfectly timed dinner tastes so much better.
