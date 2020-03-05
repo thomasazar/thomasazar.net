@@ -1,10 +1,10 @@
 <form class="form" id="comments-form" action="https://formspree.io/mgeyppor" method="POST">
     <label class="form__label" for="name">Name</label>
-    <input class="form__text" type="text" name="name" placeholder="First and Last" required="">
+    <input class="form__text" type="text" name="name" required="">
     <label class="form__label" for="_replyto">Email</label>
-    <input class="form__text" type="email" name="_replyto" placeholder="address@example.com" required="">
-    <label class="form__label" for="comment">Comment</label>
-    <textarea class="form__textarea" type="text" name="comment" placeholder="My thoughts on '{{ .Title }}''" required=""></textarea>
+    <input class="form__text" type="email" name="_replyto" required="">
+    <label class="form__label" for="comment">Thoughts on "{{ .Title }}"</label>
+    <textarea class="form__textarea" type="text" name="comment" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission: {{ .Title }}">
     <input type="text" name="_gotcha" class="gotcha" />
     <input class="form__button submit" id="submit-button" type="submit" value="Send 'em my way">
