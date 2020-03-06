@@ -69,3 +69,5 @@ Edmond Williams, Peder Melhuse, Tiza Garland, Seth Panitch, Tina Fitch
 - Bass Guitar
 - Horseback Riding Training (Bareback)
 - Archery & Black Powder Firearms Experience
+
+[![Thomas Azar](/uploads/headshot.jpg)](/uploads/headshot.jpg)
