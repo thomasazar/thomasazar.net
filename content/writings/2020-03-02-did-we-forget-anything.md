@@ -1,11 +1,16 @@
 ---
 title: Did We Forget Anything?
+featured_image:
+  file: "/uploads/crazy-coupe.jpg"
+  alt: "Crazy coupe toy car"
+  caption: "Think we can fit another suitcase in there?"
 ---
-![Crazy coupe toy car](/uploads/crazy-coupe.jpg "Think we can fit another suitcase in there?")
 
 Tomorrow, we leave for rehearsals for _Cry It Out_ at Lean Ensemble Theater. And when I say "we", I mean me, Maegan, Tristan, and Benjamin. For those keeping track at home, that's the parents, a three-year-old, and a dog. It's a grand experiment, the first time we've packed up the entire family to go work on a show away from home that both Maegan and I are in.
 
 I don't think we have enough suitcases.
+
+<!--more-->
 
 When it comes to packing, I tend to overpack. My dad taught me long ago to pack for every day I'll be gone, plus one. Just in case. Well, as much as I love wearing T-shirts, I don't think I have four weeks worth, mostly because I Marie Kondo'd my clothes last year. (I estimate I've managed to pare down to a slim two-and-a-half dozen, including undershirts and pajama shirts). So instead the number I'm shooting for is eight, as in one for every day of the week, plus one for laundry day.
 

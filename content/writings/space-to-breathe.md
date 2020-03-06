@@ -1,14 +1,16 @@
 ---
 title: "Space to Breathe"
 date: 2020-03-05T09:31:11-05:00
+featured_image:
+  file: "/uploads/the-pup.jpg"
+  alt: "A dog looking off-camera with anticipation"
+  caption: "The watchdog watches"
 ---
-
-![A dog looking off-camera with anticipation](/uploads/the-pup.jpg "The watchdog watches")
 
 The rain has been constant since the day we got here. The roads and driveways are flooding, which means puddle splashing and puppy jumping (seriously, it's adorable when Benjamin hops over standing water). We almost made to the beach once, but turned back just in time to not get rained on.
 
 Here are some things I have in the three days since we've been in Hilton Head:
-
+<!--more-->
 - Potty breaks must be scheduled, no matter what the response is to the question, "Do you need to potty?"
 - After finishing a potty break, and after **washing all hands** involved in the potty break, look around the room: is the travel potty seat still on the toilet? If the answer is yes, then go get it, because otherwise it's staying in that gas station about 45 minutes away from your final destination.
 - A perfectly timed dinner tastes so much better.

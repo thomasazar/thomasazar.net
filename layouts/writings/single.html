@@ -1,8 +1,19 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  <p class="date">{{ dateFormat "January 2, 2006" .Date }}</p>
-  {{ .Content }}
-  <hr>
-  <p class="small"><em>Have some thoughts? Let me hear them!</em></p>
-  {{ partial "form" . }}
+    <h2>{{ .Title }}</h2>
+    <p class="date">{{ dateFormat "January 2, 2006" .Date }}</p>
+    {{ with .Params.featured_image }}
+        {{ $resources := ($.Site.GetPage "uploads").Resources }}
+        {{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .file) }}
+        {{ $full := $file.Resize "800x" }}
+        <figure>
+            <img src="{{ $full.Permalink }}" alt="{{ .alt }}">
+            {{ with .caption }}
+                <figcaption class="caption">
+                    {{ markdownify . }}
+                </figcaption>
+            {{ end }}
+        </figure>
+    {{ end }}
+    {{ .Content }}
+    {{ partial "form" . }}
 {{ end }}
