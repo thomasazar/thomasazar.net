@@ -5,11 +5,14 @@ menu:
     weight: 1
 ---
 
+## Cry It Out
+
+Due to an abundance of caution, Lean Ensemble Theater has come to the difficult decision that **live performances of the upcoming production of _Cry It Out_ are cancelled**. Thank you to all those who made plans to see the show. If you would like to inquire about exchanges or refunds, or if you would like to turn your ticket purchase into a tax-deductible donation to Lean Ensemble Theater, please contact the theatre at [info@leanensemble.org](mailto:info@leanensemble.org).
+
 ## Coming Up Next
 
-Thomas has a number of projects coming up in Spring of 2020:
+Upcoming projects in Spring of 2020:
 
-* appearing with his wife [Maegan McNerney Azar](https://www.maeganmcnerneyazar.com "Maegan McNerney Azar") in Molly Smith Metzler's _Cry It Out_ at [Lean Ensemble Theater](http://www.leanensemble.org/ "Lean Ensemble Theater") in Hilton Head, South Carolina, playing March 19–29, 2020
 * fight direction for _She Kills Monsters_ by Qui Nguyen at [Clemson University](https://calendar.clemson.edu/event/she_kills_monsters "Clemson University"), playing April 13–19, 2020
 * appearing as Bo in _Appropriate_ by Branden Jacob-Jenkins at [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate/ "The Warehouse Theatre") in Greenville, South Carolina, playing May 29–June 21, 2020
 
