@@ -9,13 +9,6 @@ menu:
 
 Due to an abundance of caution, Lean Ensemble Theater has come to the difficult decision that **live performances of the upcoming production of _Cry It Out_ are cancelled**. Thank you to all those who made plans to see the show. If you would like to inquire about exchanges or refunds, or if you would like to turn your ticket purchase into a tax-deductible donation to Lean Ensemble Theater, please contact the theatre at [info@leanensemble.org](mailto:info@leanensemble.org).
 
-## Coming Up Next
-
-Upcoming projects in Spring of 2020:
-
-* fight direction for _She Kills Monsters_ by Qui Nguyen at [Clemson University](https://calendar.clemson.edu/event/she_kills_monsters "Clemson University"), playing April 13–19, 2020
-* appearing as Bo in _Appropriate_ by Branden Jacob-Jenkins at [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate/ "The Warehouse Theatre") in Greenville, South Carolina, playing May 29–June 21, 2020
-
 ## John Proctor Is the Villain
 
 Thomas recently appeared as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
