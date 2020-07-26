@@ -5,6 +5,7 @@ featured_image:
   file: "/uploads/the-pup.jpg"
   alt: "A dog looking off-camera with anticipation"
   caption: "The watchdog watches"
+draft: true
 ---
 
 The rain has been constant since the day we got here. The roads and driveways are flooding, which means puddle splashing and puppy jumping (seriously, it's adorable when Benjamin hops over standing water). We almost made to the beach once, but turned back just in time to not get rained on.

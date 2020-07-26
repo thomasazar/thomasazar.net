@@ -1,5 +1,6 @@
 ---
 title: My Own Worst Enemy
+draft: true
 ---
 
 Last night, I did something that took me well out of my comfort zone. For the first time in ten years, I auditioned for a musical. After the surprise of getting a callback subsided, I grew a little excited about the idea of doing something I hadn’t done in a long time. Plus, Maegan was here to help me negotiate what to do for a musical audition — she’s got loads of experience in this field, after all.

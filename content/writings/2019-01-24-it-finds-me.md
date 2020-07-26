@@ -1,5 +1,6 @@
 ---
 title: It Finds Me When I Need It
+draft: true
 ---
 
 Like many actors, I appreciate having a personal soundtrack that I listen to before the show, usually when I making my way to the theatre. Sometimes the songs are meant to excite me, get my blood pumping, leave me ready to tear down walls. Other times, it helps reframe my mind more into the head space of my character. And there's the time where my preshow soundtrack was vocal warmups, because I was doing a musical and that scared the bejeezus out of me.

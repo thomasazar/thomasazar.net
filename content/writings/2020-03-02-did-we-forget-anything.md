@@ -4,6 +4,7 @@ featured_image:
   file: "/uploads/crazy-coupe.jpg"
   alt: "Crazy coupe toy car"
   caption: "Think we can fit another suitcase in there?"
+draft: true
 ---
 
 Tomorrow, we leave for rehearsals for _Cry It Out_ at Lean Ensemble Theater. And when I say "we", I mean me, Maegan, Tristan, and Benjamin. For those keeping track at home, that's the parents, a three-year-old, and a dog. It's a grand experiment, the first time we've packed up the entire family to go work on a show away from home that both Maegan and I are in.
