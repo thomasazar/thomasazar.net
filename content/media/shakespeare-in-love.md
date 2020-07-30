@@ -6,22 +6,22 @@ city: Atlanta, Georgia
 director: Richard Garner
 photos_by: Greg Mooney
 role: Will
-featured: D8M9572_mrsbw3.jpg
-svg: shakespeare-in-love_inypdt.svg
+featured: '/v1596130748/thomasazar.net/D8M9572_mrsbw3.jpg'
+svg: '/v1596130748/thomasazar.net/shakespeare-in-love_inypdt.svg'
 logo: southwest
 images:
-  - file: D755291_hgkd0l.jpg
+  - file: '/v1596130748/thomasazar.net/D755291_hgkd0l.jpg'
     major: true
     caption: The company of SHAKESPEARE IN LOVE.
-  - file: D8M9572_mrsbw3.jpg
+  - file: '/v1596130748/thomasazar.net/D8M9572_mrsbw3.jpg'
     caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
-  - file: D8M9014_knjmde.jpg
+  - file: '/v1596130748/thomasazar.net/D8M9014_knjmde.jpg'
     caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
-  - file: D8M9686_j9hm7v.jpg
+  - file: '/v1596130748/thomasazar.net/D8M9686_j9hm7v.jpg'
     caption: Thomas Azar as Will and Joe Knezivich as Wessex.
-  - file: D8M9879_yydtkk.jpg
+  - file: '/v1596130748/thomasazar.net/D8M9879_yydtkk.jpg'
     caption: Neal Thomas Antwon Ghant as Marlowe and Thomas Azar as Will.
-  - file: D8M9360_sv5gg4.jpg
+  - file: '/v1596130748/thomasazar.net/D8M9360_sv5gg4.jpg'
     major: true
     caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
 ---

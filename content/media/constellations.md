@@ -6,15 +6,15 @@ city: Roanoke, Virginia
 director: Jay Briggs
 photos_by: April Parker
 role: Roland
-featured: Constellations14_xtsh0w.jpg
-svg: constellations_rlyro4.svg
+featured: '/v1596130748/thomasazar.net/Constellations14_xtsh0w.jpg'
+svg: '/v1596130748/thomasazar.net/constellations_rlyro4.svg'
 logo: north
 images:
-  - file: Constellations8_mxvedz.jpg
+  - file: '/v1596130748/thomasazar.net/Constellations8_mxvedz.jpg'
     caption: Thomas Azar as Roland and Amanda Sox as Marianne.
-  - file: Constellations14_xtsh0w.jpg
+  - file: '/v1596130748/thomasazar.net/Constellations14_xtsh0w.jpg'
     caption: Thomas Azar as Roland.
-  - file: Constellations13_fqkes3.jpg
+  - file: '/v1596130748/thomasazar.net/Constellations13_fqkes3.jpg'
     caption: Thomas Azar as Roland and Amanda Sox as Marianne.
     major: true
 ---

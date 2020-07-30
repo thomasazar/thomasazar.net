@@ -1,6 +1,6 @@
 {{ define "main" }}
     <header class="gallery-info">
-        {{ $svg := printf "%s/fl_sanitize/%s/%s" $.Site.Params.images_prefix $.Site.Params.images_directory .Params.svg }}
+        {{ $svg := printf "%s/fl_sanitize/%s" $.Site.Params.images_prefix .Params.svg }}
         <object class="logo" type="image/svg+xml" data="{{ $svg }}">
             {{ .Title }}
         </object>
@@ -14,12 +14,12 @@
     <ul class="gallery">
         {{ range .Params.images }}
             <li class="gallery__item{{ if eq .major true}} major {{ end }}">
-                <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ $.Site.Params.images_directory }}/{{ .file }}" data-caption="{{ .caption }}">
+                <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ .file }}" data-caption="{{ .caption }}">
                     {{ $options := "w_400"}}
                     {{ if .major }}
                         {{ $options = "w_800"}}
                     {{ end }}
-                    <img src="{{ $.Site.Params.images_prefix }}/{{ $options }}/{{ $.Site.Params.images_directory }}/{{ .file }}" alt="{{ .caption }}">
+                    <img src="{{ $.Site.Params.images_prefix }}/{{ $options }}/{{ .file }}" alt="{{ .caption }}">
                 </a>
             </li>
         {{ end }}
