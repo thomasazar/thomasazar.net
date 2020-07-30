@@ -1,6 +1,6 @@
 ---
 title: Barefoot in the Park
-weight: 9
+weight: 30
 venue: Lean Ensemble Theater
 city: Hilton Head, South Carolina
 director: Blake White

@@ -8,7 +8,7 @@ role = "Mr. Darcy"
 svg = "/v1596130748/thomasazar.net/pride-and-prejudice_mttr4a.svg"
 title = "Pride and Prejudice"
 venue = "The Warehouse Theatre"
-weight = 5
+weight = 25
 [[images]]
 caption = "Pride & Prejudice at the Warehouse Theatre"
 file = "/v1596130748/thomasazar.net/WKP_6401_csu1db.jpg"

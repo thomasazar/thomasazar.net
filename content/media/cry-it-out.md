@@ -1,6 +1,6 @@
 ---
 title: Cry It Out
-weight: 
+weight: 10
 venue: Lean Ensemble Theater
 city: Hilton Head, South Carolina
 director: Amanda Sox
@@ -28,6 +28,5 @@ images:
 - file: "/v1596131425/thomasazar.net/DSC03511_ffn9kq.jpg"
   caption: Thomas as Mitchell, Libby Ricardo as Jessie
   major: true
-draft: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Glass Menagerie
-weight: 10
+weight: 40
 venue: The Warehouse Theatre
 city: Greenville, South Carolina
 director: Kerrie Seymour

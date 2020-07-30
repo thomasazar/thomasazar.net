@@ -1,6 +1,6 @@
 ---
 title: Constellations
-weight: 30
+weight: 60
 venue: Mill Mountain Theatre
 city: Roanoke, Virginia
 director: Jay Briggs
