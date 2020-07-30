@@ -6,9 +6,9 @@ city: Hilton Head, South Carolina
 director: Amanda Sox
 photos_by: Amanda Walton
 role: Mitchell
-featured: ''
+featured: "/v1596131425/thomasazar.net/DSC03420_1_adrvka.jpg"
 svg: "/v1596131443/thomasazar.net/Cry_It_Out_1_udo0fr.svg"
-logo: ''
+logo: southwest
 images:
 - file: "/v1596131425/thomasazar.net/DSC03511_ffn9kq.jpg"
   caption: Thomas as Mitchell, Libby Ricardo as Jessie
