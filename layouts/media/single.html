@@ -15,7 +15,7 @@
         {{ range .Params.images }}
             <li class="gallery__item{{ if eq .major true}} major {{ end }}">
                 <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ .file }}" data-caption="{{ .caption }}">
-                    {{ $options := "w_400"}}
+                    {{ $options := "c_fill,w_400,h_270,g_auto"}}
                     {{ if .major }}
                         {{ $options = "w_800"}}
                     {{ end }}
