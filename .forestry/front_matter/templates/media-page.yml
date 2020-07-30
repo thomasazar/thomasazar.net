@@ -46,4 +46,5 @@ fields:
     name: major
     label: major
 pages:
+- content/media/cry-it-out.md
 - content/media/pride-and-prejudice.md
