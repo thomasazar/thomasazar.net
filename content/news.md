@@ -7,12 +7,11 @@ menu:
 
 ## Divided States
 
-Here's the latest update on the pilot for *Divided States*:
+The pilot for *Divided States* won the Best TV Pilot award at [Circle City Film Festival](https://www.circlecityfilmfestival.com/)! Here are some upcoming festivals that feature *Divided States* as an official selection:
 
-* Official Selection 2020 [Web Series Festival](http://www.webseriesfest.com/2020-official-selection/) (Vineyard, UT)
+* [Web Series Festival](http://www.webseriesfest.com/2020-official-selection/) (Vineyard, UT)
   * Nominated, Best Comedy Pilot
-* Official Selection, 2020 [Circle City Film Festival](https://www.circlecityfilmfestival.com/screenings) (Indianapolis, IN)
-* Official Selection, 2020 [Bare Bones International Film & Music Festival](http://barebonesfilmfest00.tripod.com/2020officialscreenings/id13.html) (Muskogee, OK)
+* [Bare Bones International Film & Music Festival](http://barebonesfilmfest00.tripod.com/2020officialscreenings/id13.html) (Muskogee, OK)
   * Nominated, Best Comedy
   * Nominated, Best Pilot
 * Semi-Finalist, 2020 Southeast Regional Film Festival (Jacksonville, FL)
