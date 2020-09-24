@@ -7,14 +7,12 @@ menu:
 
 ## Divided States
 
-The pilot for *Divided States* won the Best TV Pilot award at [Circle City Film Festival](https://www.circlecityfilmfestival.com/)! Here are some upcoming festivals that feature *Divided States* as an official selection:
+![Logo for Divided States](/uploads/divided-states.jpg)
 
-* [Web Series Festival](http://www.webseriesfest.com/2020-official-selection/) (Vineyard, UT)
-  * Nominated, Best Comedy Pilot
-* [Bare Bones International Film & Music Festival](http://barebonesfilmfest00.tripod.com/2020officialscreenings/id13.html) (Muskogee, OK)
-  * Nominated, Best Comedy
-  * Nominated, Best Pilot
-* Semi-Finalist, 2020 Southeast Regional Film Festival (Jacksonville, FL)
+The pilot for *Divided States* won the Best TV Pilot award at the [Bare Bones International Film & Music Festival](http://barebonesfilmfest00.tripod.com/2020officialscreenings/id13.html) and [Circle City Film Festival](https://www.circlecityfilmfestival.com/)! Here are some upcoming festivals that feature *Divided States* as an official selection:
+
+* [Web Series Festival](http://www.webseriesfest.com/2020-official-selection/) (Nominated, Best Comedy Pilot)
+* [Orlando Film Festival](https://orlandofilmfest.com/)
 
 > After a religious vision convinces him he's the chosen one to stop the President's agenda, cash-advance tycoon Teddy Richardson (Thomas Azar), with help from his mischievous nonagenarian grandmother, launches a bid to take over the his local Democratic Party chapter, much to the consternation of his wife and friends.
 
