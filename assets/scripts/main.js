@@ -14,3 +14,8 @@ domReady(gallery);
 function gallery() {
   baguetteBox.run('.gallery');
 }
+
+(function () {
+  // initialize the test
+  var test = vhCheck();
+}());
