@@ -14,10 +14,10 @@
     <ul class="gallery">
         {{ range .Params.images }}
             <li class="gallery__item{{ if eq .major true}} major {{ end }}">
-                <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ .file }}" data-caption="{{ .caption }}">
-                    {{ $options := "c_fill,w_400,h_270,g_auto"}}
+                <a href="{{ $.Site.Params.images_prefix }}/w_1200,f_auto/{{ .file }}" data-caption="{{ .caption }}">
+                    {{ $options := "c_fill,w_400,h_270,g_auto,f_auto"}}
                     {{ if .major }}
-                        {{ $options = "w_800"}}
+                        {{ $options = "w_800,f_auto"}}
                     {{ end }}
                     <img src="{{ $.Site.Params.images_prefix }}/{{ $options }}/{{ .file }}" alt="{{ .caption }}">
                 </a>
