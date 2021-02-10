@@ -1,34 +1,57 @@
 ---
+id: 1
+date_updated: 2021-02-05T15:52:02Z
+draft: "false"
 title: Shakespeare in Love
-weight: 20
 venue: Alliance Theatre
 city: Atlanta, Georgia
 director: Richard Garner
-photos_by: Greg Mooney
 role: Will
-featured: D8M9572_mrsbw3.jpg
-svg: shakespeare-in-love_inypdt.svg
-logo: southwest
+photos_by: Greg Mooney
+logo: 7cf275a1-a381-4aa6-9567-8765d62aca53
+weight: 2
+direction: topleft
 images:
-  - file: D755291_hgkd0l.jpg
-    major: true
-    caption: The company of SHAKESPEARE IN LOVE.
-  - file: D8M9572_mrsbw3.jpg
-    caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
-  - file: D8M9014_knjmde.jpg
-    caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
-  - file: D8M9686_j9hm7v.jpg
-    caption: Thomas Azar as Will and Joe Knezivich as Wessex.
-  - file: D8M9879_yydtkk.jpg
-    caption: Neal Thomas Antwon Ghant as Marlowe and Thomas Azar as Will.
-  - file: D8M9360_sv5gg4.jpg
-    major: true
-    caption: Thomas Azar as Will and Bethany Anne Lind as Viola.
+  - id: 7
+    media_pages_id: 1
+    directus_files_id: 2a17fab8-50ea-4e54-9d6b-de60cbbb3f50
+    caption: null
+    weight: 1
+    big: false
+    featured: false
+  - id: 8
+    media_pages_id: 1
+    directus_files_id: 141b5c62-a2a9-4f11-b939-1d2eabba9c75
+    caption: null
+    weight: 2
+    big: false
+    featured: true
+  - id: 9
+    media_pages_id: 1
+    directus_files_id: b32b6134-ad55-4f0d-a8e0-5d9c1a590703
+    caption: null
+    weight: 3
+    big: false
+    featured: false
+  - id: 10
+    media_pages_id: 1
+    directus_files_id: bebf16d3-7148-49f1-a865-e2a823a251e0
+    caption: null
+    weight: 4
+    big: false
+    featured: false
+  - id: 11
+    media_pages_id: 1
+    directus_files_id: e6590418-f9a6-4199-a39a-e6fdcda21a5b
+    caption: null
+    weight: 5
+    big: true
+    featured: false
+  - id: 12
+    media_pages_id: 1
+    directus_files_id: f88e9a0e-7d28-422f-bdb9-02011df94857
+    caption: The company of _Shakespeare in Love_
+    weight: 0
+    big: true
+    featured: false
 ---
-
-> “A dizzying achievement and a fortuitous moment for the Alliance […] Azar and Lind are lovely as Will and Viola.” — [Atlanta Journal-Constitution](http://www.myajc.com/entertainment/arts--theater/review-garner-delivers-delightful-shakespeare-love-for-alliance/7mE2EIDfjeatk5z8EyWCwN/)
-
-> “Will, extremely well played by Thomas Azar in his Alliance debut, is a living, loving, likable young man” —
-[Atlanta INtown Paper](http://atlantaintownpaper.com/2017/09/theatre-review-shakespeare-love-alliance/)
-
-> “Both Thomas Azar as Will and Bethany Anne Lind as Viola are delightful, and the natural chemistry between the two creates an appealing sexiness that perfumes every scene.” — [Broadway World Atlanta](https://www.broadwayworld.com/atlanta/article/BWW-Review-SHAKESPEARE-IN-LOVE-at-Alliance-Theatre-20170915)

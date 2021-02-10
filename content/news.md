@@ -1,32 +1,93 @@
 ---
+id: 3
+sort: null
+date_updated: 2021-02-08T15:01:41Z
+draft: "false"
 title: News
-menu:
-  main:
-    weight: 1
+weight: 1
+menu: main
+blocks:
+  time: 1612796499261
+  blocks:
+    - type: header
+      data:
+        text: Divided States
+        level: 2
+    - type: image
+      data:
+        file:
+          size: 217906
+          name: divided-states.jpg
+          title: Divided States
+          extension: jpg
+          fileId: aa004629-09b5-4157-9834-f44a2a974485
+          fileURL: /files/aa004629-09b5-4157-9834-f44a2a974485
+          url: /assets/aa004629-09b5-4157-9834-f44a2a974485
+        caption: ""
+        withBorder: false
+        stretched: false
+        withBackground: false
+    - type: paragraph
+      data:
+        text: 'The pilot for <i>Divided States</i> won the Best TV Pilot award at the <a
+          href="http://barebonesfilmfest00.tripod.com/2020officialscreenings/id13.html">Bare
+          Bones International Film &amp; Music Festival</a> and <a
+          href="https://www.circlecityfilmfestival.com/">Circle City Film
+          Festival</a>! Here are some upcoming festivals that feature Divided
+          States as an official selection:'
+    - type: list
+      data:
+        style: unordered
+        items:
+          - <a href="http://www.webseriesfest.com/2020-official-selection/">Web
+            Series Festival</a> (Nominated, Best Comedy Pilot)
+          - <a href="https://orlandofilmfest.com/">Orlando Film Festival</a>
+    - type: paragraph
+      data:
+        text: >-
+          After a religious vision convinces him he’s the chosen one to stop 
+
+          the President’s agenda, cash-advance tycoon Teddy Richardson (Thomas 
+
+          Azar), with help from his mischievous nonagenarian grandmother, launches
+           a bid to take over the his local Democratic Party chapter, much to the 
+          consternation of his wife and friends.
+    - type: header
+      data:
+        text: Cry It Out
+        level: 2
+    - type: paragraph
+      data:
+        text: >-
+          Due to an abundance of caution, Lean Ensemble Theater has come to the
+          difficult decision that <b>live performances of the upcoming
+          production of Cry It Out are cancelled</b>.
+           Thank you to all those who made plans to see the show. If you would 
+          like to inquire about exchanges or refunds, or if you would like to turn
+           your ticket purchase into a tax-deductible donation to Lean Ensemble 
+          Theater, please contact the theatre at <a href="mailto:info@leanensemble.org">info@leanensemble.org</a>.
+    - type: header
+      data:
+        text: John Proctor Is the Villain
+        level: 2
+    - type: paragraph
+      data:
+        text: Thomas recently appeared as Mr. Smith in the 2019 Kilroy List play <i>John
+          Proctor Is the Villain</i> by Kimberly Belflower, directed by Clemson
+          University Performing Arts chair Becky Becker.
+    - type: paragraph
+      data:
+        text: >-
+          In present-day Appalachian Georgia, an English assignment becomes 
+
+          uncomfortably relevant when scandal swirls and old heroes are 
+
+          questioned. What does it mean to inherit centuries of trauma and come of
+           age in a world that has always prioritized a man’s reputation above a 
+          woman’s experience? The line between wit ch and heroine blurs in this 
+
+          post-#MeToo examination of power, literature, and sex education. Plus 
+
+          there’s Lorde.
+  version: 2.19.1
 ---
-
-## Cry It Out
-
-Due to an abundance of caution, Lean Ensemble Theater has come to the difficult decision that **live performances of the upcoming production of _Cry It Out_ are cancelled**. Thank you to all those who made plans to see the show. If you would like to inquire about exchanges or refunds, or if you would like to turn your ticket purchase into a tax-deductible donation to Lean Ensemble Theater, please contact the theatre at [info@leanensemble.org](mailto:info@leanensemble.org).
-
-## John Proctor Is the Villain
-
-Thomas recently appeared as Mr. Smith in the 2019 Kilroy List play _John Proctor Is the Villain_ by Kimberly Belflower, directed by Clemson University Performing Arts chair Becky Becker.
-
-> In present-day Appalachian Georgia, an English assignment becomes uncomfortably relevant when scandal swirls and old heroes are questioned. What does it mean to inherit centuries of trauma and come of age in a world that has always prioritized a man’s reputation above a woman’s experience? The line between witch and heroine blurs in this post-#MeToo examination of power, literature, and sex education. Plus there’s Lorde.
-
-## Recently
-
-Thomas appeared as Mr. Darcy in Kate Hamill's new adaptation of _Pride and Prejudice_ at The Warehouse Theatre, directed by Jay Briggs (_Clybourne Park_, _Important Hats of the Twentieth Century_).
-
-> Thomas Azar’s Darcy is delightfully and comically rigid, stiff-necked, properly postured, and expertly unbending. This makes it only more hilarious in moments when he stoically grimaces through the pain after having hot rum punch on his groin, or moments when he must diffuse overt sexual advances of a drunken partygoer. Azar also perfectly builds Darcy’s inner conflict.
->
-> — [Carolina Curtain Call](http://carolinacurtaincall.com/2019/06/10/review-warehouse-theatres-pride-and-prejudice-is-indulgent-whimsical-masterpiece/)
-
-> The cast is uniformly terrific. [Thomas Azar](https://www.broadwayworld.com/people/Thomas-Azar/) [has] demonstrated dramatic and comedic chops many times on upstate stages, and with a play like this that can border on cartoonish at times, the fact that [he] can still conjure some human moments amidst the chaos is a wonder indeed.
->
-> — [Broadway World South Carolina](https://www.broadwayworld.com/south-carolina/article/BWW-Review-Bright-and-Funny-New-Adaptation-of-PRIDE-AND-PREJUDICE-at-Warehouse-Theatre-20190612)
-
-Thomas made his debut at [Lean Ensemble Theater](http://www.leanensemble.org/) in Hilton Head, South Carolina, as Paul in _Barefoot in the Park_, directed by artistic director Blake White.
-
-> "What a riot \[...\] this work, start to finish, is explorative and through it all, entertaining." -- The Island Packet

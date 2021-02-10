@@ -1,28 +1,87 @@
 ---
+id: 1
+sort: null
+date_updated: 2021-02-07T18:54:43Z
+draft: "false"
 title: About
+weight: 2
 menu: main
-weight: 5
 blocks:
-- template: quote
-  quote: "[...] that he’s played by a handsome, comically dexterous actor just makes him all the more appealing."
-  cite: Atlanta Journal-Constitution review of _Shakespeare in Love_
-  url: "https://www.ajc.com/entertainment/arts--theater/review-garner-delivers-delightful-shakespeare-love-for-alliance/7mE2EIDfjeatk5z8EyWCwN/"
-- template: quote
-  quote: "Azar plays up that entrapment, plays up that symbol, the caged animal yearning to break free."
-  cite: Broadway World review of _The Glass Menagerie_
-  url: "https://www.broadwayworld.com/south-carolina/article/BWW-Review-THE-GLASS-MENAGERIE-Lifts-A-Veil-On-Memories-At-Warehouse-Theatre-20190130"
+  time: 1612724080961
+  blocks:
+    - type: quote
+      data:
+        text: "[…] that he’s played by a handsome, comically dexterous actor just makes
+          him all the more appealing."
+        caption: "[Atlanta Journal-Constitution review of _Shakespeare in
+          Love_](https://www.ajc.com/entertainment/arts--theater/review-garner-\
+          delivers-delightful-shakespeare-love-for-alliance/7mE2EIDfjeatk5z8EyW\
+          CwN/)"
+        alignment: left
+    - type: paragraph
+      data:
+        text: |-
+          Thomas was born and raised in Montgomery, Alabama, attending high 
+          school across the street from the Alabama Shakespeare Festival.
+    - type: paragraph
+      data:
+        text: Thomas is a frequent collaborator with the Warehouse Theatre in
+          Greenville, South Carolina, appearing in <i>Pride &amp; Prejudice</i>,
+          <i>The Glass Menagerie</i>, <i>Much Ado About Nothing</i>, <i>In the
+          Next Room</i>, <i>Urinetown</i>, <i>Angels in America</i>, <i>Romeo
+          &amp; Juliet</i>, and <i>Stones in His Pockets</i>. He has also
+          appeared on SC stages at Lean Ensemble Theater in Hilton Head
+          (Barefoot in the Park), Furman University (This Is How It Goes),
+          Clemson University (John Proctor Is the Villain) and Centre Stage
+          South Carolina (The Fox on the Fairway, Identity Crisis).
+    - type: paragraph
+      data:
+        text: "Regionally, Thomas has played with the Alliance Theatre in Atlanta
+          (Shakespeare in Love); TheatreWorks in Mountain View, California
+          (Yellow Face); &lt;script&gt;alert('Hello!');&lt;/script&gt;the
+          California Shakespeare Theater in Berkeley (Romeo &amp; Juliet,
+          Richard III, Twelfth Night); Mill Mountain Theatre in Roanoke,
+          Virginia (Constellations); and the California Theatre Center in
+          Sunnyvale (Black Comedy, Apollo: To the Moon)."
+    - type: paragraph
+      data:
+        text: Thomas has had the privilege to work with some of the country’s top
+          playwrights as they developed their work, including Bad Jews with
+          Joshua Harmon, Octopus with Steve Yockey, Touch(ed) with Bess Wohl,
+          and God of Meat with Samuel D. Hunter.
+    - type: paragraph
+      data:
+        text: Thomas has also appeared in the short films In a Room at the Edge of
+          Infinity and No Ordinary Love, as well as in the web series The First
+          Five Years. He recently starred in the pilot for Divided States.
+    - type: paragraph
+      data:
+        text: >-
+          Thomas earned his MFA in classical acting from the Shakespeare
+          Theatre 
+
+          Company’s Academy for Classical Acting at the George Washington 
+
+          University in Washington, DC. He earned his undergraduate degree from 
+
+          the University of Alabama’s Department of Theatre &amp; Dance. Thomas 
+
+          nows lives in Greenville with his wife, son, and dog, all of whom he is 
+
+          thankful for the never-ending well of inspiration.
+    - type: image
+      data:
+        file:
+          size: 4288785
+          name: about.jpg
+          title: About
+          extension: jpg
+          fileId: 3e274347-d190-4ee2-ab53-91003bc55769
+          fileURL: /files/3e274347-d190-4ee2-ab53-91003bc55769
+          url: /assets/3e274347-d190-4ee2-ab53-91003bc55769
+        caption: Photo by Will Crooks<br>
+        withBorder: false
+        stretched: false
+        withBackground: false
+  version: 2.19.1
 ---
-
-Thomas was born and raised in Montgomery, Alabama, attending high school across the street from the Alabama Shakespeare Festival.
-
-Thomas is a frequent collaborator with the Warehouse Theatre in Greenville, South Carolina, appearing in _Pride & Prejudice_, _The Glass Menagerie_, _Much Ado About Nothing_, _In the Next Room_, _Urinetown_, _Angels in America_, _Romeo & Juliet_, and _Stones in His Pockets_. He has also appeared on SC stages at Lean Ensemble Theater in Hilton Head (_Barefoot in the Park_), Furman University (_This Is How It Goes_), Clemson University (_John Proctor Is the Villain_) and Centre Stage South Carolina (_The Fox on the Fairway_, _Identity Crisis_).
-
-Regionally, Thomas has played with the Alliance Theatre in Atlanta (_Shakespeare in Love_); TheatreWorks in Mountain View, California (_Yellow Face_); the California Shakespeare Theater in Berkeley (_Romeo & Juliet_, _Richard III_, _Twelfth Night_); Mill Mountain Theatre in Roanoke, Virginia (_Constellations_); and the California Theatre Center in Sunnyvale (_Black Comedy_, _Apollo: To the Moon_).
-
-Thomas has had the privilege to work with some of the country's top playwrights as they developed their work, including _Bad Jews_ with Joshua Harmon, _Octopus_ with Steve Yockey, _Touch(ed)_ with Bess Wohl, and _God of Meat_ with Samuel D. Hunter.
-
-Thomas has also appeared in the short films _In a Room at the Edge of Infinity_ and _No Ordinary Love_, as well as in the web series _The First Five Years_. He recently starred in the pilot for _Divided States_.
-
-Thomas earned his MFA in classical acting from the Shakespeare Theatre Company's Academy for Classical Acting at the George Washington University in Washington, DC. He earned his undergraduate degree from the University of Alabama's Department of Theatre & Dance. Thomas nows lives in Greenville with his wife, son, and dog, all of whom he is thankful for the never-ending well of inspiration.
-
-![Thomas Azar](/uploads/about.jpg)
