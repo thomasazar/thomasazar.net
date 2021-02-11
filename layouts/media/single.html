@@ -1,7 +1,6 @@
 {{ define "main" }}
     <header class="gallery-info">
-        {{ $svg := printf "%s/fl_sanitize/%s/%s" $.Site.Params.images_prefix $.Site.Params.images_directory .Params.svg }}
-        <object class="logo" type="image/svg+xml" data="{{ $svg }}">
+        <object class="logo" type="image/svg+xml" data="{{ $.Site.Params.images_prefix}}/{{ .Params.logo }}">
             {{ .Title }}
         </object>
         <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
@@ -12,14 +11,14 @@
         <p class="small">Photos by {{ .Params.photos_by }}</p>
     </header>
     <ul class="gallery">
-        {{ range .Params.images }}
-            <li class="gallery__item{{ if eq .major true}} major {{ end }}">
-                <a href="{{ $.Site.Params.images_prefix }}/w_1200/{{ $.Site.Params.images_directory }}/{{ .file }}" data-caption="{{ .caption }}">
-                    {{ $options := "w_400"}}
-                    {{ if .major }}
-                        {{ $options = "w_800"}}
+        {{ range sort .Params.images "weight" }}
+            <li class="gallery__item{{ if .big }} major{{ end }}">
+                <a href="{{ $.Site.Params.images_prefix }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
+                    {{ $options := "thumb"}}
+                    {{ if .big }}
+                        {{ $options = "big"}}
                     {{ end }}
-                    <img src="{{ $.Site.Params.images_prefix }}/{{ $options }}/{{ $.Site.Params.images_directory }}/{{ .file }}" alt="{{ .caption }}">
+                    <img src="{{ $.Site.Params.images_prefix }}/{{ .directus_files_id }}?key={{ $options }}" alt="{{ .caption }}">
                 </a>
             </li>
         {{ end }}

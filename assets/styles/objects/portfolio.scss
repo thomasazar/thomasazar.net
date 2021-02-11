@@ -24,28 +24,29 @@
   transition: .4s ease all;
   max-width: 50%;
   margin: 20px;
+  will-change: transform;
 
-  &.southwest {
+  &.bottomleft {
     transform-origin: bottom left;
     align-self: end;
   }
 
-  &.southeast {
+  &.bottomright {
     align-self: end;
     justify-self: end;
     transform-origin: bottom right;
   }
 
-  &.north {
+  &.top {
     justify-self: center;
     transform-origin: top center;
   }
 
-  &.northwest {
+  &.topleft {
     transform-origin: top left;
   }
 
-  &.northeast {
+  &.topright {
     justify-self: end;
     transform-origin: top right;
   }

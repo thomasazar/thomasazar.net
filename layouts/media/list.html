@@ -1,14 +1,16 @@
 {{ define "main" }}
-  {{ range .Pages }}
-    {{ $featured := .Params.featured }}
-    <a class="portfolio__link" href="{{ .Permalink }}">
-      <figure class="portfolio">
-        <img class="portfolio__image" src="{{ $.Site.Params.images_prefix }}/w_1200/{{ $.Site.Params.images_directory }}/{{ $featured }}">
-        {{ $svg := printf "%s/fl_sanitize/%s/%s" $.Site.Params.images_prefix $.Site.Params.images_directory .Params.svg }}
-        <object class="portfolio__logo {{ .Params.logo }}" type="image/svg+xml" data="{{ $svg }}">
-            {{ .Title }}
-        </object>
-      </figure>
-    </a>
-  {{ end }}
+    {{ range .Pages }}
+        {{ $featured := (index .Params.images 0).directus_files_id }}
+        {{ range .Params.images }}
+            {{ if .featured }}
+                {{ $featured = .directus_files_id }}
+            {{ end }}
+        {{ end }}
+        <a class="portfolio__link" href="{{ .Permalink }}">
+            <figure class="portfolio">
+            <img class="portfolio__image" src="{{ $.Site.Params.images_prefix }}/{{ $featured }}?key=media-list">
+            <img class="portfolio__logo {{ .Params.direction }}" src="{{ $.Site.Params.images_prefix }}/{{ .Params.logo }}" title="{{ .Title }}">
+            </figure>
+        </a>
+    {{ end }}
 {{ end }}
