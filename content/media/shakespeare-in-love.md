@@ -9,6 +9,7 @@ director: Richard Garner
 role: Will
 photos_by: Greg Mooney
 logo: 7cf275a1-a381-4aa6-9567-8765d62aca53
+location: media
 weight: 2
 direction: topleft
 images:
