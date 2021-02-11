@@ -5,9 +5,6 @@
     {{ block "header" .}}
         {{ partial "banner.html" . }}
     {{ end }}
-    {{ range .Params.blocks }}
-        {{ partial "blocks/big-quote" . }}
-    {{ end }}
     <main>
         {{ block "main" . }}{{ end }}
     </main>
