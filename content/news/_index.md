@@ -1,7 +1,7 @@
 ---
 id: 3
 sort: null
-date_updated: 2021-02-12T15:06:36Z
+date_updated: 2021-02-12T15:11:01Z
 draft: "false"
 title: News
 weight: 1
