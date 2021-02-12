@@ -4,7 +4,6 @@ sort: null
 date_updated: 2021-02-12T15:11:01Z
 draft: "false"
 title: News
-weight: 1
 menu: main
 blocks:
   time: 1612796499261
@@ -90,4 +89,5 @@ blocks:
 
           there’s Lorde.
   version: 2.19.1
+weight: 0
 ---

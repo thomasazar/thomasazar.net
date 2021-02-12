@@ -4,7 +4,6 @@ sort: null
 date_updated: 2021-02-12T15:11:01Z
 draft: "false"
 title: About
-weight: 1
 menu: main
 blocks:
   time: 1612724080961
@@ -84,4 +83,5 @@ blocks:
         stretched: false
         withBackground: false
   version: 2.19.1
+weight: 3
 ---

@@ -4,7 +4,6 @@ sort: null
 date_updated: 2021-02-12T15:11:01Z
 draft: "false"
 title: Resume
-weight: 1
 menu: main
 blocks:
   time: 1612802829534
@@ -124,4 +123,5 @@ blocks:
             - First Five Years Productions<br>
             - Joshua Jackson<br>
   version: 2.19.1
+weight: 2
 ---
