@@ -10,7 +10,7 @@ role: Mitchell
 photos_by: null
 logo: 7d04d628-acb3-4de9-8d62-1c5fd8639c42
 location: media
-weight: 2
+weight: 3
 direction: bottomright
 images:
   - id: 13

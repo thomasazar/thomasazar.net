@@ -1,12 +1,12 @@
 ---
 id: 4
 sort: null
-date_updated: 2021-02-12T15:11:01Z
+date_updated: 2021-02-12T16:24:46Z
 draft: "false"
 title: Resume
 menu: main
 blocks:
-  time: 1612802829534
+  time: 1613147086370
   blocks:
     - type: attaches
       data:
@@ -122,6 +122,33 @@ blocks:
             - Luther (Supporting)<br>
             - First Five Years Productions<br>
             - Joshua Jackson<br>
+    - type: header
+      data:
+        text: New Play Development &amp; Readings
+        level: 2
+    - type: table
+      data:
+        content:
+          - - <i>The Confession</i> by Will Arbery
+            - Joseph
+            - Alliance Theatre, GA
+            - Jessica Holt
+    - type: header
+      data:
+        text: Education &amp; Training
+        level: 2
+    - type: header
+      data:
+        text: MFA in Classical Acting
+        level: 3
+    - type: paragraph
+      data:
+        text: >-
+          Shakespeare Theatre Company’s Academy for Classical Acting •
+          Washington, DC<br>Michael
+           Kahn, Gary Logan, Ellen O’Brien, Floyd King, Edward Gero, Isabelle 
+          Anderson, Dody DiSanto, Christopher Cherry, Roberta Stiehm, Brad Waller,
+           Brendan Fox
   version: 2.19.1
-weight: 2
+weight: 3
 ---

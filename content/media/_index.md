@@ -12,5 +12,5 @@ blocks:
       data:
         text: Here's some content<br>
   version: 2.19.1
-weight: 1
+weight: 2
 ---

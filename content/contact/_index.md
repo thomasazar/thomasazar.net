@@ -16,5 +16,5 @@ blocks:
       data:
         text: <a href="mailto:email@thomasazar.net">email@thomasazar.net</a>
   version: 2.19.1
-weight: 4
+weight: 5
 ---

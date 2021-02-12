@@ -10,7 +10,7 @@ role: Mr. Darcy
 photos_by: Wallace Krebs
 logo: 05ed51a0-9751-45d2-9f78-06aadb2e7e54
 location: media
-weight: 2
+weight: 3
 direction: bottomleft
 images:
   - id: 18
