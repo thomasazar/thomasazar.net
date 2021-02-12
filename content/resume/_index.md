@@ -1,21 +1,13 @@
 ---
 id: 4
 sort: null
-date_updated: 2021-02-12T16:32:17Z
+date_updated: 2021-02-12T16:37:39Z
 draft: "false"
 title: Resume
 menu: main
 blocks:
-  time: 1613147535987
+  time: 1613147859279
   blocks:
-    - type: attaches
-      data:
-        file:
-          url: /assets/ce34ef24-57ce-4fe6-8c38-87763510af63
-          name: Thomas-Azar-resume.pdf
-          extension: pdf
-          size: 775214
-        title: Download a PDF of Thomas's resume
     - type: header
       data:
         text: Theatre
