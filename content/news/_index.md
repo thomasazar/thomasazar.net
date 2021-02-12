@@ -1,13 +1,13 @@
 ---
 id: 3
 sort: null
-date_updated: 2021-02-08T15:01:41Z
+date_updated: 2021-02-12T15:05:19Z
 draft: "false"
 title: News
 weight: 1
 menu: main
 blocks:
-  time: 1612796499261
+  time: 1613142319241
   blocks:
     - type: header
       data:
@@ -37,7 +37,7 @@ blocks:
           States as an official selection:'
     - type: list
       data:
-        style: unordered
+        style: ordered
         items:
           - <a href="http://www.webseriesfest.com/2020-official-selection/">Web
             Series Festival</a> (Nominated, Best Comedy Pilot)
