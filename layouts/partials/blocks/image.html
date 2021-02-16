@@ -1,0 +1,6 @@
+<figure>
+    <img src="{{ site.Params.images_prefix }}/{{ .file.fileId }}" alt="{{ .file.title }}">
+    {{with .caption }}
+        <figcaption class="small">{{ . | safeHTML }}</figcaption>
+    {{ end }}
+</figure>

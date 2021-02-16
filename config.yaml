@@ -8,5 +8,4 @@ frontmatter:
     - ":default"
 params:
   matomoid: 1
-  images_prefix: https://res.cloudinary.com/thomasazar/image/upload
-  images_directory: thomasazar.net
+  images_prefix: http://192.168.163.5:8055/assets

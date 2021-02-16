@@ -1,4 +1,5 @@
 {{ define "main" }}
+<ul class="ui-list">
     {{ range .Pages }}
         {{ $featured := (index .Params.images 0).directus_files_id }}
         {{ range .Params.images }}
@@ -6,11 +7,14 @@
                 {{ $featured = .directus_files_id }}
             {{ end }}
         {{ end }}
-        <a class="portfolio__link" href="{{ .Permalink }}">
-            <figure class="portfolio">
-            <img class="portfolio__image" src="{{ $.Site.Params.images_prefix }}/{{ $featured }}?key=media-list">
-            <img class="portfolio__logo {{ .Params.direction }}" src="{{ $.Site.Params.images_prefix }}/{{ .Params.logo }}" title="{{ .Title }}">
-            </figure>
-        </a>
+        <li>
+            <a href="{{ .Permalink }}">
+                <figure class="portfolio">
+                    <img class="portfolio__image" src="{{ site.Params.images_prefix }}/{{ $featured }}?key=media-list">
+                    <img class="portfolio__logo {{ .Params.direction }}" src="{{ site.Params.images_prefix }}/{{ .Params.logo }}" title="{{ .Title }}">
+                </figure>
+            </a>
+        </li>
     {{ end }}
+</ul>
 {{ end }}

@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ $.Site.Title }} - {{ .Page.Title }}</title>
+  <title>{{ site.Title }} - {{ .Page.Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
   {{ $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint }}

@@ -7,3 +7,26 @@ $base-300: #7d9db0;
 $base-500: #577a8e;
 $base-700: #476474;
 $base-900: #30434e;
+
+:root {
+    --border-radius: 5px;
+    --border: 1px solid rgba(0,0,0,0.15);
+    --box-shadow: inset 0 0 0 1px rgba(255,255,255,.05),inset 0 1px 0 0 rgba(255,255,255,.2),inset 0 -1px 0 0 rgba(255,255,255,.1),0 1px 3px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.1);
+    --color: #5bd0a4;
+    --color-accent: #baa679;
+    --color-bg: #e1f0f0;
+    --color-bg-alpha: #BA95A566;
+    --color-bg-gradient: linear-gradient(125deg, var(--color), var(--color-secondary));
+    --color-bg-secondary: #5bd0a4;
+    --color-secondary: #01648b;
+    --color-secondary-alpha: #baa679;
+    --color-secondary-accent: #920de90b;
+    --color-shadow: #f4f4f4;
+    --color-text: #10312f;
+    --color-text-secondary: #999;
+    --font-family: "Varta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --grid-desktop: [full-bleed-start] 1fr [full-content-start] 1fr [main-content-start] calc(min(65ch, 100%)) [main-content-end] 1fr [full-content-end] 1fr [full-bleed-end];
+    --grid-primary: [full-bleed-start] 1rem [full-content-start main-content-start] repeat(8, 1fr)  [main-content-end full-content-end] 1rem [full-bleed-end];
+    --hover-brightness: 1.2;
+    --line-height: 1.5;
+}

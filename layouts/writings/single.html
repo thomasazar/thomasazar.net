@@ -2,7 +2,7 @@
     <h2>{{ .Title }}</h2>
     <p class="date">{{ dateFormat "January 2, 2006" .Date }}</p>
     {{ with .Params.featured_image }}
-        {{ $resources := ($.Site.GetPage "uploads").Resources }}
+        {{ $resources := (site.GetPage "uploads").Resources }}
         {{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .file) }}
         {{ $full := $file.Resize "800x" }}
         <figure>

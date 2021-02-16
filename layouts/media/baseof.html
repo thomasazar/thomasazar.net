@@ -6,9 +6,7 @@
         {{ partial "banner.html" . }}
     {{ end }}
     <main>
-        {{ range .Params.blocks.blocks }}
-            {{ partial (printf "blocks/%s" .type) .data }}
-        {{ end }}
+        {{ block "main" . }}{{ end }}
     </main>
 </body>
 </html>

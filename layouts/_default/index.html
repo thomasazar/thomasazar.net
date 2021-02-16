@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en-US">
   {{ partial "head.html" . }}
-  <body class="{{ .Page.Title | urlize | lower }}">
+  <body class="home">
     <header class="hero">
         {{ readFile "/static/images/logo.svg" | safeHTML }}
-        <img class="hero__image" src="/images/home.jpg">
+        <img class="hero__image" src="{{ site.Params.images_prefix }}/{{ .Params.splash }}">
         <section class="hero__news">
-          {{ .Content }}
+          {{ .Params.content | markdownify }}
         </section>
         <nav class="nav hero__nav">
           <ul class="nav__list">
-            {{ range .Site.Menus.main }}
+            {{ range site.Menus.main }}
               <li class="nav__item">
                 <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
               </li>

@@ -17,7 +17,6 @@
 @import "base/ul";
 
 @import "objects/banner";
-@import "objects/big-quote";
 @import "objects/box";
 @import "objects/caption";
 @import "objects/date";
@@ -30,9 +29,11 @@
 @import "objects/portfolio";
 @import "objects/resume";
 
+@import "components/attachment.scss";
+@import "components/big-quote.scss";
+@import "components/heading.scss";
+@import "components/ui-list.scss";
 @import "components/blurb";
-@import "components/news";
 
+@import "overrides/full-bleed.scss";
 @import "overrides/small";
-
-@import "plugins/baguetteBox";

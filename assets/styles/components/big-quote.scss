@@ -1,0 +1,25 @@
+.big-quote {
+    display: grid;
+    grid-template-columns: var(--grid-template-columns);
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+
+    &:nth-of-type(1n) { background: $base-300; }
+    &:nth-of-type(2n) { background: $base-500; }
+
+    blockquote {
+        grid-column: full-content;
+        font-size: 2em;
+
+        &::before { content: "\201C"; }
+        &::after  { content: "\201D"; }
+    }
+
+    figcaption {
+        grid-column: main-content;
+        margin: 1em;
+
+        a { color: #000000cc; }
+    }
+}

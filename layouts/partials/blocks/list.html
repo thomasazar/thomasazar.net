@@ -1,0 +1,9 @@
+{{ if eq .style "unordered" }} <ul>
+{{ else }} <ol>
+{{ end }}
+    {{ range .items }}
+        <li>{{ . | safeHTML }}</li>
+    {{ end }}
+{{ if eq .style "unordered" }} </ul>
+{{ else }} </ol>
+{{ end }}

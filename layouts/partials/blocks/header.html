@@ -1,0 +1,3 @@
+{{ printf "<h%[1]d class=\"heading\">" .level | safeHTML }}
+    {{ .text | safeHTML }}
+{{ printf "</h%[1]d>" .level | safeHTML }}
