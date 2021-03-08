@@ -1,0 +1,12 @@
+{
+  "name": "thomasazar.net",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "slugify": "^1.4.7"
+  },
+  "scripts": {
+    "build": "nodejs index.js && hugo --gc --minify",
+    "serve": "nodejs index.js && hugo server"
+  }
+}

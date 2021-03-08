@@ -9,3 +9,7 @@ frontmatter:
 params:
   matomoid: 1
   images_prefix: http://192.168.163.5:8055/assets
+
+disableKinds:
+- taxonomy
+- term

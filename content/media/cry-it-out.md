@@ -1,51 +1,66 @@
----
-id: 2
-date_updated: 2021-02-05T16:08:11Z
-draft: "false"
-title: Cry It Out
-venue: Lean Ensemble Theater
-city: Hilton Head, South Carolina
-director: Amanda Sox
-role: Mitchell
-photos_by: null
-logo: 7d04d628-acb3-4de9-8d62-1c5fd8639c42
-location: media
-weight: 3
-direction: bottomright
-images:
-  - id: 13
-    media_pages_id: 2
-    directus_files_id: d31622ec-53d9-4c43-b134-0a136009a6fc
-    caption: null
-    weight: 1
-    big: false
-    featured: false
-  - id: 14
-    media_pages_id: 2
-    directus_files_id: e1f72719-eb8a-4604-91b3-92f9710284ab
-    caption: null
-    weight: 1
-    big: false
-    featured: false
-  - id: 15
-    media_pages_id: 2
-    directus_files_id: b5b25d02-e8ad-41cb-8e8e-b6acba5d3bae
-    caption: null
-    weight: 1
-    big: false
-    featured: true
-  - id: 16
-    media_pages_id: 2
-    directus_files_id: f83cf039-818c-41f1-be37-c9f4770e81f4
-    caption: null
-    weight: 1
-    big: false
-    featured: false
-  - id: 17
-    media_pages_id: 2
-    directus_files_id: d78ecc38-de35-4d6d-9b5f-18c1096531d8
-    caption: null
-    weight: 1
-    big: false
-    featured: false
----
+{
+  "identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+  "draft": "false",
+  "weight": null,
+  "date": "2021-02-18T20:41:35Z",
+  "date_updated": "2021-02-19T16:28:38Z",
+  "title": "Cry It Out",
+  "venue": "Lean Ensemble Theater",
+  "city": "Hilton Head, South Carolina",
+  "director": "Amanda Sox",
+  "role": "Mitchell",
+  "photos_by": "Amanda Walton",
+  "logo": "788cddb7-57a0-41cb-8b20-d22e6578e21b",
+  "direction": "bottomright",
+  "images": [
+    {
+      "id": 1,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "56be4b65-788a-45c0-a06e-1140f6d99381",
+      "caption": "Thomas as Mitchell",
+      "big": "big"
+    },
+    {
+      "id": 2,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "c2b93de4-5d07-4f84-9799-e5c74e8963a9",
+      "caption": null,
+      "big": "thumb"
+    },
+    {
+      "id": 3,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "072b305a-5085-49e5-82f6-aee90b2b1c57",
+      "caption": null,
+      "big": "thumb"
+    },
+    {
+      "id": 4,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "fdd728a2-7649-4604-835b-8b523bf95968",
+      "caption": null,
+      "big": "thumb"
+    },
+    {
+      "id": 5,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "d78ecc38-de35-4d6d-9b5f-18c1096531d8",
+      "caption": null,
+      "big": "thumb"
+    },
+    {
+      "id": 6,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "f83cf039-818c-41f1-be37-c9f4770e81f4",
+      "caption": null,
+      "big": "thumb"
+    },
+    {
+      "id": 7,
+      "media_pages_identifier": "62ae2ded-c6d3-4e14-912a-cc1477948712",
+      "directus_files_id": "e1f72719-eb8a-4604-91b3-92f9710284ab",
+      "caption": null,
+      "big": "thumb"
+    }
+  ]
+}

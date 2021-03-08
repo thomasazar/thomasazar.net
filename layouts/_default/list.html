@@ -1,3 +1,6 @@
 {{ define "main" }}
+    {{ range .Params.blocks.blocks }}
+        {{ partial (printf "blocks/%s" .type) .data }}
+    {{ end }}
     {{ .Content }}
 {{ end }}

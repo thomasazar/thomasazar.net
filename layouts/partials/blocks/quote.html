@@ -1,4 +1,4 @@
 <figure class="big-quote full-bleed">
     <blockquote>{{ .text | safeHTML }}</blockquote>
-    <figcaption>{{ .caption | markdownify }}</figcaption>
+    <figcaption>{{ .caption | safeHTML }}</figcaption>
 </figure>
