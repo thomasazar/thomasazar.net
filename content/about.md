@@ -17,7 +17,7 @@ blocks:
 
 When I started my journey in theatre, I was under the impression that I would be one thing: an actor. And to be clear, I am an actor. But that's not the only identity that I have grown to own.
 
-**I am a parent-artist.** My son's birth at the end of 2016 cracked open my soul. I *thought* that I already had access to vulnerability and depth within my work, but little did I know just had deep the well runs. My family gives me the foundation for nearly everything I do onstage and onscreen. My wife [Maegan](https://www.maeganmcnerneyazar.com) supports me in exploring my artistic creations and experiments, more than I deserve. My dog Benjamin has been my at-home rehearsal partner for more than ten years.
+**I am a parent-artist.** My son's birth at the end of 2016 cracked open my soul. I *thought* that I already had access to vulnerability and depth within my work, but little did I know just how deep the well runs. My family gives me the foundation for nearly everything I do onstage and onscreen. My wife [Maegan](https://www.maeganmcnerneyazar.com) supports me in exploring my artistic creations and experiments. My dog Benjamin has been my at-home rehearsal partner for more than ten years.
 
 ![Benjamin, a white Maltese dog, looking alert](/uploads/the-pup.jpg "This pup is ready to play")
 
