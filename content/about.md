@@ -13,16 +13,18 @@ blocks:
   url: "https://www.broadwayworld.com/south-carolina/article/BWW-Review-THE-GLASS-MENAGERIE-Lifts-A-Veil-On-Memories-At-Warehouse-Theatre-20190130"
 ---
 
-Thomas was born and raised in Montgomery, Alabama, attending high school across the street from the Alabama Shakespeare Festival.
+## Many hats
 
-Thomas is a frequent collaborator with the Warehouse Theatre in Greenville, South Carolina, appearing in _Pride & Prejudice_, _The Glass Menagerie_, _Much Ado About Nothing_, _In the Next Room_, _Urinetown_, _Angels in America_, _Romeo & Juliet_, and _Stones in His Pockets_. He has also appeared on SC stages at Lean Ensemble Theater in Hilton Head (_Barefoot in the Park_), Furman University (_This Is How It Goes_), Clemson University (_John Proctor Is the Villain_) and Centre Stage South Carolina (_The Fox on the Fairway_, _Identity Crisis_).
+When I started my journey in theatre, I was under the impression that I would be one thing: an actor. And to be clear, I am an actor. But that's not the only identity that I have grown to own.
 
-Regionally, Thomas has played with the Alliance Theatre in Atlanta (_Shakespeare in Love_); TheatreWorks in Mountain View, California (_Yellow Face_); the California Shakespeare Theater in Berkeley (_Romeo & Juliet_, _Richard III_, _Twelfth Night_); Mill Mountain Theatre in Roanoke, Virginia (_Constellations_); and the California Theatre Center in Sunnyvale (_Black Comedy_, _Apollo: To the Moon_).
+**I am a parent-artist.** My son's birth at the end of 2016 cracked open my soul. I *thought* that I already had access to vulnerability and depth within my work, but little did I know just had deep the well runs. My family gives me the foundation for nearly everything I do onstage and onscreen. My wife [Maegan](https://www.maeganmcnerneyazar.com) supports me in exploring my artistic creations and experiments, more than I deserve. My dog Benjamin has been my at-home rehearsal partner for more than ten years.
 
-Thomas has had the privilege to work with some of the country's top playwrights as they developed their work, including _Bad Jews_ with Joshua Harmon, _Octopus_ with Steve Yockey, _Touch(ed)_ with Bess Wohl, and _God of Meat_ with Samuel D. Hunter.
+![Benjamin, a white Maltese dog, looking alert](/uploads/the-pup.jpg "This pup is ready to play")
 
-Thomas has also appeared in the short films _In a Room at the Edge of Infinity_ and _No Ordinary Love_, as well as in the web series _The First Five Years_. He recently starred in the pilot for _Divided States_.
+**I am a classically-trained actor.** I earned my MFA in classical acting from the Shakespeare Theatre Company's Academy for Classical Acting at the George Washington University in Washington, DC. But that doesn't mean that I only do Shakespeare. I love his work, and I think it is timeless, vital, and nearly infinitely flexible. My time with the ACA taught me how to look inside myself, how to dig into the text, how to get out of my own way as an artist. Whether I'm rehearsing a piece that's 2000 years old or one that was written yesterday, I bring the same classically-minded approach to all of my work.
 
-Thomas earned his MFA in classical acting from the Shakespeare Theatre Company's Academy for Classical Acting at the George Washington University in Washington, DC. He earned his undergraduate degree from the University of Alabama's Department of Theatre & Dance. Thomas nows lives in Greenville with his wife, son, and dog, all of whom he is thankful for the never-ending well of inspiration.
+**I love to move.** During my undergraduate studies at the University of Alabama, stage movement (and, in particular, stage combat) revealed itself as a personal passion. Using my body to express myself, frequently without words, feels liberating and dynamic. It didn't necessarily come as a surprise — I spent years studying Yoshukai karate, which helped me establish a connection with my mind and body. Theatre allows to bridge that connection into my soul.
+
+**I am an individual artist who treasures collaboration.** I've been very fortunate to work with some of the country's top playwrights as they developed their work, including _Bad Jews_ with Joshua Harmon, _Octopus_ with Steve Yockey, _Touch(ed)_ with Bess Wohl, and _God of Meat_ with Samuel D. Hunter. I've had the privilege of collaborating with some of my favorite artists whom I call friends. One of my favorite feelings is the brief disappointment at the end of a rehearsal day, followed by the excitement of knowing that we'll get back into it tomorrow.
 
 ![Thomas Azar](/uploads/about.jpg)
