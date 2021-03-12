@@ -1,22 +1,14 @@
-<!doctype html>
-<html lang="en-US">
-  {{ partial "head.html" . }}
-  <body class="home">
-    <header class="hero">
-        {{ readFile "/static/images/logo.svg" | safeHTML }}
-        <img class="hero__image" src="{{ site.Params.images_prefix }}/{{ .Params.splash }}">
-        <section class="hero__news">
-          {{ .Params.content | markdownify }}
-        </section>
-        <nav class="nav hero__nav">
-          <ul class="nav__list">
-            {{ range site.Menus.main }}
-              <li class="nav__item">
-                <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        </nav>
-      </header>
-  </body>
-</html>
+{{ define "main" }}
+  <div class="hero full-bleed">
+    {{ readFile "/static/images/logo.svg" | safeHTML }}
+    <img class="hero__image" src="{{ site.Params.assets_url }}/{{ site.Params.splash }}">
+    <section class="hero__news">
+      {{ range .Params.blocks.blocks }}
+        {{ partial (printf "blocks/%s" .type) .data }}
+      {{ end }}
+    </section>
+    <nav class="nav hero__nav">
+      {{ partial "nav" . }}
+    </nav>
+  </div>
+{{ end }}
