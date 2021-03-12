@@ -1,4 +1,10 @@
-<figure class="big-quote full-bleed">
+{{ $class := "quote" }}
+{{ if eq .alignment "center" }}
+    {{ $class = "big-quote full-bleed" }}
+{{ end }}
+<figure class="{{ $class }}">
     <blockquote>{{ .text | safeHTML }}</blockquote>
-    <figcaption>{{ .caption | safeHTML }}</figcaption>
+    {{ with .caption }}
+        <figcaption>{{ . | safeHTML }}</figcaption>
+    {{ end }}
 </figure>

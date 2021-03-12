@@ -1,5 +1,5 @@
 <figure>
-    <img src="{{ site.Params.images_prefix }}/{{ .file.fileId }}" alt="{{ .file.title }}">
+    <img src="{{ site.Params.assets_url }}/{{ .file.fileId }}?key=full" alt="{{ .file.title }}">
     {{with .caption }}
         <figcaption class="small">{{ . | safeHTML }}</figcaption>
     {{ end }}
