@@ -1,4 +1,15 @@
-@include fontface('Jost', 'jost-400-book-webfont', $weight: false, $style: false);
-@include fontface('Jost', 'jost-400-bookitalic-webfont', $weight: false, $style: italic);
-@include fontface('Jost', 'jost-700-bold-webfont', $weight: bold, $style: false);
-@include fontface('Jost', 'jost-700-bolditalic-webfont', $weight: bold, $style: italic);
+@font-face {
+    font-family: 'Jost';
+    src: url("/fonts/Jost-VariableFont_wght.woff2") format("woff2 supports variations"),
+         url("/fonts/Jost-VariableFont_wght.woff2") format("woff2-variations");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url("/fonts/Jost-Italic-VariableFont_wght.woff2") format("woff2 supports variations"),
+         url("/fonts/Jost-Italic-VariableFont_wght.woff2") format("woff2-variations");
+    font-weight: 100 900;
+    font-style: italic;
+}
