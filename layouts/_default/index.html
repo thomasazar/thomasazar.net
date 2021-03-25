@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="hero full-bleed">
     {{ readFile "/static/images/logo.svg" | safeHTML }}
-    <img class="hero__image" src="{{ site.Params.assets_url }}/{{ site.Params.splash }}">
+    <img class="hero__image" src="{{ site.Params.assets_url }}/{{ site.Params.splash_image }}">
     <section class="hero__news">
       {{ range .Params.blocks.blocks }}
         {{ partial (printf "blocks/%s" .type) .data }}
