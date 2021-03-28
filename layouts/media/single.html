@@ -11,7 +11,7 @@
         <p class="small">Photos by {{ .Params.photos_by }}</p>
     </header>
     <ul class="gallery">
-        {{ range sort .Params.images "weight" }}
+        {{ range sort .Params.photos "weight" }}
             <li class="gallery__item {{ .big }}">
                 <a href="{{ site.Params.images_prefix }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
                     <img src="{{ site.Params.images_prefix }}/{{ .directus_files_id }}?key={{ .big }}" alt="{{ .caption }}">

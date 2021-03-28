@@ -6,7 +6,7 @@
     </h1>
     <section class="blurb">
         {{ with .Site.GetPage "/blurb" }}
-            {{ range .Params.blocks.blocks }}
+            {{ range .Params.blocks }}
                 {{ partial (printf "blocks/%s" .type) .data }}
             {{ end }}
         {{ end }}

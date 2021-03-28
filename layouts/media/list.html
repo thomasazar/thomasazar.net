@@ -1,8 +1,8 @@
 {{ define "main" }}
 <ul class="ui-list">
     {{ range .Pages }}
-        {{ $featured := (index .Params.images 0).directus_files_id }}
-        {{ range .Params.images }}
+        {{ $featured := (index .Params.photos 0).directus_files_id }}
+        {{ range .Params.photos }}
             {{ if .featured }}
                 {{ $featured = .directus_files_id }}
             {{ end }}

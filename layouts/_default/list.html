@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ range .Params.blocks.blocks }}
+    {{ range .Params.blocks }}
         {{ partial (printf "blocks/%s" .type) .data }}
     {{ end }}
     {{ .Content }}
