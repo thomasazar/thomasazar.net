@@ -1,6 +1,6 @@
 {{ define "main" }}
     <header class="gallery-info">
-        <object class="logo" type="image/svg+xml" data="{{ site.Params.images_prefix }}/{{ .Params.logo }}">
+        <object class="logo" type="image/svg+xml" data="{{ site.Params.assets_url }}/{{ .Params.logo }}">
             {{ .Title }}
         </object>
         <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
@@ -13,8 +13,8 @@
     <ul class="gallery">
         {{ range sort .Params.photos "weight" }}
             <li class="gallery__item {{ .big }}">
-                <a href="{{ site.Params.images_prefix }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
-                    <img src="{{ site.Params.images_prefix }}/{{ .directus_files_id }}?key={{ .big }}" alt="{{ .caption }}">
+                <a href="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
+                    <img src="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key={{ .big }}" alt="{{ .caption }}">
                 </a>
             </li>
         {{ end }}
