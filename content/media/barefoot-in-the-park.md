@@ -15,11 +15,19 @@ direction: bottomright
 photos:
   - directus_files_id: c9e3fee7-9b2f-495a-96e5-05059bfa5660
     weight: 0
+    big: true
+    caption: null
   - directus_files_id: 2e97632e-9fc6-4a41-bc6a-49c9c78c6b3c
     weight: 4
+    big: true
+    caption: null
   - directus_files_id: 9ebecaa6-5f35-4541-8a10-41acc4d2dff9
     weight: 2
+    big: false
+    caption: null
   - directus_files_id: bbaa6783-1ba8-4eac-932f-2bfdd8c61f01
     weight: 3
+    big: false
+    caption: null
 
 ---
