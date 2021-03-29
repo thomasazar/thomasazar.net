@@ -2,7 +2,9 @@
 <html lang="en-US">
 {{ partial "head.html" . }}
 <body class="{{ .Page.Title | urlize | lower }}">
-    {{ block "header" . }}{{ end }}
+    {{ if not .IsHome }}
+        {{ partial "banner" . }}
+    {{ end }}
     <main>
         {{ block "main" . }}{{ end }}
     </main>
