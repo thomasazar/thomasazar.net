@@ -12,9 +12,13 @@
     </header>
     <ul class="gallery">
         {{ range sort .Params.photos "weight" }}
-            <li class="gallery__item {{ .big }}">
+            {{ $key := "thumb" }}
+            {{ if .big }}
+                {{ $key = "big" }}
+            {{ end }}
+            <li class="gallery__item {{ $key }}">
                 <a href="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
-                    <img src="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key={{ .big }}" alt="{{ .caption }}">
+                    <img src="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key={{ $key }}" alt="{{ .caption }}">
                 </a>
             </li>
         {{ end }}
