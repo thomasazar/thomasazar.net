@@ -1,7 +1,16 @@
 .attachment {
     text-align: center;
 
-    &.pdf {
+    a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: $base-500;
+        color: #f2f2f2;
+        text-decoration: none;
+        box-shadow: var(--box-shadow);
 
+        &:hover {
+            filter: brightness(var(--hover-brightness));
+        }
     }
 }
