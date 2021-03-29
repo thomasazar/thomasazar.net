@@ -3,7 +3,7 @@ identifier: d5ca4a9c-227d-48b8-9f60-5b5c33177754
 draft: 'false'
 weight: 4
 date: '2021-03-28T13:56:51Z'
-date_updated: '2021-03-28T17:59:10Z'
+date_updated: '2021-03-29T15:06:41Z'
 title: Resume
 blocks:
   - type: attaches
@@ -43,7 +43,7 @@ blocks:
           - Kerrie Seymour
         - - <i>Barefoot in the Park</i>
           - Paul Bratter
-          - Lean Ensemble Theater
+          - Lean Ensemble Theater, SC<br>
           - Blake White
         - - <i>Pride and Prejudice</i>
           - Mr. Darcy
