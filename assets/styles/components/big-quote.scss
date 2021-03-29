@@ -15,6 +15,7 @@
     blockquote {
         grid-column: full-content;
         font-size: 2em;
+        text-shadow: 1px 1px 1px #33333399;
 
         &::before { content: "\201C"; }
         &::after  { content: "\201D"; }
