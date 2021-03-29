@@ -17,11 +17,14 @@
                 {{ $key = "big" }}
             {{ end }}
             <li class="gallery__item {{ $key }}">
-                <a href="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
+                <a data-fslightbox {{ with .caption }} data-caption="{{ . }}" {{ end }} href="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
                     <img src="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key={{ $key }}" alt="{{ .caption }}">
                 </a>
             </li>
         {{ end }}
     </ul>
     {{ .Content }}
+    {{ $lightbox := resources.Get "scripts/vendor/fslightbox.js" }}
+    {{ $js := $lightbox | fingerprint }}
+    <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
 {{ end }}
