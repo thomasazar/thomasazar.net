@@ -1,9 +1,13 @@
 .big-quote {
     display: grid;
-    grid-template-columns: var(--grid-template-columns);
+    grid-template-columns: var(--grid-primary);
     margin: 0;
     padding: 1em 0;
     text-align: center;
+
+    @media screen and (min-width: 60rem) {
+        grid-template-columns: var(--grid-desktop);
+    }
 
     &:nth-of-type(1n) { background: $base-300; }
     &:nth-of-type(2n) { background: $base-500; }

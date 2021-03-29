@@ -2,15 +2,11 @@ main {
   display: grid;
   grid-template-columns: var(--grid-primary);
 
-  @media screen and (min-width: 75rem) {
+  @media screen and (min-width: 60rem) {
       grid-template-columns: var(--grid-desktop);
   }
 
   > * {
       grid-column: main-content;
-  }
-
-  p + p {
-    margin-top: 1.5em;
   }
 }
