@@ -12,6 +12,7 @@ city: Hilton Head, South Carolina
 photos_by: thefrenchguy photography
 logo: d615b6e8-6162-4aa4-a028-e7455db42896
 direction: bottomright
+featured: null
 photos:
   - directus_files_id: c9e3fee7-9b2f-495a-96e5-05059bfa5660
     weight: 0
