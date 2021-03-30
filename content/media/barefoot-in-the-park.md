@@ -3,7 +3,7 @@ identifier: 03a9a286-3dfa-4115-be93-d0b11932c83d
 draft: published
 weight: null
 date: '2021-03-28T17:20:37Z'
-date_updated: '2021-03-30T12:53:16Z'
+date_updated: '2021-03-30T13:03:21Z'
 title: Barefoot in the Park
 venue: Lean Ensemble Theater
 role: Paul
@@ -13,7 +13,7 @@ photos_by: thefrenchguy photography
 logo: d615b6e8-6162-4aa4-a028-e7455db42896
 direction: bottomright
 photos:
-  time: 1617108789728
+  time: 1617109399026
   blocks:
     - type: image
       data:
@@ -27,7 +27,7 @@ photos:
           url: /assets/c9e3fee7-9b2f-495a-96e5-05059bfa5660
         caption: Thomas Azar as Paul and Jennifer Webb as Corie.<br>
         withBorder: false
-        stretched: false
+        stretched: true
         withBackground: false
     - type: image
       data:
@@ -69,7 +69,7 @@ photos:
           url: /assets/2e97632e-9fc6-4a41-bc6a-49c9c78c6b3c
         caption: Thomas Azar as Paul vs. the phone cord<br>
         withBorder: false
-        stretched: false
+        stretched: true
         withBackground: false
   version: 2.19.1
 
