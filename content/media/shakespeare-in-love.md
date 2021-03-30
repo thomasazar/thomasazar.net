@@ -1,9 +1,9 @@
 ---
 identifier: 21d14ab2-9c2e-4d48-b345-85348b1e5c9c
-draft: draft
-weight: null
+draft: 'false'
+weight: 1
 date: '2021-03-29T15:03:55Z'
-date_updated: '2021-03-30T13:06:31Z'
+date_updated: '2021-03-30T14:19:10Z'
 title: Shakespeare in Love
 venue: Alliance Theatre
 role: Will

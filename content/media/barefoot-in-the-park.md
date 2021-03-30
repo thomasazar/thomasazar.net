@@ -1,7 +1,7 @@
 ---
 identifier: 03a9a286-3dfa-4115-be93-d0b11932c83d
 draft: published
-weight: null
+weight: 2
 date: '2021-03-28T17:20:37Z'
 date_updated: '2021-03-30T13:03:21Z'
 title: Barefoot in the Park
