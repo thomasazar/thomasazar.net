@@ -4,7 +4,7 @@
   margin: 0 0 1em;
 
   &:hover {
-    .portfolio__image { filter: sepia(80%); }
+    .portfolio__image { filter: contrast(50%) brightness(0.67); }
     .portfolio__logo  { transform: scale(1.1); }
   }
 }
