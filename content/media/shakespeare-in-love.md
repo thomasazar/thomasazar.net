@@ -3,7 +3,7 @@ identifier: 21d14ab2-9c2e-4d48-b345-85348b1e5c9c
 draft: draft
 weight: null
 date: '2021-03-29T15:03:55Z'
-date_updated: '2021-03-30T13:01:17Z'
+date_updated: '2021-03-30T13:02:02Z'
 title: Shakespeare in Love
 venue: Alliance Theatre
 role: Will
@@ -13,7 +13,7 @@ photos_by: Greg Mooney
 logo: e036f12d-aa98-4e63-9c1d-e95662ba3ef8
 direction: null
 photos:
-  time: 1617109274356
+  time: 1617109319651
   blocks:
     - type: image
       data:
@@ -27,7 +27,7 @@ photos:
           url: /assets/30cda6b2-6607-4230-a57d-80fa8e8b5002
         caption: The cast of *Shakespeare in Love*<br>
         withBorder: false
-        stretched: false
+        stretched: true
         withBackground: false
     - type: image
       data:
