@@ -1,12 +1,7 @@
 {{ define "main" }}
 <ul class="ui-list">
     {{ range .Pages }}
-        {{ $featured := (index .Params.photos 0).directus_files_id }}
-        {{ range .Params.photos }}
-            {{ if .featured }}
-                {{ $featured = .directus_files_id }}
-            {{ end }}
-        {{ end }}
+        {{ $featured := .Params.featured | default (index .Params.photos.blocks 0).data.file.fileId }}
         <li>
             <a href="{{ .Permalink }}">
                 <figure class="portfolio">
