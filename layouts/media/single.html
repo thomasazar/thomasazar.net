@@ -10,6 +10,9 @@
         </section>
         <p class="small">Photos by {{ .Params.photos_by }}</p>
     </header>
+    {{ range .Params.blocks.blocks }}
+        {{ partial (printf "blocks/%s" .type) .data }}
+    {{ end }}
     <ul class="gallery">
         {{ range .Params.photos.blocks }}
             {{ $key := "thumb" }}
@@ -23,7 +26,6 @@
             </li>
         {{ end }}
     </ul>
-    {{ .Content }}
     {{ $lightbox := resources.Get "scripts/vendor/fslightbox.js" }}
     {{ $js := $lightbox | fingerprint }}
     <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
