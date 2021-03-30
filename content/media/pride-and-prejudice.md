@@ -1,9 +1,9 @@
 ---
 identifier: e978ca6e-a474-4fc0-b913-341ee7c86635
-draft: 'true'
+draft: 'false'
 weight: null
 date: '2021-03-30T14:26:59Z'
-date_updated: '2021-03-30T15:13:30Z'
+date_updated: '2021-03-30T15:13:58Z'
 title: Pride & Prejudice
 venue: The Warehouse Theatre
 role: Mr. Darcy
