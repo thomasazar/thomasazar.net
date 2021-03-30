@@ -11,14 +11,14 @@
         <p class="small">Photos by {{ .Params.photos_by }}</p>
     </header>
     <ul class="gallery">
-        {{ range sort .Params.photos "weight" }}
+        {{ range .Params.photos.blocks }}
             {{ $key := "thumb" }}
-            {{ if .big }}
+            {{ if .data.stretched }}
                 {{ $key = "big" }}
             {{ end }}
             <li class="gallery__item {{ $key }}">
-                <a data-fslightbox {{ with .caption }} data-caption="{{ . }}" {{ end }} href="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key=full" data-caption="{{ .caption }}">
-                    <img src="{{ site.Params.assets_url }}/{{ .directus_files_id }}?key={{ $key }}" alt="{{ .caption }}">
+                <a data-fslightbox {{ with .data.caption }} data-caption="{{ . }}" {{ end }} href="{{ site.Params.assets_url }}/{{ .data.file.fileId }}?key=full">
+                    <img src="{{ site.Params.assets_url }}/{{ .data.file.fileId }}?key={{ $key }}" alt="{{ .data.caption }}">
                 </a>
             </li>
         {{ end }}
