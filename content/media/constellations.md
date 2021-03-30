@@ -1,9 +1,9 @@
 ---
 identifier: 6478aad7-d6f9-4f02-8811-c5690dbc759b
-draft: published
+draft: 'false'
 weight: 3
 date: '2021-03-30T14:06:35Z'
-date_updated: null
+date_updated: '2021-03-30T14:19:18Z'
 title: Constellations
 venue: Mill Mountain Theatre
 role: Roland
@@ -13,7 +13,7 @@ photos_by: April Parker
 logo: c97bf9a5-483d-4580-ba16-4b8120cf0d9b
 direction: top
 photos:
-  time: 1617113186017
+  time: 1617113958173
   blocks:
     - type: image
       data:
