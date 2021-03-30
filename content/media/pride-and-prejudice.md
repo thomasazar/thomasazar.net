@@ -31,4 +31,5 @@ photos:
         withBackground: false
   version: 2.19.1
 featured: null
+blocks: null
 ---

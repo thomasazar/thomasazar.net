@@ -3,7 +3,7 @@ identifier: 21d14ab2-9c2e-4d48-b345-85348b1e5c9c
 draft: 'false'
 weight: 1
 date: '2021-03-29T15:03:55Z'
-date_updated: '2021-03-30T14:19:10Z'
+date_updated: '2021-03-30T14:56:29Z'
 title: Shakespeare in Love
 venue: Alliance Theatre
 role: Will
@@ -13,7 +13,7 @@ photos_by: Greg Mooney
 logo: e036f12d-aa98-4e63-9c1d-e95662ba3ef8
 direction: topright
 photos:
-  time: 1617109573685
+  time: 1617116112591
   blocks:
     - type: image
       data:
@@ -101,4 +101,43 @@ photos:
         withBackground: false
   version: 2.19.1
 featured: 7a49213e-3cde-4602-ad7f-6b35878258a0
+blocks:
+  time: 1617116183492
+  blocks:
+    - type: quote
+      data:
+        text: >-
+          A dizzying achievement and a fortuitous moment for the Alliance […]
+          Azar and Lind are lovely as Will and Viola.<br>
+        caption: >-
+          <a
+          href="http://www.myajc.com/entertainment/arts--theater/review-garner-delivers-delightful-shakespeare-love-for-alliance/7mE2EIDfjeatk5z8EyWCwN/">Atlanta
+          Journal-Constitution</a>
+        alignment: left
+    - type: quote
+      data:
+        text: >-
+          Will, extremely well played by Thomas Azar in his Alliance debut, is a
+          living, loving, likable young man
+        caption: >-
+          <a
+          href="http://atlantaintownpaper.com/2017/09/theatre-review-shakespeare-love-alliance/">Atlanta
+          INtown Paper</a>
+        alignment: left
+    - type: quote
+      data:
+        text: >-
+          Both Thomas Azar as Will and Bethany Anne Lind as Viola are
+          delightful, 
+
+          and the natural chemistry between the two creates an appealing
+          sexiness 
+
+          that perfumes every scene.<br>
+        caption: >-
+          <a
+          href="https://www.broadwayworld.com/atlanta/article/BWW-Review-SHAKESPEARE-IN-LOVE-at-Alliance-Theatre-20170915">Broadway
+          World Atlanta</a>
+        alignment: left
+  version: 2.19.1
 ---
