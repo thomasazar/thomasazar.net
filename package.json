@@ -1,0 +1,27 @@
+{
+  "name": "thomasazar.net",
+  "version": "1.0.0",
+  "description": "Build website using Directus as CMS and Hugo as static site generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:thomasazar/thomasazar.net.git"
+  },
+  "keywords": [
+    "hugo",
+    "directus",
+    "headless",
+    "cms"
+  ],
+  "author": "Thomas Azar",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@directus/sdk-js": "^9.0.0-rc.52",
+    "js-yaml": "^4.0.0",
+    "slugify": "^1.5.0"
+  }
+}
