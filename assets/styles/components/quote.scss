@@ -1,0 +1,17 @@
+.quote {
+    margin: 1rem 2rem;
+
+    blockquote {
+        border-left: 2px solid $base-500;
+        margin: 0 0 0.5rem;
+        padding: 0 0 0 1rem;
+    }
+
+    figcaption {
+        padding: 0 0 0 1rem;
+
+        &::before {
+            content: '— ';
+        }
+    }
+}
