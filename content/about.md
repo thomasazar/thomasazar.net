@@ -3,7 +3,7 @@ identifier: 6fbb67f7-d965-43e9-945b-1f3c7291a898
 draft: 'false'
 weight: 3
 date: '2021-03-27T18:02:39Z'
-date_updated: '2021-03-28T17:59:10Z'
+date_updated: '2021-03-30T13:29:00Z'
 title: About
 blocks:
   - type: quote
@@ -105,6 +105,13 @@ blocks:
         followed by the excitement of knowing that we’ll get back into it 
 
         tomorrow.
+  - type: image
+    data:
+      file: {}
+      caption: ''
+      withBorder: false
+      stretched: false
+      withBackground: false
 menu: main
 
 ---
