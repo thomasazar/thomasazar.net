@@ -3,7 +3,7 @@ identifier: 21d14ab2-9c2e-4d48-b345-85348b1e5c9c
 draft: draft
 weight: null
 date: '2021-03-29T15:03:55Z'
-date_updated: '2021-03-30T13:02:02Z'
+date_updated: '2021-03-30T13:03:10Z'
 title: Shakespeare in Love
 venue: Alliance Theatre
 role: Will
@@ -13,7 +13,7 @@ photos_by: Greg Mooney
 logo: e036f12d-aa98-4e63-9c1d-e95662ba3ef8
 direction: null
 photos:
-  time: 1617109319651
+  time: 1617109387349
   blocks:
     - type: image
       data:
@@ -97,7 +97,7 @@ photos:
           url: /assets/35afbc33-1f36-47e1-8e2b-54902b23c303
         caption: Thomas Azar as Will and Bethany Anne Lind as Viola<br>
         withBorder: false
-        stretched: false
+        stretched: true
         withBackground: false
   version: 2.19.1
 
