@@ -3,10 +3,10 @@ identifier: 6fbb67f7-d965-43e9-945b-1f3c7291a898
 draft: 'false'
 weight: 3
 date: '2021-03-27T18:02:39Z'
-date_updated: '2021-03-30T14:12:33Z'
+date_updated: '2021-03-30T15:03:37Z'
 title: About
 blocks:
-  time: 1617113552316
+  time: 1617116616778
   blocks:
     - type: quote
       data:
@@ -118,6 +118,20 @@ blocks:
           followed by the excitement of knowing that we’ll get back into it 
 
           tomorrow.
+    - type: image
+      data:
+        file:
+          size: 978188
+          name: about.jpg
+          title: About
+          extension: jpg
+          fileId: 8c15f7c5-2bdd-4d33-83cd-e40fa14a1816
+          fileURL: /files/8c15f7c5-2bdd-4d33-83cd-e40fa14a1816
+          url: /assets/8c15f7c5-2bdd-4d33-83cd-e40fa14a1816
+        caption: Photo by Will Crooks<br>
+        withBorder: false
+        stretched: false
+        withBackground: false
   version: 2.19.1
 menu: main
 ---
