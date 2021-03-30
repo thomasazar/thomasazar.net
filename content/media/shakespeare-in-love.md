@@ -3,7 +3,7 @@ identifier: 21d14ab2-9c2e-4d48-b345-85348b1e5c9c
 draft: draft
 weight: null
 date: '2021-03-29T15:03:55Z'
-date_updated: '2021-03-30T13:03:10Z'
+date_updated: '2021-03-30T13:06:31Z'
 title: Shakespeare in Love
 venue: Alliance Theatre
 role: Will
@@ -11,9 +11,9 @@ director: Richard Garner
 city: Atlanta, Georgia
 photos_by: Greg Mooney
 logo: e036f12d-aa98-4e63-9c1d-e95662ba3ef8
-direction: null
+direction: topright
 photos:
-  time: 1617109387349
+  time: 1617109573685
   blocks:
     - type: image
       data:
@@ -100,5 +100,6 @@ photos:
         stretched: true
         withBackground: false
   version: 2.19.1
+featured: 7a49213e-3cde-4602-ad7f-6b35878258a0
 
 ---

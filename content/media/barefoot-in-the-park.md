@@ -72,5 +72,6 @@ photos:
         stretched: true
         withBackground: false
   version: 2.19.1
+featured: null
 
 ---
