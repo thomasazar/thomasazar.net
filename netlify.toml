@@ -2,5 +2,5 @@
   ID = "26304c5f-909b-444a-9a4c-b8bacfece441"
 
 [build]
-  Base = ""
-  Publish = "public"
+  command = "hugo --gc --minify"
+  publish = "public"
