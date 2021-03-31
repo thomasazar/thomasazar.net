@@ -3,8 +3,10 @@
     {{ readFile "/static/images/logo.svg" | safeHTML }}
     <img class="hero__image" src="{{ site.Params.assets_url }}/{{ site.Params.splash_image }}">
     <section class="hero__news">
-      {{ range .Params.blocks.blocks }}
-        {{ partial (printf "blocks/%s" .type) .data }}
+      {{ with .Params.blocks }}
+          {{ range .blocks }}
+              {{ partial (printf "blocks/%s" .type) .data }}
+          {{ end }}
       {{ end }}
     </section>
     <nav class="nav hero__nav">
