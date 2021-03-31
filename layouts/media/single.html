@@ -10,8 +10,10 @@
         </section>
         <p class="small">Photos by {{ .Params.photos_by }}</p>
     </header>
-    {{ range .Params.blocks.blocks }}
-        {{ partial (printf "blocks/%s" .type) .data }}
+    {{ with .Params.blocks }}
+        {{ range .blocks }}
+            {{ partial (printf "blocks/%s" .type) .data }}
+        {{ end }}
     {{ end }}
     <ul class="gallery">
         {{ range .Params.photos.blocks }}
