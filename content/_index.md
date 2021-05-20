@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Stay safe. Stay home. Wear a mask.
+Support live theatre. Get vaccinated.
