@@ -5,6 +5,14 @@ menu:
     weight: 1
 ---
 
+## This Is Derek
+
+This June, Thomas stars in the short "This Is Derek", written by Paul Grellong (*Manuscript*, Amazon’s *The Boys*) and directed by Quinn Xavier Hernandez (assistant director for Warehouse's *Hedwig & the Angry Inch* and *Bloody Bloody Andrew Jackson*). More information, including the link to stream all the shorts for free, can be found at [warehousetheatre.com](https://warehousetheatre.com/shows/long-story-short/).
+
+Streaming June 11–14, 2021.
+
+> We commissioned 9 of the best playwrights working today and asked them to create short pieces specifically for Warehouse actors working with Upstate directors. The result is *LONG STORY SHORT: 9 Short Plays From the Longest Year Of Our Lives*.
+
 ## Divided States
 
 ![Logo for Divided States](/uploads/divided-states.jpg)
