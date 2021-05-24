@@ -3,10 +3,9 @@
   grid-template-rows: [start logo] 200px [nav news] 1fr [bottom] 200px [end];
   grid-template-columns: [start nav] 1fr [logo center] 1fr [news] 1fr [end];
   height: 100vh;
-  height: calc(100vh - var(--vh-offset, 0px));
   align-items: center;
   font-size: 125%;
-  background: #171b1f;
+  background: #101519;
   overflow: hidden;
 
   .logo {
