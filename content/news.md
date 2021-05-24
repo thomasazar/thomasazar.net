@@ -11,6 +11,8 @@ This June, Thomas stars in the short "This Is Derek", written by Paul Grellong (
 
 Streaming June 11–14, 2021.
 
+![Promo poster Long Story Short at the Warehouse Theatre](/uploads/long-story-short.jpg)
+
 > We commissioned 9 of the best playwrights working today and asked them to create short pieces specifically for Warehouse actors working with Upstate directors. The result is *LONG STORY SHORT: 9 Short Plays From the Longest Year Of Our Lives*.
 
 ## Divided States
