@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Thomas stars in the short "This Is Derek" as a part of [the Warehouse Theatre's *Long Story Short*](https://warehousetheatre.com/shows/long-story-short/), premiering June 11.
+Thomas returns to [Lean Ensemble Theater](https://www.leanensemble.org/) in Larissa FastHorse's *The Thanksgiving Play*, running October 21—31, 2021.
