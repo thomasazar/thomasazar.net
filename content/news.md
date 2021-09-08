@@ -5,11 +5,15 @@ menu:
     weight: 1
 ---
 
+## The Thanksgiving Play
+
+This October, Thomas returns to Lean Ensemble Theater in Hilton Head Island, appearing in Larissa FastHorse's *The Thanksgiving Play*, directed by Maggie Kettering. Running October 21—31, 2021. Tickets and information available at [leanensemble.org](https://www.leanensemble.org/).
+
+> Good intentions collide with absurd assumptions in Larissa FastHorse’s wickedly funny satire, as a troupe of terminally “woke” teaching artists scrambles to create a pageant that somehow manages to celebrate both Turkey Day and Native American Heritage Month.
+
 ## This Is Derek
 
-This June, Thomas stars in the short "This Is Derek", written by Paul Grellong (*Manuscript*, Amazon’s *The Boys*) and directed by Quinn Xavier Hernandez (assistant director for Warehouse's *Hedwig & the Angry Inch* and *Bloody Bloody Andrew Jackson*). More information, including the link to stream all the shorts for free, can be found at [warehousetheatre.com](https://warehousetheatre.com/shows/long-story-short/).
-
-Streaming June 11–14, 2021.
+Thomas recently starred in the short "This Is Derek", part of [the Warehouse Theatre's *Long Story Short*](https://warehousetheatre.com/shows/long-story-short/), written by Paul Grellong (*Manuscript*, Amazon’s *The Boys*) and directed by Quinn Xavier Hernandez (assistant director for Warehouse's *Hedwig & the Angry Inch* and *Bloody Bloody Andrew Jackson*).
 
 ![Promo poster Long Story Short at the Warehouse Theatre](/uploads/long-story-short.jpg)
 
