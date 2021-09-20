@@ -6,6 +6,8 @@
     <title>{{ $.Site.Title }} - {{ .Page.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'">
+
     {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
     {{ $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
@@ -39,8 +41,6 @@
     {{ $jsMain := resources.Get "scripts/main.js" }}
     {{ $js := slice $baguetteBox $smoothScroll $vhCheck $jsMain | resources.Concat "js/scripts.js" | minify | fingerprint }}
     <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
-
-    <script data-goatcounter="https://gc.thomasazar.net/count" async src="//gc.thomasazar.net/count.js"></script>
 
     <script async defer data-domain="thomasazar.net" src="//plausible.thomasazar.net/js/plausible.js"></script>
 </head>
