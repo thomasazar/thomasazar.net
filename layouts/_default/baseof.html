@@ -39,8 +39,6 @@
     {{ $jsMain := resources.Get "scripts/main.js" }}
     {{ $js := slice $baguetteBox $smoothScroll $vhCheck $jsMain | resources.Concat "js/scripts.js" | minify | fingerprint }}
     <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
-
-    <script async defer data-domain="thomasazar.net" src="https://plausible.thomasazar.net/js/plausible.js"></script>
 </head>
 
 <body class="{{ .Page.Title | urlize | lower }}">
