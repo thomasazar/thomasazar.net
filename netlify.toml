@@ -6,3 +6,11 @@
   Publish = "public"
   Command = "hugo --gc --minify"
   environment = { HUGO_VERSION = "0.88.1" }
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = nosniff
+    Content-Security-Policy = "default-src 'none'; script-src 'self' https://plausible.thomasazar.net; connect-src 'self'; img-src 'self' https://res.cloudinary.com; style-src 'self'; base-uri 'self'; form-action 'self'; font-src 'self'; object-src https://res.cloudinary.com"
