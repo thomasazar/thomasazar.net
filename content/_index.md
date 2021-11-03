@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Thomas returns to [Lean Ensemble Theater](https://www.leanensemble.org/) in Larissa FastHorse's *The Thanksgiving Play*, running October 21—31, 2021.
+Thomas returns to [the Warehouse Theatre](https://warehousetheatre.com/shows/appropriate-ii/) in Branden Jacobs-Jenkins's *Appropriate* directed by Ibi Owolabi, running June 10—26, 2022.
