@@ -5,6 +5,14 @@ menu:
     weight: 1
 ---
 
+## Death of a Streetcar Named Virginia Woolf: A Parody
+
+What better way to end the 2021-2022 season than with a laugh? *Death of a Streetcar Named Virginia Woolf: A Parody* is directed by Blake White, Lean Ensemble Theater's Artistic Director, and runs April 21—May 1, 2022.
+
+> This hilarious result of collaboration between Writers Theatre and Chicago's world-renowned comedy theatre, The Second City, asks the intriguing question: What happens when the most recognizable characters from some of the greatest American plays of the 20th century suddenly find themselves sharing the same stage?
+
+[![Promo image for Death of a Streetcar Named Virginia Woolf at Lean Ensemble Theater](/uploads/death-of-a-streetcar.jpg)](https://www.leanensemble.org/)
+
 ## Appropriate
 
 In June of 2022, Thomas will return to the Warehouse Theatre as Bo in Branden Jacobs-Jenkins's *Appropriate*, directed by Ibi Owolabi, running June 10—26, 2022. For tickets and more information, visit [warehousetheatre.com](https://warehousetheatre.com/shows/appropriate-ii/).
@@ -13,13 +21,15 @@ In June of 2022, Thomas will return to the Warehouse Theatre as Bo in Branden Ja
 
 [![Promo poster for Approriate at the Warehouse Theatre](/uploads/appropriate_banner.png)](https://warehousetheatre.com/shows/appropriate-ii/)
 
-## The Thanksgiving Play
+## Recently
+
+### The Thanksgiving Play
 
 In October, Thomas returned to [Lean Ensemble Theater](https://www.leanensemble.org/) in Hilton Head Island, appearing in Larissa FastHorse's *The Thanksgiving Play*, directed by Maggie Kettering.
 
 > Good intentions collide with absurd assumptions in Larissa FastHorse’s wickedly funny satire, as a troupe of terminally “woke” teaching artists scrambles to create a pageant that somehow manages to celebrate both Turkey Day and Native American Heritage Month.
 
-## This Is Derek
+### This Is Derek
 
 Thomas recently starred in the short "This Is Derek", part of [the Warehouse Theatre's *Long Story Short*](https://warehousetheatre.com/shows/long-story-short/), written by Paul Grellong (*Manuscript*, Amazon’s *The Boys*) and directed by Quinn Xavier Hernandez (assistant director for Warehouse's *Hedwig & the Angry Inch* and *Bloody Bloody Andrew Jackson*).
 
@@ -27,7 +37,7 @@ Thomas recently starred in the short "This Is Derek", part of [the Warehouse The
 
 > We commissioned 9 of the best playwrights working today and asked them to create short pieces specifically for Warehouse actors working with Upstate directors. The result is *LONG STORY SHORT: 9 Short Plays From the Longest Year Of Our Lives*.
 
-## Divided States
+### Divided States
 
 ![Logo for Divided States](/uploads/divided-states.jpg)
 
