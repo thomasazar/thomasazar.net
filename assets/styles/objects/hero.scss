@@ -85,6 +85,7 @@
     margin: 0 auto;
     align-self: end;
     background: transparentize($base-500, 0.5);
+    backdrop-filter: blur(35px) brightness(67%);
     animation: slideFromBottom 0.75s ease-in 2s forwards;
   }
 
@@ -94,6 +95,7 @@
     background: transparentize($base-900, 0.5);
     animation: slideFromBottom 0.75s ease-in 1s forwards;
     font-size: 80%;
+    text-shadow: 1px 1px 1px #333333aa;
 
     .nav__item {
       display: inline-block;
