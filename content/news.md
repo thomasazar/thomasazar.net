@@ -15,7 +15,7 @@ What better way to end the 2021-2022 season than with a laugh? *Death of a Stree
 
 ## Appropriate
 
-In June of 2022, Thomas will return to the Warehouse Theatre as Bo in Branden Jacobs-Jenkins's *Appropriate*, directed by Ibi Owolabi, running June 10—26, 2022. For tickets and more information, visit [warehousetheatre.com](https://warehousetheatre.com/shows/appropriate-ii/).
+In June of 2022, Thomas will return to the Warehouse Theatre as Bo in Branden Jacobs-Jenkins's *Appropriate*, running June 10—26, 2022. For tickets and more information, visit [warehousetheatre.com](https://warehousetheatre.com/shows/appropriate-ii/).
 
 > Every estranged member of the Lafayette clan has descended upon the crumbling Arkansas homestead to settle the accounts of their newly-dead patriarch. As his three adult children sort through a lifetime of hoarded mementos and junk, they collide over clutter, debt, and a contentious family history. But after a disturbing discovery surfaces among their father’s  possessions, the reunion takes a turn for the explosive and unleashes crackling surprises, gut-punching honesty, and uproarious confrontations.
 
