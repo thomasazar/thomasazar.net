@@ -11,6 +11,7 @@ weight: 2
 |----------------------------------|-------------------|---------------------------------|--|
 | *Shakespeare in Love*            | Will              | Alliance Theatre, GA            | Richard Garner |
 | *Angels in America: Parts 1 & 2* | Prior Walter      | The Warehouse Theatre, SC       | Jayce T. Tromsness |
+| *Death of a Streetcar Named Virginia Woolf* | George | Lean Ensemble Theater, SC       | Blake White | 
 | *The Glass Menagerie*            | Tom               | The Warehouse Theatre, SC       | Kerrie Seymour |
 | *Constellations*                 | Roland            | Mill Mountain Theatre, VA       | Jay Briggs |
 | *In the Next Room*               | Dr. Givings       | The Warehouse Theatre, SC       | Kerrie Seymour |
