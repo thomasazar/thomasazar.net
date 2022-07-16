@@ -43,17 +43,18 @@
                         first_name
                         last_name
                     }
-                    date_created
-                    date_updated
-                    status
+                    date
+                    lastmod
+                    draft
                     content
                 }
 
-                resume {
+                credits {
+                    year
                     title
                     venue
-                    role
                     director
+                    class
                 }
             }
         ` | jsonify
