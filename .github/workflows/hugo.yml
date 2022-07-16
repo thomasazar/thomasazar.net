@@ -31,9 +31,10 @@ jobs:
           HUGO_API_GQL_PASSWORD: ${{ secrets.HUGO_API_GQL_PASSWORD }}
         run: hugo --environment build 
 
-      - name: Copy tmpContent to content
-        - run: rm -r content
-        - run: mv tmpContent -t content
+      - name: Clear old content
+        run: rm -r content
+      - name: Copy new content
+        run: mv tmpContent -t content
 
       - name: Commit files
         run: |
