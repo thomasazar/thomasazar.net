@@ -1,0 +1,97 @@
+{{ $authUrl         := os.Getenv "HUGO_API_AUTH_URL" }}
+{{ $gqlUrl          := os.Getenv "HUGO_GQL_API_URL"}}
+{{ $gqlUser         := os.Getenv "HUGO_API_GQL_USER"}}
+{{ $gqlPass         := os.Getenv "HUGO_API_GQL_PASSWORD"}}
+
+{{ $token           := "" }}
+
+{{/* Auth payload */}}
+{{ $authPayload := (dict 
+    "method" "POST"
+    "body" ( dict 
+        "email" $gqlUser
+        "password" $gqlPass
+        | jsonify 
+    )
+    "headers" (dict 
+        "Content-Type" "application/json"
+    )
+)
+}}
+
+{{/* Get authToken */}}
+{{ with resources.GetRemote $authUrl $authPayload }}
+  {{ with .Err }}
+    {{ warnf "%s" . }}
+  {{ else }}
+    {{ $resp := . | transform.Unmarshal}}
+    {{ $token = $resp.data.access_token }}
+  {{ end }}
+{{ end }}
+
+{{/* Posts payload */}}
+{{ $bearer := printf "Bearer %s" $token }}
+{{ $postsPayload := ( dict
+    "method" "POST"
+    "body" ( dict
+        "query" `
+            {
+                pages {
+                    title
+                    user_created {
+                        email
+                        first_name
+                        last_name
+                    }
+                    date_created
+                    date_updated
+                    status
+                    content
+                }
+
+                resume {
+                    title
+                    venue
+                    role
+                    director
+                }
+            }
+        ` | jsonify
+    )
+    "headers" (dict 
+        "Content-Type" "application/json"
+        "X-REQUEST-TYPE" "GraphQL"
+        "Authorization" $bearer
+    )
+) }}
+
+{{/* Get posts */}}
+{{ with resources.GetRemote $gqlUrl $postsPayload }}
+    {{ with .Err }}
+        {{ warnf " %s" . }}
+    {{ else }}
+        {{ $rawData     := . | transform.Unmarshal }}
+        {{ $pages       := $rawData.data.pages }}
+        {{ range $page := $pages }}
+            {{ $templateString := printf "%s" ($page | jsonify (dict "indent" "  ")) }}
+            {{ $title := urlize $page.title }}
+            {{ if eq $page.title "Home" }}
+                {{ $title = "." }}
+            {{ end }}
+            {{ $mdFile := printf "%s/_index.md" $title }}
+            {{ $resource := resources.FromString $mdFile $templateString }}
+            {{ $file := $resource.RelPermalink }}
+
+        {{ end }}
+
+        {{ $credits := $rawData.data.resume }}
+        {{ range $credit := $credits }}
+            {{ $templateString := printf "%s" ($credit | jsonify (dict "indent" "  ")) }}
+            {{ $title := urlize $credit.title }}            
+            {{ $mdFile := printf "resume/%s.md" $title }}
+            {{ $resource := resources.FromString $mdFile $templateString }}
+            {{ $file := $resource.RelPermalink }}
+        {{ end }}
+        
+    {{ end }}
+{{ end }}

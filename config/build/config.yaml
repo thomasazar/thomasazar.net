@@ -1,0 +1,18 @@
+theme: build
+publishDir: content
+disableKinds:
+- sitemap
+- taxonomy
+- term
+outputs:
+  home:
+  - html
+module:
+  mounts:
+    - source: empty
+      target: static
+    - source: empty
+      target: content
+caches:
+  getresource:
+    maxAge: 1m
