@@ -69,7 +69,7 @@
         {{ $rawData     := . | transform.Unmarshal }}
         {{ $pages       := $rawData.data.pages }}
         {{ range $page := $pages }}
-            {{ $templateString := printf "%s" ($page | jsonify (dict "indent" "  ")) }}
+            {{ $templateString := printf "%s" ($page | jsonify (dict "indent" "  ") | safeHTML) }}
             {{ $title := urlize $page.title }}
             {{ if eq $page.title "Home" }}
                 {{ $title = "." }}
