@@ -1,5 +1,5 @@
 theme: build
-publishDir: content
+publishDir: tmpContent
 disableKinds:
 - sitemap
 - taxonomy

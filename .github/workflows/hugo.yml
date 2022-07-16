@@ -31,6 +31,9 @@ jobs:
           HUGO_API_GQL_PASSWORD: ${{ secrets.HUGO_API_GQL_PASSWORD }}
         run: hugo --environment build 
 
+      - name: Copy tmpContent to content
+        run: mv tmpContent -t content
+
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
