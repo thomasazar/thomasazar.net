@@ -24,6 +24,11 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          HUGO_API_AUTH_URL: ${{ secrets.HUGO_API_AUTH_URL }}
+          HUGO_GQL_API_URL: ${{ secrets.HUGO_GQL_API_URL }}
+          HUGO_API_GQL_USER: ${{ secrets.HUGO_API_GQL_USER }}
+          HUGO_API_GQL_PASSWORD: ${{ secrets.HUGO_API_GQL_PASSWORD }}
         run: hugo --environment build
 
       - name: Commit files
