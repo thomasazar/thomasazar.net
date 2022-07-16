@@ -23,18 +23,16 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Clear old content
+        run: rm -r content
+
       - name: Build
         env:
           HUGO_API_AUTH_URL: ${{ secrets.HUGO_API_AUTH_URL }}
           HUGO_GQL_API_URL: ${{ secrets.HUGO_GQL_API_URL }}
           HUGO_API_GQL_USER: ${{ secrets.HUGO_API_GQL_USER }}
           HUGO_API_GQL_PASSWORD: ${{ secrets.HUGO_API_GQL_PASSWORD }}
-        run: hugo --environment build 
-
-      - name: Clear old content
-        run: rm -r content
-      - name: Copy new content
-        run: mv tmpContent content
+        run: hugo --environment build
 
       - name: Commit files
         run: |

@@ -80,10 +80,10 @@
 
         {{ end }}
 
-        {{ $credits := $rawData.data.resume }}
+        {{ $credits := $rawData.data.credits }}
         {{ range $credit := $credits }}
-            {{ $templateString := printf "%s" ($credit | jsonify (dict "indent" "  ")) }}
-            {{ $title := urlize $credit.title }}            
+            {{ $templateString := printf "%s" ($credit | jsonify (dict "indent" "  ") | safeHTML) }}
+            {{ $title := urlize $credit.title }}
             {{ $mdFile := printf "resume/%s.md" $title }}
             {{ $resource := resources.FromString $mdFile $templateString }}
             {{ $file := $resource.RelPermalink }}
