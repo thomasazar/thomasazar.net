@@ -34,7 +34,7 @@ jobs:
       - name: Clear old content
         run: rm -r content
       - name: Copy new content
-        run: mv tmpContent -t content
+        run: mv tmpContent content
 
       - name: Commit files
         run: |
