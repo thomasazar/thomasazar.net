@@ -32,8 +32,8 @@ jobs:
         run: hugo --environment build 
 
       - name: Copy tmpContent to content
-        run: rm -r content
-        run: mv tmpContent -t content
+        - run: rm -r content
+        - run: mv tmpContent -t content
 
       - name: Commit files
         run: |
