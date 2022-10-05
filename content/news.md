@@ -5,15 +5,15 @@ menu:
     weight: 1
 ---
 
-## Appropriate
+## Recently
 
-In June of 2022, Thomas will return to the Warehouse Theatre as Bo in Branden Jacobs-Jenkins's *Appropriate*, running June 10—26, 2022. For tickets and more information, visit [warehousetheatre.com](https://warehousetheatre.com/shows/appropriate-ii/).
+### Appropriate
+
+In June of 2022, Thomas returned to the Warehouse Theatre as Bo in Branden Jacobs-Jenkins's *Appropriate*, directed by Jay Briggs.
 
 > Every estranged member of the Lafayette clan has descended upon the crumbling Arkansas homestead to settle the accounts of their newly-dead patriarch. As his three adult children sort through a lifetime of hoarded mementos and junk, they collide over clutter, debt, and a contentious family history. But after a disturbing discovery surfaces among their father’s  possessions, the reunion takes a turn for the explosive and unleashes crackling surprises, gut-punching honesty, and uproarious confrontations.
 
 [![Promo poster for Approriate at the Warehouse Theatre](/uploads/appropriate_banner.png)](https://warehousetheatre.com/shows/appropriate-ii/)
-
-## Recently
 
 ### Death of a Streetcar Named Virginia Woolf: A Parody
 
