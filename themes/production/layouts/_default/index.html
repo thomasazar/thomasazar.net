@@ -1,5 +1,5 @@
 {{ define "header" }}
-    {{ readFile "/static/images/logo.svg" | safeHTML }}
+    {{ readFile "/themes/production/static/images/logo.svg" | safeHTML }}
     <img class="hero__image" src="https://res.cloudinary.com/thomasazar/image/upload/c_scale,h_1000,f_auto/thomasazar.net/{{ .Params.splash.filename_disk }}">
     <section class="hero__news">
         {{ range .Params.content.blocks }}

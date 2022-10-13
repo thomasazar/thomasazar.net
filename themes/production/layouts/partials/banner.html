@@ -1,6 +1,6 @@
 <nav class="banner">
     <a class="logo" href="/">
-        {{ readFile "/static/images/logo.svg" | safeHTML }}
+        {{ readFile "/themes/production/static/images/logo.svg" | safeHTML }}
     </a>
     <section class="blurb">
         {{ with .Site.GetPage "/blurb" }}
