@@ -48,5 +48,5 @@
   "role": "Mitchell",
   "title": "Cry It Out",
   "venue": "Lean Ensemble Theater",
-  "weight": null
+  "weight": 3
 }

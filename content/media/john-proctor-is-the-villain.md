@@ -36,5 +36,5 @@
   "role": "Mr. Smith",
   "title": "John Proctor Is the Villain",
   "venue": "Clemson University",
-  "weight": null
+  "weight": 4
 }
