@@ -1,0 +1,24 @@
+.big-quote {
+    grid-column: full;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    font-style: italic;
+
+    &:nth-of-type(odd)  { background: #7d9db0; }
+    &:nth-of-type(even) { background: #577a8e; }
+
+    p {
+        font-size: 2em;
+        max-width: 800px;
+        margin: 0 auto;
+    
+        &::before { content: "\201C"; }
+        &::after  { content: "\201D"; }
+    }
+    
+    cite {
+        display: block;
+        font-style: normal;
+    }
+}

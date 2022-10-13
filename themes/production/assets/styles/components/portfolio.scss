@@ -1,0 +1,42 @@
+.portfolio__image {
+    grid-column: 1;
+    grid-row: 1;
+    transition: .2s ease all;
+    transform-origin: bottom left;
+}
+
+.portfolio__logo {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 2;
+    fill: #f2f2f2;
+    transition: .4s ease all;
+    max-width: 50%;
+    margin: 20px;
+    filter: drop-shadow(0 0 5px #000);
+    
+    &.bottom_left {
+        transform-origin: bottom left;
+        align-self: end;
+    }
+    
+    &.bottom_right {
+        align-self: end;
+        justify-self: end;
+        transform-origin: bottom right;
+    }
+    
+    &.top_center {
+        justify-self: center;
+        transform-origin: top center;
+    }
+    
+    &.top_left {
+        transform-origin: top left;
+    }
+    
+    &.top_right {
+        justify-self: end;
+        transform-origin: top right;
+    }
+}

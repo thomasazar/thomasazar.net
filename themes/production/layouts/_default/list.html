@@ -1,0 +1,7 @@
+{{ define "main" }}
+    <main>
+        {{ range .Params.content.blocks }}
+            {{ partial (printf "blocks/%s" .type) .data }}
+        {{ end }}
+    </main>
+{{ end }}

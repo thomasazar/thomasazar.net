@@ -1,0 +1,20 @@
+.banner a {
+    &:visited { color: #c1ddec; }
+}
+
+.big-quote a {
+    color: hsl(202, 24%, 15%);
+    display: block;
+    margin: 1em;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    margin: 0 0 1em;
+    
+    &:hover {
+        .portfolio__image { filter: sepia(80%); }
+        .portfolio__logo  { transform: scale(1.1); }
+    }
+}

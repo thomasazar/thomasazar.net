@@ -1,0 +1,156 @@
+.hero {
+    display: grid;
+    grid-template-columns: 
+        [nav] 1fr
+        [logo] 1fr
+        [news] 1fr;
+    grid-template-rows:
+        [logo] 1fr
+        [news nav] 1fr
+        [bottom] 1fr;
+    height: 100vh;
+    align-items: center;
+    font-size: 125%;
+    background: #101519;
+    overflow: hidden;
+    
+    svg {
+        grid-column: logo;
+        grid-row: logo;
+        z-index: 2;
+        justify-self: center;
+        width: 264.903px;
+        height: 158.889px;
+    }
+}
+
+.hero__image {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: end;
+    
+    @media screen and (min-width: 801px) {
+        max-height: calc(100vh - 50px);
+    }
+}
+
+.hero__news {
+    grid-column: news;
+    grid-row: news;
+    padding: 0 10px;
+    animation: slideFromRight 0.75s ease-in 2s forwards;
+}
+
+.hero__nav {
+    grid-column: nav;
+    grid-row: nav;
+    margin: 0 !important;
+    padding-left: 40px;
+    animation: slideFromLeft 0.75s ease-in 1s forwards;
+    
+    .nav__item {
+        margin-bottom: 1em;
+        display: block;
+    }
+}
+
+.hero__caption {
+    position: relative;
+    bottom: 100%;
+    margin: 0 0 0 1em;
+}
+
+@supports (animation-name: slideFromBottom) {
+    .hero__nav,
+    .hero__news {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        grid-template-rows: [start logo] auto [news] 1fr [nav] auto [end];
+        grid-template-columns: [start logo nav news] 1fr [end];
+        
+        .logo {
+            max-height: 100px;
+            align-self: start;
+            margin-top: 10px;
+        }
+    }
+    
+    .hero__image {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .hero__news {
+        margin: 0 auto;
+        align-self: end;
+        background: transparentize(#30434e, 0.5);
+        backdrop-filter: blur(35px) brightness(67%);
+        animation: slideFromBottom 0.75s ease-in 2s forwards;
+        text-shadow: 1px 1px 1px #333;
+    }
+    
+    .hero__nav {
+        align-self: end;
+        padding-left: 0;
+        background: #30434e;
+        animation: slideFromBottom 0.75s ease-in 1s forwards;
+        font-size: 80%;
+        text-align: center;
+        
+        .nav__item {
+            display: inline-block;
+            margin: 0.25em;
+        }
+    }
+    
+    @supports (animation-name: slideFromBottom) {
+        .hero__news,
+        .hero__nav {
+            opacity: 0;
+        }
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

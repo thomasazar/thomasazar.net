@@ -1,0 +1,23 @@
+.banner {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(1rem + 2vw);
+    max-width: calc(14rem + 75ch);
+    margin: 0 auto;
+
+    .logo {
+        min-width: 5rem;
+        max-width: 10rem;
+        margin-right: auto;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}

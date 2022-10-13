@@ -1,0 +1,9 @@
+<table>
+    {{ range .content }}
+        <tr>
+            {{ range . }}
+                <td>{{ safeHTML . }}</td>
+            {{ end }}
+        </tr>
+    {{ end }}
+</table>

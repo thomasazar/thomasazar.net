@@ -3,18 +3,23 @@
     "blocks": [
       {
         "data": {
-          "level": 1,
-          "text": "Lights and sound for theatre"
+          "text": "Thomas will direct the Clemson Players' production of \u003ci\u003eThe Thanksgiving Play\u003c/i\u003e by Larissa FastHorse, running November 14—20, 2022."
         },
-        "id": "5WOyyAM93l",
-        "type": "header"
+        "id": "Rs5YDigSIL",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "text": "His fight choreography is currently featured in the Warehouse Theatre's tour of \u003ci\u003eRomeo \u0026amp; Juliet\u003c/i\u003e, traveling across South Carolina.\u003cbr\u003e"
+        },
+        "id": "_BahDq-7hL",
+        "type": "paragraph"
       }
     ],
-    "time": 1645040685241,
-    "version": "2.22.2"
+    "time": 1665418890000,
+    "version": "2.25.0"
   },
-  "date": "2022-02-16T19:44:47",
-  "draft": false,
-  "lastmod": "2022-02-18T18:13:41",
-  "title": "Home"
+  "splash": {
+    "filename_disk": "311cfbae-794f-4bfc-91c5-d777822ca527.jpg"
+  }
 }

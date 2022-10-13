@@ -1,0 +1,24 @@
+.gallery {  
+  grid-column: feature;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+
+  a {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.gallery__item {
+  margin: 0;
+
+  &:first-child,
+  &:last-child {
+    grid-column: 1 / -1;
+  }
+}

@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+  grid-column: feature;
+}
+
+td {
+  padding: 0 0.5em 0.5em 0;
+  vertical-align: top;
+
+  &:nth-child(1) { width: 30%; }
+  &:nth-child(2) { width: 20%; }
+}
+
+@media screen and (max-width: 800px) {
+table {
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $base-700;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  td {
+    padding: 0 1em 0 0;
+    width: 33%;
+
+    &:nth-child(1) {
+      flex: 100%;
+      width: 100%;
+    }
+
+    &:nth-child(2) {
+      width: 33%;
+    }
+  }
+}
+}

@@ -1,0 +1,13 @@
+# Redirect domain aliases to primary domain
+https://www.thomasazar.com/*            https://www.thomasazar.net/:splat       301!
+https://thomasazar.com/*                https://www.thomasazar.net/:splat       301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://thomasazar.netlify.com/*        https://www.thomasazar.net/:splat       301!
+
+# Cloudinary
+/image/full/*                           https://res.cloudinary.com/thomasazar/image/upload/c_scale,w_1200,f_auto/thomasazar.net/:splat 200
+/image/thumb/*                          https://res.cloudinary.com/thomasazar/image/upload/c_fill,w_840,h_574,g_auto,f_auto/thomasazar.net/:splat 200
+/image/featured/*                       https://res.cloudinary.com/thomasazar/image/upload/c_fill,w_792,h_528,g_auto,f_auto/thomasazar.net/:splat 200
+/image/splash/*                         https://res.cloudinary.com/thomasazar/image/upload/c_scale,w_1000,f_auto/thomasazar.net/:splat 200
+/pdf/*                                  https://res.cloudinary.com/thomasazar/image/upload/thomasazar.net/:splat 200

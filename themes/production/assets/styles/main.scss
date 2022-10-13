@@ -1,0 +1,36 @@
+@layer reset {
+    @import "reset/remedy.scss";
+    @import "reset/reminders.scss";
+}
+
+@layer default {
+    @import "default/fonts.scss";
+    @import "default/html.scss";
+}
+
+@layer layout {
+    @import "layout/a.scss";
+    @import "layout/banner.scss";
+    @import "layout/header.scss";
+    @import "layout/headings.scss";
+    @import "layout/html.scss";
+    @import "layout/main.scss";
+    @import "layout/table.scss";
+}
+
+@layer components {
+    @import "components/gallery.scss";
+    @import "components/hero.scss";
+    @import "components/portfolio.scss";
+}
+
+@layer override {
+    @import "override/a.scss";
+    @import "override/blockquote.scss";
+    @import "override/headings.scss";
+    @import "override/p.scss";
+}
+
+@layer vendor {
+    @import "vendor/baguetteBox.scss";
+}

@@ -1,0 +1,63 @@
+{{ $gqlUrl  := "https://admin.thomasazar.net/graphql" }}
+
+{{/* Posts payload */}}
+{{ $bearer := printf "Bearer %s" "MuPYb13aiwU7gCPzd7h4vPKsVTLmlVuN" }}
+{{ $postsPayload := ( dict
+    "method" "POST"
+    "body" ( dict
+        "query" (readFile "layouts/partials/query.html") | jsonify
+    )
+    "headers" (dict 
+        "Content-Type" "application/json"
+        "X-REQUEST-TYPE" "GraphQL"
+        "Authorization" $bearer
+    )
+) }}
+
+{{/* Get posts */}}
+{{ with resources.GetRemote $gqlUrl $postsPayload }}
+    {{ with .Err }}
+        {{ errorf " %s" . }}
+    {{ else }}
+        {{ $rawData := . | transform.Unmarshal }}
+
+        {{/* Home */}}
+        {{ with $rawData.data.home }}
+            {{ $templateString := printf "%s" (. | jsonify (dict "indent" "  ")) }}
+            {{ $mdFile := "./_index.md" }}
+            {{ $resource := resources.FromString $mdFile $templateString }}
+            {{ $file := $resource.RelPermalink }}
+        {{ end }}
+
+        {{/* Pages */}}
+        {{ range $page := $rawData.data.pages }}
+            {{ $page = partial "inline/draft" $page }}
+            {{ $templateString := printf "%s" ($page | jsonify (dict "indent" "  ")) }}
+            {{ $title := urlize $page.title }}
+            {{ $mdFile := printf "%s/_index.md" $title }}
+            {{ $resource := resources.FromString $mdFile $templateString }}
+            {{ $file := $resource.RelPermalink }}
+        {{ end }}
+
+        {{/* Pages */}}
+        {{ range $page := $rawData.data.media }}
+            {{ $page = partial "inline/draft" $page }}
+            {{ $templateString := printf "%s" ($page | jsonify (dict "indent" "  ")) }}
+            {{ $title := urlize $page.title }}
+            {{ $mdFile := printf "media/%s.md" $title }}
+            {{ $resource := resources.FromString $mdFile $templateString }}
+            {{ $file := $resource.RelPermalink }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ define "partials/inline/draft.html" }}
+    {{ $page := . }}
+    {{ warnf "Draft: %s" $page.draft }}
+    {{ if eq $page.draft "published" }}
+        {{ $page = merge $page (dict "draft" "false") }}
+    {{ else }}
+        {{ $page = merge $page (dict "draft" "true") }}
+    {{ end }}
+    {{ return $page }}
+{{ end }}

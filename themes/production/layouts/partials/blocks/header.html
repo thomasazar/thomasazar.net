@@ -1,0 +1,5 @@
+{{ $open := printf "<h%v>" .level }}
+{{ $close := printf "</h%v>" .level }}
+{{ safeHTML $open }}
+    {{ safeHTML .text }}
+{{ safeHTML $close }}

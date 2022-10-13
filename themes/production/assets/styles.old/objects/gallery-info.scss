@@ -1,0 +1,14 @@
+.gallery-info {
+  text-align: center;
+
+  .logo {
+    width: 500px;
+    height: auto;
+  }
+}
+
+.gallery-info__credits {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}

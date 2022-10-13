@@ -15,4 +15,4 @@ module:
       target: content
 caches:
   getresource:
-    maxAge: 1m
+    maxAge: 1s

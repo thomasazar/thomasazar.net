@@ -1,0 +1,10 @@
+a {
+    color: #c1ddec;
+
+    &:visited {
+        color: rgb(224, 221, 255);
+    }
+    &:hover {
+        filter: brightness(1.2);
+    }
+}

@@ -1,0 +1,4 @@
+@include fontface('Jost', 'jost-400-book-webfont', $weight: false, $style: false);
+@include fontface('Jost', 'jost-400-bookitalic-webfont', $weight: false, $style: italic);
+@include fontface('Jost', 'jost-700-bold-webfont', $weight: bold, $style: false);
+@include fontface('Jost', 'jost-700-bolditalic-webfont', $weight: bold, $style: italic);

@@ -1,0 +1,10 @@
+{{ $class := "" }}
+{{ if eq .alignment "center" }}
+    {{ $class = "big-quote" }}
+{{ end }}
+<blockquote class="{{ $class }}">
+    <p>{{ safeHTML .text }}</p>
+    {{ with .caption }}
+        <cite>{{ safeHTML . }}</cite>
+    {{ end }}
+</blockquote>

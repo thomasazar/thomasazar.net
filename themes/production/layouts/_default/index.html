@@ -1,0 +1,18 @@
+{{ define "header" }}
+    {{ readFile "/static/images/logo.svg" | safeHTML }}
+    <img class="hero__image" src="https://res.cloudinary.com/thomasazar/image/upload/c_scale,h_1000,f_auto/thomasazar.net/{{ .Params.splash.filename_disk }}">
+    <section class="hero__news">
+        {{ range .Params.content.blocks }}
+            {{ partial (printf "blocks/%s" .type) .data }}
+        {{ end }}
+    </section>
+    <nav class="nav hero__nav">
+        <ul class="nav__list">
+            {{ range .Site.Menus.main }}
+                <li class="nav__item">
+                    <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
+{{ end }}
