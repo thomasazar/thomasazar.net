@@ -19,10 +19,31 @@
       },
       {
         "data": {
-          "text": "Thomas will direct Larissa FastHorse's The Thanksgiving Play at Clemson University, running November 14—20, 2022.\u003cbr\u003e"
+          "text": "Thomas will direct Larissa FastHorse's The Thanksgiving Play at Clemson University, running November 14—20, 2022."
         },
         "id": "dqIOUDVmcC",
         "type": "paragraph"
+      },
+      {
+        "data": {
+          "caption": "",
+          "file": {
+            "extension": "png",
+            "fileId": "30b28e6f-7d90-463c-bdf1-13d6ac36244b",
+            "fileURL": "/files/30b28e6f-7d90-463c-bdf1-13d6ac36244b",
+            "height": 583,
+            "name": "Brooks Center Image.png",
+            "size": "398519",
+            "title": "Brooks Center Image",
+            "url": "/assets/30b28e6f-7d90-463c-bdf1-13d6ac36244b",
+            "width": 1350
+          },
+          "stretched": false,
+          "withBackground": false,
+          "withBorder": false
+        },
+        "id": "ehEqp0mrvJ",
+        "type": "image"
       },
       {
         "data": {
@@ -50,7 +71,7 @@
       {
         "data": {
           "alignment": "left",
-          "caption": "",
+          "caption": "\u003ca href=\"https://warehousetheatre.com/shows/appropriate-ii/\"\u003eWarehouseTheatre.com\u003c/a\u003e",
           "text": "Every estranged member of the Lafayette clan has descended upon the \ncrumbling Arkansas homestead to settle the accounts of their newly-dead \npatriarch. As his three adult children sort through a lifetime of \nhoarded mementos and junk, they collide over clutter, debt, and a \ncontentious family history. But after a disturbing discovery surfaces \namong their father’s possessions, the reunion takes a turn for the \nexplosive and unleashes crackling surprises, gut-punching honesty, and \nuproarious confrontations."
         },
         "id": "Xnk5gtOVUs",
@@ -74,7 +95,7 @@
       {
         "data": {
           "alignment": "left",
-          "caption": "",
+          "caption": "\u003ca href=\"https://www.leanensemble.org/now-showing-streetcar\"\u003eLeanEnsemble.org\u003c/a\u003e",
           "text": "This hilarious result of collaboration between Writers Theatre and \nChicago’s world-renowned comedy theatre, The Second City, asks the \nintriguing question: What happens when the most recognizable characters \nfrom some of the greatest American plays of the 20th century suddenly \nfind themselves sharing the same stage?"
         },
         "id": "YGJCmCIZWR",
@@ -98,7 +119,7 @@
       {
         "data": {
           "alignment": "left",
-          "caption": "",
+          "caption": "\u003ca href=\"https://www.leanensemble.org/the-thanksgiving-play\"\u003eLeanEnsemble.org\u003c/a\u003e",
           "text": "Good intentions collide with absurd assumptions in Larissa \nFastHorse’s wickedly funny satire, as a troupe of terminally “woke” \nteaching artists scrambles to create a pageant that somehow manages to \ncelebrate both Turkey Day and Native American Heritage Month."
         },
         "id": "z3c1Ovda3_",
@@ -153,7 +174,7 @@
         "type": "quote"
       }
     ],
-    "time": 1665419359344,
+    "time": 1665686618533,
     "version": "2.25.0"
   },
   "draft": "false",
