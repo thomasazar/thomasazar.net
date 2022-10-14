@@ -9,6 +9,7 @@
         [news nav] 1fr
         [bottom] 1fr;
     height: 100vh;
+    height: calc(100vh - var(--vh-offset, 0px));
     align-items: center;
     font-size: 125%;
     background: #101519;
