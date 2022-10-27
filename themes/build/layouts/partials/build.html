@@ -1,7 +1,7 @@
 {{ $gqlUrl  := "https://admin.thomasazar.net/graphql" }}
-
+{{ $token := os.Getenv "HUGO_BUILDER_TOKEN" }}
 {{/* Posts payload */}}
-{{ $bearer := printf "Bearer %s" "MuPYb13aiwU7gCPzd7h4vPKsVTLmlVuN" }}
+{{ $bearer := printf "Bearer %s" $token }}
 {{ $postsPayload := ( dict
     "method" "POST"
     "body" ( dict

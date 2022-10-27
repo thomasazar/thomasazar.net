@@ -56,6 +56,21 @@
       {
         "data": {
           "level": 3,
+          "text": "South Carolina New Play Festival"
+        },
+        "id": "d0KyZz_gy-",
+        "type": "header"
+      },
+      {
+        "data": {
+          "text": "Thomas appeared in the inaugural \u003ca href=\"https://www.southcarolinanewplayfestival.org/\"\u003eSouth Carolina New Play Festival\u003c/a\u003e as Roger Chillingworth in Kate Hamill's new adaptation of \u003ci\u003eThe Scarlet Letter\u003c/i\u003e. Check out \u003ca href=\"https://www.americantheatre.org/2022/10/25/a-new-play-fest-is-born-in-greenville-s-c/\"\u003eAmerican Theatre's profile\u003c/a\u003e on the Festival.\u003cbr\u003e"
+        },
+        "id": "_AQ-Splqoh",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "level": 3,
           "text": "Appropriate"
         },
         "id": "ggMuTrBYlk",
@@ -174,7 +189,7 @@
         "type": "quote"
       }
     ],
-    "time": 1665686618533,
+    "time": 1666815983131,
     "version": "2.25.0"
   },
   "draft": "false",
