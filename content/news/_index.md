@@ -19,7 +19,7 @@
       },
       {
         "data": {
-          "text": "Thomas will direct Larissa FastHorse's The Thanksgiving Play at Clemson University, running November 14—20, 2022."
+          "text": "Thomas will direct Larissa FastHorse's The Thanksgiving Play at Clemson University, running November 14—20, 2022. Tickets and more information available at \u003ca href=\"https://clemson.universitytickets.com/w/event.aspx?SeriesID=12\"\u003eclemson.universitytickets.com\u003c/a\u003e.\u003cbr\u003e"
         },
         "id": "dqIOUDVmcC",
         "type": "paragraph"
@@ -63,10 +63,31 @@
       },
       {
         "data": {
-          "text": "Thomas appeared in the inaugural \u003ca href=\"https://www.southcarolinanewplayfestival.org/\"\u003eSouth Carolina New Play Festival\u003c/a\u003e as Roger Chillingworth in Kate Hamill's new adaptation of \u003ci\u003eThe Scarlet Letter\u003c/i\u003e. Check out \u003ca href=\"https://www.americantheatre.org/2022/10/25/a-new-play-fest-is-born-in-greenville-s-c/\"\u003eAmerican Theatre's profile\u003c/a\u003e on the Festival.\u003cbr\u003e"
+          "text": "Thomas appeared in the inaugural \u003ca href=\"https://www.southcarolinanewplayfestival.org/\"\u003eSouth Carolina New Play Festival\u003c/a\u003e as Roger Chillingworth in Kate Hamill's new adaptation of \u003ci\u003eThe Scarlet Letter\u003c/i\u003e. Check out \u003ca href=\"https://www.americantheatre.org/2022/10/25/a-new-play-fest-is-born-in-greenville-s-c/\"\u003eAmerican Theatre's profile\u003c/a\u003e on the Festival."
         },
         "id": "_AQ-Splqoh",
         "type": "paragraph"
+      },
+      {
+        "data": {
+          "caption": "",
+          "file": {
+            "extension": "png",
+            "fileId": "4f86a90c-e7a7-4e3f-88c7-f7650a088669",
+            "fileURL": "/files/4f86a90c-e7a7-4e3f-88c7-f7650a088669",
+            "height": 427,
+            "name": "SCNPF+Park.png",
+            "size": "58037",
+            "title": "Scnpf+park",
+            "url": "/assets/4f86a90c-e7a7-4e3f-88c7-f7650a088669",
+            "width": 766
+          },
+          "stretched": false,
+          "withBackground": false,
+          "withBorder": false
+        },
+        "id": "7WReK6I46-",
+        "type": "image"
       },
       {
         "data": {
@@ -189,7 +210,7 @@
         "type": "quote"
       }
     ],
-    "time": 1666815983131,
+    "time": 1666883938252,
     "version": "2.25.0"
   },
   "draft": "false",
