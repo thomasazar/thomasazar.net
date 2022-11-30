@@ -5,7 +5,7 @@
             <a href="{{ .Permalink }}">
                 <figure class="portfolio">
                     <img class="portfolio__image" src="/image/featured/{{ $featured.directus_files_id.filename_disk }}">
-                    {{ $svg := printf "/image/svg/%s" .Params.logo.filename_disk }}
+                    {{ $svg := printf "/svg/%s" .Params.logo.filename_disk }}
                     <img class="portfolio__logo {{ .Params.direction }}" src="{{ $svg }}" alt="{{ .Title }}" width="396">
                 </figure>
             </a>

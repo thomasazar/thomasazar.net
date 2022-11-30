@@ -1,7 +1,7 @@
 {{ define "main" }}
     <main>
         <header>
-            {{ $svg := printf "/image/svg/%s" .Params.logo.filename_disk }}
+            {{ $svg := printf "/svg/%s" .Params.logo.filename_disk }}
             <img src="{{ $svg }}" alt="{{ .Title }}" width="396">
             <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
             <p class="credits">
