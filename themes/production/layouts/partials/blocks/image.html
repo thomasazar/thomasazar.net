@@ -1,6 +1,6 @@
-<a href="https://res.cloudinary.com/thomasazar/image/upload/w_1200,f_auto/thomasazar.net/{{ .file.fileId }}.{{ .file.extension }}">
+<a href="/image/full/{{ .file.fileId }}.{{ .file.extension }}">
     <figure>
-        <img src="https://res.cloudinary.com/thomasazar/image/upload/w_600,f_auto/thomasazar.net/{{ .file.fileId }}.{{ .file.extension }}" alt="{{ .caption }}">
+        <img src="/image/thumb-block/{{ .file.fileId }}.{{ .file.extension }}" alt="{{ .caption }}">
         {{ with .caption }}
             <figcaption class="caption">
                 {{ . }}

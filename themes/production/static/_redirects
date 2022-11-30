@@ -8,6 +8,8 @@ https://thomasazar.netlify.com/*        https://www.thomasazar.net/:splat       
 # Cloudinary
 /image/full/*                           https://res.cloudinary.com/thomasazar/image/upload/c_scale,w_1200,f_auto/thomasazar.net/:splat 200
 /image/thumb/*                          https://res.cloudinary.com/thomasazar/image/upload/c_fill,w_840,h_574,g_auto,f_auto/thomasazar.net/:splat 200
+/image/thumb-block/*                    https://res.cloudinary.com/thomasazar/image/upload/w_600,f_auto/thomasazar.net/:splat 200
 /image/featured/*                       https://res.cloudinary.com/thomasazar/image/upload/c_fill,w_792,h_528,g_auto,f_auto/thomasazar.net/:splat 200
 /image/splash/*                         https://res.cloudinary.com/thomasazar/image/upload/c_scale,w_1000,f_auto/thomasazar.net/:splat 200
 /pdf/*                                  https://res.cloudinary.com/thomasazar/image/upload/thomasazar.net/:splat 200
+/svg/*                                  https://res.cloudinary.com/thomasazar/image/upload/thomasazar.net/:splat 200

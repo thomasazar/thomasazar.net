@@ -1,7 +1,7 @@
 {{ define "main" }}
     <main>
         <header>
-            {{ $svg := printf "/image/svg/%s" .Params.logo.filename_disk }}
+            {{ $svg := printf "%s/thomasazar.net/%s" $.Site.Params.images_prefix .Params.logo.filename_disk }}
             <img src="{{ $svg }}" alt="{{ .Title }}" width="396">
             <h3>{{ .Params.venue }} &mdash; {{ .Params.city }}</h3>
             <p class="credits">
@@ -13,8 +13,8 @@
         <ul class="gallery">
             {{ range .Params.photos }}
                 <li class="gallery__item{{ if eq .major true}} major {{ end }}">
-                    <a href="/image/full/{{ .directus_files_id.filename_disk }}" data-caption="{{ .directus_files_id.description }}">
-                        <img src="/image/thumb/{{ .directus_files_id.filename_disk }}" alt="{{ .directus_files_id.description }}">
+                    <a href="{{ $.Site.Params.images_prefix }}/w_1200,f_auto/thomasazar.net/{{ .directus_files_id.filename_disk }}" data-caption="{{ .directus_files_id.description }}">
+                        <img src="{{ $.Site.Params.images_prefix }}/c_fill,w_840,h_574,g_auto,f_auto/thomasazar.net/{{ .directus_files_id.filename_disk }}" alt="{{ .directus_files_id.description }}">
                     </a>
                 </li>
             {{ end }}

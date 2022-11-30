@@ -4,8 +4,8 @@
             {{ $featured := index .Params.photos 0 }}
             <a href="{{ .Permalink }}">
                 <figure class="portfolio">
-                    <img class="portfolio__image" src="/image/featured/{{ $featured.directus_files_id.filename_disk }}">
-                    {{ $svg := printf "/image/svg/%s" .Params.logo.filename_disk }}
+                    <img class="portfolio__image" src="{{ $.Site.Params.images_prefix }}/c_fill,w_792,h_528,g_auto,f_auto/thomasazar.net/{{ $featured.directus_files_id.filename_disk }}">
+                    {{ $svg := printf "%s/thomasazar.net/%s" $.Site.Params.images_prefix .Params.logo.filename_disk }}
                     <img class="portfolio__logo {{ .Params.direction }}" src="{{ $svg }}" alt="{{ .Title }}" width="396">
                 </figure>
             </a>
