@@ -3,20 +3,13 @@
     "blocks": [
       {
         "data": {
-          "text": "Thomas will direct the Clemson Players' production of \u003ci\u003eThe Thanksgiving Play\u003c/i\u003e by Larissa FastHorse, running November 14—20, 2022."
+          "text": "Thomas will appear as John D'Agata in \u003ci\u003eThe Lifespan of a Fact\u003c/i\u003e at \u003ca href=\"https://www.leanensemble.org/\"\u003eLean Ensemble Theater\u003c/a\u003e, directed by artistic director Blake White and running January 19—29, 2023.\u003cbr\u003e"
         },
         "id": "Rs5YDigSIL",
         "type": "paragraph"
-      },
-      {
-        "data": {
-          "text": "His fight choreography is currently featured in the Warehouse Theatre's tour of \u003ci\u003eRomeo \u0026amp; Juliet\u003c/i\u003e, traveling across South Carolina.\u003cbr\u003e"
-        },
-        "id": "_BahDq-7hL",
-        "type": "paragraph"
       }
     ],
-    "time": 1665418890000,
+    "time": 1670356442198,
     "version": "2.25.0"
   },
   "splash": {
