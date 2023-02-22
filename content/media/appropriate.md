@@ -48,5 +48,5 @@
   "role": "Bo Lafayette",
   "title": "Appropriate",
   "venue": "The Warehouse Theatre",
-  "weight": 1
+  "weight": 2
 }

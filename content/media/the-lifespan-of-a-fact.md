@@ -60,5 +60,5 @@
   "role": "John D'Agata",
   "title": "The Lifespan of a Fact",
   "venue": "Lean Ensemble Theater",
-  "weight": null
+  "weight": 1
 }

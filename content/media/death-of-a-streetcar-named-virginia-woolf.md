@@ -48,5 +48,5 @@
   "role": "George",
   "title": "Death of a Streetcar Named Virginia Woolf",
   "venue": "Lean Ensemble Theater",
-  "weight": 2
+  "weight": 3
 }
