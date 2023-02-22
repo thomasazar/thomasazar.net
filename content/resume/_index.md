@@ -19,10 +19,22 @@
               "Richard Garner"
             ],
             [
+              "\u003ci\u003eAppropriate\u003c/i\u003e",
+              "Bo",
+              "The Warehouse Theatre, SC",
+              "Jay Briggs"
+            ],
+            [
               "\u003ci\u003eAngels in America: Parts 1 \u0026amp; 2\u003c/i\u003e",
               "Prior",
               "The Warehouse Theatre, SC",
               "Jayce T. Tromsness"
+            ],
+            [
+              "\u003ci\u003eThe Lifespan of a Fact\u003c/i\u003e",
+              "John D'Agata",
+              "Lean Ensemble Theater, SC",
+              "Blake White"
             ],
             [
               "\u003ci\u003eDeath of a Streetcar Named Virginia Woolf\u003c/i\u003e",
@@ -359,7 +371,7 @@
         "type": "image"
       }
     ],
-    "time": 1665518880978,
+    "time": 1677082419482,
     "version": "2.25.0"
   },
   "draft": "false",

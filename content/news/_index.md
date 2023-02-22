@@ -70,6 +70,21 @@
       {
         "data": {
           "level": 3,
+          "text": "The Lifespan of a Fact"
+        },
+        "id": "vpTfb82XOk",
+        "type": "header"
+      },
+      {
+        "data": {
+          "text": "Thomas appeared as John D'Agata in \u003ci\u003eThe Lifespan of a Fact\u003c/i\u003e at Lean Ensemble Theater, directed by artistic director Blake White. Production photos available to view on the \u003ca href=\"/media\"\u003eMedia\u003c/a\u003e page.\u003cbr\u003e"
+        },
+        "id": "kXqY4eYmim",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "level": 3,
           "text": "The Thanksgiving Play"
         },
         "id": "nv-ur91fpo",
@@ -77,7 +92,7 @@
       },
       {
         "data": {
-          "text": "Thomas will direct Larissa FastHorse's The Thanksgiving Play at Clemson University, running November 14—20, 2022. Tickets and more information available at \u003ca href=\"https://clemson.universitytickets.com/w/event.aspx?SeriesID=12\"\u003eclemson.universitytickets.com\u003c/a\u003e.\u003cbr\u003e"
+          "text": "Thomas directed Larissa FastHorse's \u003ci\u003eThe Thanksgiving Play\u003c/i\u003e at Clemson University.\u003cbr\u003e"
         },
         "id": "dqIOUDVmcC",
         "type": "paragraph"
@@ -260,7 +275,7 @@
         "type": "quote"
       }
     ],
-    "time": 1677081986549,
+    "time": 1677082167558,
     "version": "2.25.0"
   },
   "draft": "false",
