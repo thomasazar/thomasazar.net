@@ -40,23 +40,23 @@
       },
       {
         "data": {
-          "caption": "",
+          "caption": "Thomas Azar stars in HARRY CLARKE at The Warehouse Theatre\u003cbr\u003e",
           "file": {
-            "extension": "jpg",
-            "fileId": "0139344d-4729-4063-9a69-c6d4da159e79",
-            "fileURL": "/files/0139344d-4729-4063-9a69-c6d4da159e79",
-            "height": 3000,
-            "name": "harry clarke promo.jpg",
-            "size": "1818252",
-            "title": "Harry Clarke Promo",
-            "url": "/assets/0139344d-4729-4063-9a69-c6d4da159e79",
-            "width": 5672
+            "extension": "png",
+            "fileId": "66b9e42e-7018-44d6-b8fe-99d324030cdc",
+            "fileURL": "/files/66b9e42e-7018-44d6-b8fe-99d324030cdc",
+            "height": 1098,
+            "name": "Harry Clarke.png",
+            "size": "704759",
+            "title": "Harry Clarke",
+            "url": "/assets/66b9e42e-7018-44d6-b8fe-99d324030cdc",
+            "width": 1577
           },
           "stretched": false,
           "withBackground": false,
           "withBorder": false
         },
-        "id": "Mwd3O6Rq51",
+        "id": "70ELN5xI9m",
         "type": "image"
       },
       {
@@ -275,7 +275,7 @@
         "type": "quote"
       }
     ],
-    "time": 1677082167558,
+    "time": 1678117976449,
     "version": "2.25.0"
   },
   "draft": "false",
