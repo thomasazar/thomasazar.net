@@ -3,6 +3,22 @@
     "blocks": [
       {
         "data": {
+          "level": 2,
+          "text": "Harry Clarke"
+        },
+        "id": "cJAy7kFk6y",
+        "type": "header"
+      },
+      {
+        "data": {
+          "level": 3,
+          "text": "written by David Cale • directed by Mark Sutch"
+        },
+        "id": "zGqg8fVwex",
+        "type": "header"
+      },
+      {
+        "data": {
           "text": "Thomas stars in David Cale's one-man show \u003ci\u003eHarry Clarke\u003c/i\u003e at The Warehouse Theatre. Directed by Mark Sutch (\u003ci\u003eMoon for the Misbegotten\u003c/i\u003e), \u003ci\u003eHarry Clarke\u003c/i\u003e is the story of a shy midwestern man who feels more like himself\nwhen he’s adopting the persona of cocky Londoner Harry Clarke. Moving to New\nYork and presenting himself as an Englishman, he charms his way into a wealthy\nfamily’s life and romances two family members as the seductive and sexually\nprecocious Harry, with more on his mind than love. With his spellbinding and\nemotionally nuanced storytelling, playwright David Cale has created a riveting\nstory of a man leading an outrageous double life."
         },
         "id": "wWXabdO4VQ",
@@ -44,7 +60,7 @@
         "type": "image"
       }
     ],
-    "time": 1680615301037,
+    "time": 1680615949838,
     "version": "2.25.0"
   },
   "draft": "false",
