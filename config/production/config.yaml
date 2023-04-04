@@ -3,4 +3,4 @@ theme: production
 
 params:
   image:
-    meta: /image/meta
+    meta: https://www.thomasazar.net/image/meta
