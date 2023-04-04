@@ -1,4 +1,6 @@
 theme:
   - development
   - production
-  
+params:
+  image:
+    meta: https://res.cloudinary.com/thomasazar/image/upload/c_fill,w_1200,h_628,g_auto,f_auto/thomasazar.net

@@ -1,2 +1,6 @@
 baseURL: https://www.thomasazar.net
 theme: production
+
+params:
+  image:
+    meta: /image/meta
