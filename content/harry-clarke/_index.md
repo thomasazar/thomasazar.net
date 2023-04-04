@@ -64,7 +64,7 @@
     "version": "2.25.0"
   },
   "draft": "false",
-  "menu": null
+  "menu": null,
   "title": "Harry Clarke",
   "weight": null
 }
