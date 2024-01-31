@@ -12,6 +12,50 @@
       {
         "data": {
           "level": 3,
+          "text": "The Lehman Trilogy"
+        },
+        "id": "pEZXpJxFsU",
+        "type": "header"
+      },
+      {
+        "data": {
+          "text": "Thomas returns to The Warehouse Theatre in Ben Power's adaptation of Stefano Massini's epic \u003ci\u003eThe Lehman Trilogy\u003c/i\u003e, directed by Jay Briggs."
+        },
+        "id": "qrXz_s-Jaw",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "text": "On a cold September morning in 1844, a young man from Bavaria stands on a New York dockside dreaming of a new life in the new world. He is joined by his two brothers, and an American epic begins. 164 years later, the firm they establish – Lehman Brothers – spectacularly collapses into bankruptcy, triggering the largest financial crisis in history."
+        },
+        "id": "kfv2COI93m",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "text": "For tickets and information, check out \u003ca href=\"https://warehousetheatre.com/shows/lehman/\"\u003ewarehousetheatre.com\u003c/a\u003e."
+        },
+        "id": "CldpO2LkNo",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "text": "\u003ci\u003eThe Lehman Trilogy\u003c/i\u003e runs February 2—18, 2024 at The Warehouse Theatre in Greenville, South Carolina.\u003cbr\u003e"
+        },
+        "id": "hZI35WdtwF",
+        "type": "paragraph"
+      },
+      {
+        "data": {
+          "level": 2,
+          "text": "Recently"
+        },
+        "id": "7DeHNGQfvm",
+        "type": "header"
+      },
+      {
+        "data": {
+          "level": 3,
           "text": "Harry Clarke"
         },
         "id": "8wzF1TbcVI",
@@ -19,23 +63,9 @@
       },
       {
         "data": {
-          "text": "Thomas stars in David Cale's one-man show \u003ci\u003eHarry Clarke\u003c/i\u003e at The Warehouse Theatre. Directed by Mark Sutch (\u003ci\u003eMoon for the Misbegotten\u003c/i\u003e), \u003ci\u003eHarry Clarke\u003c/i\u003e is the story of a shy midwestern man who feels more like himself\nwhen he’s adopting the persona of cocky Londoner Harry Clarke. Moving to New\nYork and presenting himself as an Englishman, he charms his way into a wealthy\nfamily’s life and romances two family members as the seductive and sexually\nprecocious Harry, with more on his mind than love. With his spellbinding and\nemotionally nuanced storytelling, playwright David Cale has created a riveting\nstory of a man leading an outrageous double life."
+          "text": "In the spring of 2023, Thomas starred in David Cale's one-man show \u003ci\u003eHarry Clarke\u003c/i\u003e at The Warehouse Theatre. Directed by Mark Sutch (\u003ci\u003eMoon for the Misbegotten\u003c/i\u003e), \u003ci\u003eHarry Clarke\u003c/i\u003e is the story of a shy midwestern man who feels more like himself\nwhen he’s adopting the persona of cocky Londoner Harry Clarke. Moving to New\nYork and presenting himself as an Englishman, he charms his way into a wealthy\nfamily’s life and romances two family members as the seductive and sexually\nprecocious Harry, with more on his mind than love. With his spellbinding and\nemotionally nuanced storytelling, playwright David Cale has created a riveting\nstory of a man leading an outrageous double life."
         },
         "id": "CmBFPWXAHZ",
-        "type": "paragraph"
-      },
-      {
-        "data": {
-          "text": "For tickets and more information, check out \u003ca href=\"https://warehousetheatre.com/shows/harry-clarke/\"\u003eWarehouseTheatre.com\u003c/a\u003e."
-        },
-        "id": "EnCmwh8aDD",
-        "type": "paragraph"
-      },
-      {
-        "data": {
-          "text": "\u003ci\u003eHarry Clarke\u003c/i\u003e runs April 28—May 13, 2023."
-        },
-        "id": "GwXLFM3TXU",
         "type": "paragraph"
       },
       {
@@ -58,14 +88,6 @@
         },
         "id": "qNOsx63jrJ",
         "type": "image"
-      },
-      {
-        "data": {
-          "level": 2,
-          "text": "Recently"
-        },
-        "id": "7DeHNGQfvm",
-        "type": "header"
       },
       {
         "data": {
@@ -275,7 +297,7 @@
         "type": "quote"
       }
     ],
-    "time": 1678118348857,
+    "time": 1706714693575,
     "version": "2.25.0"
   },
   "draft": "false",
