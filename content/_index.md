@@ -3,7 +3,7 @@
 "blocks": [
 {
 "data": {
-"text": "Extended run:\u003cbr\u003e\u003ci\u003eThe Lehman Trilogy\u003c/i\u003e at The Warehouse Theatre, written by Stefano Massini, adapted by Ben Power. Runs February 2—25, 2024. Directed by Jay Briggs.\u003cbr\u003e"
+"text": "<strong>Coming soon:</strong><br/>Charles Dickens' <i>A Christmas Carol</i>, a new adaptation by Matt Mundy, at <a href=\"https://ci.ovationtix.com/35451/production/1199952\" target=\"_blank\">Lean Ensemble Theater</a>. Runs December 12—22, 2024. Directed by Blake White."
 },
 "id": "Rs5YDigSIL",
 "type": "paragraph"

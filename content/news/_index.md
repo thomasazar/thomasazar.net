@@ -4,9 +4,53 @@
 {
 "data": {
 "level": 2,
-"text": "Now Playing"
+"text": "Coming Soon"
 },
 "id": "Rc9FyrUmQY",
+"type": "header"
+},
+{
+"data": {
+"level": 3,
+"text": "A Christmas Carol"
+},
+"id": "pEZXpJxFsU",
+"type": "header"
+},
+{
+"data": {
+"caption": "",
+"file": {
+"extension": "png",
+"fileId": "christmas_carol_promo_itaddv",
+"fileURL": "/files/christmas_carol_promo_itaddv",
+"height": 844,
+"name": "A Christmas Carol.png",
+"size": "704759",
+"title": "A Christmas Carol",
+"url": "/assets/christmas_carol_promo_itaddv",
+"width": 1500
+},
+"stretched": false,
+"withBackground": false,
+"withBorder": false
+},
+"id": "qNOsx63jrJ",
+"type": "image"
+},
+{
+"data": {
+"text": "A brand-new take on the standard—home grown, faithful to the source material, and adapted in a way only Lean Ensemble Theater can do it. While five actors take you through Ebenezer Scrooge’s Christmas, Lean takes you on a holiday journey that will not only remind you to hold your loved one tightly, but also remind you why this tale remains a completely fresh classic. "
+},
+"id": "qrXz_s-Jaw",
+"type": "paragraph"
+},
+{
+"data": {
+"level": 2,
+"text": "Recently"
+},
+"id": "7DeHNGQfvm",
 "type": "header"
 },
 {
@@ -44,14 +88,6 @@
 },
 "id": "hZI35WdtwF",
 "type": "paragraph"
-},
-{
-"data": {
-"level": 2,
-"text": "Recently"
-},
-"id": "7DeHNGQfvm",
-"type": "header"
 },
 {
 "data": {
